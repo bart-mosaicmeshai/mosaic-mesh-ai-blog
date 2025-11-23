@@ -1,0 +1,27 @@
+{
+  "name": "daily-blog",
+  "version": "1.0.0",
+  "description": "CLI tool for generating daily AI journey blog posts",
+  "main": "index.js",
+  "bin": {
+    "daily-blog": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "cli",
+    "daily",
+    "ai"
+  ],
+  "author": "Bart Gottschalk",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.2",
+    "inquirer": "^13.0.1",
+    "simple-git": "^3.30.0"
+  }
+}
