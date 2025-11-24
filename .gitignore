@@ -63,3 +63,9 @@ scratch/
 build/
 dist/
 *.egg-info/
+
+# Daily blog posts - HTML conversion output
+daily-posts/*.html
+
+# Daily blog posts - drafts (unpublished)
+daily-posts/*-draft.md
