@@ -87,8 +87,11 @@ Keep it short (150-300 words), honest (include the failures), and specific (use 
 
 ### 1. Scan for Activity
 ```bash
+# Scan last 24 hours (default)
 daily-blog scan
-# See what you worked on in the last 24 hours
+
+# Scan last 7 days if you haven't committed recently
+daily-blog scan --days 7
 ```
 
 ### 2. Create a Post
