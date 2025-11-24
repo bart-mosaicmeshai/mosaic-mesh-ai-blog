@@ -85,11 +85,61 @@ Keep it short (150-300 words), honest (include the failures), and specific (use 
 
 ## Publishing Workflow
 
-1. Run `daily-blog scan` to see what I worked on
-2. Choose a topic or create one manually
-3. Fill in the template (15-20 minutes)
-4. Copy to Squarespace (manual for now)
-5. Update `published: true` in frontmatter
+### 1. Scan for Activity
+```bash
+daily-blog scan
+# See what you worked on in the last 24 hours
+```
+
+### 2. Create a Post
+```bash
+# Based on scan results or your own idea
+daily-blog create --category Building --project "my-project" --title "My Post Title"
+
+# Or create a draft (excluded from git)
+daily-blog create --draft --title "Work in Progress"
+```
+
+### 3. Write Your Post (15-20 minutes)
+Open the generated markdown file and fill in:
+- **The Hook** - What happened? What made you curious?
+- **The Story** - What did you do? Show the work.
+- **The Reflection** - What did you learn? What's next?
+
+Target: 150-300 words. Ship it messy!
+
+### 4. Convert to HTML
+```bash
+cd ~/Projects/mosaic-mesh-ai-blog
+
+# Skip frontmatter and convert to HTML
+tail -n +9 daily-posts/2025-11-24-your-post.md | pandoc -o daily-posts/2025-11-24-your-post.html
+
+# Open the HTML file
+open daily-posts/2025-11-24-your-post.html
+```
+
+### 5. Publish to Squarespace
+- Copy the HTML from the opened file
+- Paste into Squarespace page editor (use HTML/Code block if needed)
+- Format and publish on Squarespace
+
+### 6. Mark as Published
+In your markdown file, change:
+```markdown
+published: false
+```
+to:
+```markdown
+published: true
+```
+
+Then commit if you want to track it in git:
+```bash
+git add daily-posts/2025-11-24-your-post.md
+git commit -m "Publish: Your Post Title"
+git push
+```
 
 ## What's Next
 
