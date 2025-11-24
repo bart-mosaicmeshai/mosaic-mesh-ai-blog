@@ -126,7 +126,7 @@ published: false
 
 ---
 
-*This post is part of my daily AI journey blog at [Mosaic Mesh AI](https://www.mosaicmeshai.com/). Building in public, learning in public, sharing the messy middle of AI development.*
+*This post is part of my daily AI journey blog at [Mosaic Mesh AI](https://www.mosaicmeshai.com/blog). Building in public, learning in public, sharing the messy middle of AI development.*
 `;
 }
 
