@@ -97,6 +97,14 @@ published: false
 
 ---
 
+## Project
+
+**${project}** - [View on GitHub](https://github.com/bart-mosaicmeshai/${project})
+
+*[Update the GitHub link above if the project name differs from the repo name, or remove if not applicable]*
+
+---
+
 ## Meta
 
 - **Category**: ${category} (${CATEGORIES[category]})
