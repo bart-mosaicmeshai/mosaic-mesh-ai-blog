@@ -67,6 +67,12 @@ daily-blog create \
   --project "nano-banana-experiments" \
   --title "Adding Nano-Banana-3 Support"
 
+# Create a draft (excluded from git)
+daily-blog create --draft \
+  --category Learning \
+  --project "secret-project" \
+  --title "My Secret Experiment"
+
 # Quick creation (prompts for minimal info)
 daily-blog create
 ```
@@ -76,6 +82,12 @@ This creates a markdown file in `daily-posts/` with:
 - Structured template (Hook, Story, Reflection)
 - Publishing checklist
 - Footer with site link
+
+**Draft Mode:**
+- Use `--draft` flag to create posts that git will ignore
+- Files are named with `-draft` suffix (e.g., `2025-11-24-my-post-draft.md`)
+- Perfect for work-in-progress posts you don't want to commit yet
+- When ready to publish, remove `-draft` from filename
 
 ### List Posts
 

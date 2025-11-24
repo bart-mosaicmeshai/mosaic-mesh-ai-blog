@@ -13,7 +13,7 @@ const CATEGORIES = {
 /**
  * Creates a new blog post from a template
  * @param {number|null} topicNumber - Topic number from scan results (future feature)
- * @param {Object} options - Post options (category, project, title)
+ * @param {Object} options - Post options (category, project, title, draft)
  * @returns {Promise<string>} Path to created post
  */
 async function createPost(topicNumber, options = {}) {
@@ -27,9 +27,15 @@ async function createPost(topicNumber, options = {}) {
   }
 
   // Generate filename
-  const titleSlug = options.title
+  let titleSlug = options.title
     ? slugify(options.title)
     : `post-${timestamp}`;
+
+  // Add -draft suffix if draft mode
+  if (options.draft && !titleSlug.endsWith('-draft')) {
+    titleSlug += '-draft';
+  }
+
   const filename = `${date}-${titleSlug}.md`;
 
   // Post directory (relative to project root)

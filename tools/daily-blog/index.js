@@ -49,11 +49,15 @@ program
   .option('-c, --category <category>', 'post category (Building, Breaking, Learning, Measuring, Questioning)')
   .option('-p, --project <project>', 'project name')
   .option('-t, --title <title>', 'post title')
+  .option('-d, --draft', 'mark as draft (adds -draft suffix, excluded from git)')
   .action(async (topicNumber, options) => {
     try {
       console.log(chalk.cyan('\n✍️  Creating blog post...\n'));
       const postPath = await createPost(topicNumber, options);
       console.log(chalk.green('✓ Post created:'), postPath);
+      if (options.draft) {
+        console.log(chalk.yellow('📝 Draft mode: This file will be ignored by git'));
+      }
       console.log(chalk.cyan('\nOpen the file and fill in the content sections!\n'));
     } catch (error) {
       console.error(chalk.red('Error creating post:'), error.message);
