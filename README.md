@@ -98,10 +98,6 @@ Keep it short (150-300 words), honest (include the failures), and specific (use 
 - [ ] Share on [mosaicmeshai.com](https://www.mosaicmeshai.com/)
 - [ ] Maybe automate Squarespace publishing someday
 
-## Archive
-
-The `posts/` directory contains outlines from the original 10-post series plan. Keeping them as reference, but the focus is now on daily posts in `daily-posts/`.
-
 ---
 
 **Building in public, learning in public, sharing the journey.**
