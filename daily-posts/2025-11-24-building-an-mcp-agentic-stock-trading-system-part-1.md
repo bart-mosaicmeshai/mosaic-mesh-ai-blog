@@ -1,9 +1,9 @@
 ---
-date: 2025-11-25
+date: 2025-11-24
 category: Learning
 project: agentic-stock-trader
 title: "Building an MCP Agentic Stock Trading System - Part 1"
-tags: []
+tags: ["Agents","MCP","Learning"]
 published: true
 ---
 

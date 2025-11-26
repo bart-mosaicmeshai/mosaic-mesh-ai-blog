@@ -1,5 +1,5 @@
 ---
-date: 2025-11-24
+date: 2025-11-23
 category: Building
 project: nano-banana-experiments
 title: "Adding nano-banana-3 Support"
