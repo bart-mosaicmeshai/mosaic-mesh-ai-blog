@@ -9,7 +9,7 @@ published: true
 
 # Building an MCP Agentic Stock Trading System - Part 6: Cloud vs Local vs Rules
 
-*This is Part 6 of a series on building an MCP trading system. Read [Part 1](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-1), [Part 2](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-2-the-mcp-servers-and-tools), [Part 3](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-3), [Part 4](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-4), and [Part 5](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-5) for the architecture, MCP servers, agentic loop, decision comparison, and backtest results.*
+*This is Part 6 of a series on building an MCP trading system. Read [Part 1](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-1-the-architecture), [Part 2](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-2-the-mcp-servers-and-tools), [Part 3](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-3-the-agentic-loop), [Part 4](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-4-when-agents-disagree), and [Part 5](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-5-backtesting-all-three-agents) for the architecture, MCP servers, agentic loop, decision comparison, and backtest results.*
 
 ## The Hook
 

@@ -9,7 +9,7 @@ published: true
 
 # Building an MCP Agentic Stock Trading System - Part 3: The Agentic Loop
 
-*This is Part 3 of a series on building an MCP trading system. Read [Part 1](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-1) for the architecture overview and [Part 2](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-2-the-mcp-servers-and-tools) for the MCP servers and tools.*
+*This is Part 3 of a series on building an MCP trading system. Read [Part 1](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-1-the-architecture) for the architecture overview and [Part 2](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-2-the-mcp-servers-and-tools) for the MCP servers and tools.*
 
 ## The Hook
 

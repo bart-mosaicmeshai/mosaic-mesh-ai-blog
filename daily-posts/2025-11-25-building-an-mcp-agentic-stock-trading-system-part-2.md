@@ -9,7 +9,7 @@ published: true
 
 # Building an MCP Agentic Stock Trading System - Part 2: The MCP Servers and Tools
 
-*This is Part 2 of a series on building an MCP trading system. [Read Part 1](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-1) for the overall architecture and three-agent setup.*
+*This is Part 2 of a series on building an MCP trading system. [Read Part 1](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-1-the-architecture) for the overall architecture and three-agent setup.*
 
 ## The Hook
 

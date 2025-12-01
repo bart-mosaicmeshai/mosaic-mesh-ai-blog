@@ -9,7 +9,7 @@ published: true
 
 # Building an MCP Agentic Stock Trading System - Part 5: Backtesting All Three Agents
 
-*This is Part 5 of a series on building an MCP trading system. Read [Part 1](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-1), [Part 2](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-2-the-mcp-servers-and-tools), [Part 3](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-3), and [Part 4](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-4) for the architecture, MCP servers, agentic loop, and decision comparison.*
+*This is Part 5 of a series on building an MCP trading system. Read [Part 1](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-1-the-architecture), [Part 2](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-2-the-mcp-servers-and-tools), [Part 3](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-3-the-agentic-loop), and [Part 4](https://www.mosaicmeshai.com/blog/building-an-mcp-agentic-stock-trading-system-part-4-when-agents-disagree) for the architecture, MCP servers, agentic loop, and decision comparison.*
 
 ## The Hook
 
