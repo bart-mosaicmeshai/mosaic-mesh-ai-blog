@@ -47,12 +47,18 @@ async function createPost(topicNumber, options = {}) {
 
   const postPath = path.join(postsDir, filename);
 
+  // Generate slug from title (without -draft suffix)
+  const slug = options.title
+    ? slugify(options.title)
+    : `post-${timestamp}`;
+
   // Generate post content
   const content = generatePostTemplate({
     date,
     category,
     project: options.project || 'unknown',
     title: options.title || 'Untitled Post',
+    slug,
     tags: []
   });
 
@@ -66,13 +72,14 @@ async function createPost(topicNumber, options = {}) {
  * Generates post template with frontmatter
  */
 function generatePostTemplate(metadata) {
-  const { date, category, project, title, tags = [] } = metadata;
+  const { date, category, project, title, slug, tags = [] } = metadata;
 
   return `---
 date: ${date}
 category: ${category}
 project: ${project}
 title: "${title}"
+slug: ${slug}
 tags: ${tags.join(' ')}
 published: false
 ---
@@ -139,7 +146,7 @@ function slugify(text) {
     .replace(/[^\w\s-]/g, '') // Remove special chars
     .replace(/\s+/g, '-')      // Replace spaces with hyphens
     .replace(/-+/g, '-')       // Remove consecutive hyphens
-    .substring(0, 50);         // Limit length
+    .substring(0, 100);        // Limit length (generous for long series titles)
 }
 
 module.exports = {

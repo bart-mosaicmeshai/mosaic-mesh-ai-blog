@@ -125,7 +125,21 @@ open daily-posts/2025-11-24-your-post.html
 ### 5. Publish to Squarespace
 - Copy the HTML from the opened file
 - Paste into Squarespace page editor (use HTML/Code block if needed)
+- **Set the URL slug** to match the post title pattern:
+  - Format: `series-name-part-X-subtitle` (all lowercase, hyphens for spaces)
+  - Example: `building-a-local-semantic-search-engine-part-1-what-are-embeddings`
+  - **Important**: Cross-reference links in other posts must match these slugs exactly
 - Format and publish on Squarespace
+
+**URL Slug Convention for Series:**
+```
+{series-title}-part-{N}-{subtitle}
+```
+Examples:
+- `building-an-mcp-agentic-stock-trading-system-part-1-the-architecture`
+- `building-a-local-semantic-search-engine-part-2-from-keywords-to-meaning`
+
+When publishing a series, verify that all inter-part links in the markdown files match the Squarespace slugs.
 
 ### 6. Mark as Published
 In your markdown file, change:
