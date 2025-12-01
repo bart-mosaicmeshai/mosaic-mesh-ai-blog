@@ -73,7 +73,7 @@ date: ${date}
 category: ${category}
 project: ${project}
 title: "${title}"
-tags: [${tags.map(t => `"${t}"`).join(', ')}]
+tags: ${tags.join(' ')}
 published: false
 ---
 
