@@ -8,7 +8,7 @@ This project started as a 10-post blog series that I'd never write. Instead, I b
 
 **Target Audience**: Developers building with AI, anyone interested in learning in public.
 
-**Format**: 150-300 words per post, published on [Mosaic Mesh AI](https://www.mosaicmeshai.com/)
+**Format**: Short posts (~150-300 words as a guideline, but telling a good story matters more), published on [Mosaic Mesh AI](https://www.mosaicmeshai.com/)
 
 **Categories**: Building, Breaking, Learning, Measuring, Questioning
 
@@ -73,7 +73,7 @@ Daily posts follow a simple structure:
 2. **The Story** - What did I actually do? Show the work.
 3. **The Reflection** - What did I learn? What's next?
 
-Keep it short (150-300 words), honest (include the failures), and specific (use real examples). Write like I'm talking to another developer over coffee.
+Keep it short (~150-300 words as a guideline, but telling a good story matters more than hitting an arbitrary word count), honest (include the failures), and specific (use real examples). Write like I'm talking to another developer over coffee.
 
 ## Categories Explained
 
@@ -111,7 +111,40 @@ Open the generated markdown file and fill in:
 
 Target: 150-300 words. Ship it messy!
 
-### 4. Convert to HTML
+### 4. Generate Blog Post Images (for series posts)
+
+For multi-part blog series, generate hero images using the nano-banana tool. The tool now supports direct JPEG output, eliminating manual conversion steps.
+
+**Prerequisites:**
+- Activate nano-banana virtual environment: `cd ~/Projects/nano-banana-experiments && source venv/bin/activate`
+- Ensure `GEMINI_API_KEY` is set in nano-banana `.env` file
+
+**Generate images directly to assets folder:**
+```bash
+nano-banana generate "Your image prompt based on ASCII diagram in post" \
+  --output ~/Projects/mosaic-mesh-ai-blog/assets/series-name/series-name-part-X.jpg \
+  --model 3 \
+  --resolution 1K
+```
+
+**Example from Agentic Personal Trainer series:**
+```bash
+nano-banana generate "A clean technical diagram showing LLM provider abstraction with factory pattern..." \
+  --output ~/Projects/mosaic-mesh-ai-blog/assets/agentic-personal-trainer/agentic-personal-trainer-part-7.jpg \
+  --model 3 \
+  --resolution 1K
+```
+
+**Tips:**
+- Use `--quality 90` for higher quality (default: 85)
+- The tool automatically converts to JPEG and optimizes file size
+- Creates parent directories if they don't exist
+- Metadata (prompt, model, timestamp) embedded in JPEG
+- After generation, remove ASCII diagram comments from the markdown file
+
+See `~/Projects/nano-banana-experiments/README.md` for full nano-banana documentation.
+
+### 5. Convert to HTML
 ```bash
 cd ~/Projects/mosaic-mesh-ai-blog
 
@@ -122,7 +155,7 @@ tail -n +9 daily-posts/2025-11-24-your-post.md | pandoc -o daily-posts/2025-11-2
 open daily-posts/2025-11-24-your-post.html
 ```
 
-### 5. Publish to Squarespace
+### 6. Publish to Squarespace
 - Copy the HTML from the opened file
 - Paste into Squarespace page editor (use HTML/Code block if needed)
 - **Set the URL slug** to match the post title pattern:
@@ -141,7 +174,7 @@ Examples:
 
 When publishing a series, verify that all inter-part links in the markdown files match the Squarespace slugs.
 
-### 6. Mark as Published
+### 7. Mark as Published
 In your markdown file, change:
 ```markdown
 published: false
