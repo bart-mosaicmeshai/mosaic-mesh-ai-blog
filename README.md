@@ -43,6 +43,8 @@ daily-blog list
 - **embeddinggemma**: Local semantic search engine
 - **nano-banana-experiments**: CLI for Gemini image generation
 - **agentic-stock-trader**: AI trading system experiments
+- **agentic-personal-trainer**: Conversational AI coach with LangChain
+- **bart-test**: Signature LLM benchmark using Gen-Alpha slang and teenage judges (in development)
 - **Marina-Winterization-Services-AI-Agent**: AWS cloud AI deployment
 - **StartUpWebApp**: Production Django with 740 tests
 
