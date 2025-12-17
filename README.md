@@ -1,10 +1,10 @@
-# Daily AI Journey Blog
+# AI Journey Blog
 
-My daily blog documenting the messy middle of AI development. Short, honest posts about what I'm actually building, breaking, learning, measuring, and questioning.
+My blog documenting the messy middle of AI development (published M/W/F). Short, honest posts about what I'm actually building, breaking, learning, measuring, and questioning.
 
 ## About
 
-This project started as a 10-post blog series that I'd never write. Instead, I built a CLI tool to help me write daily, bite-sized posts about my AI work. Inspired by Simon Willison's daily blogging and Seth Godin's short format.
+This project started as a 10-post blog series that I'd never write. Instead, I built a CLI tool to help me write consistent, bite-sized posts about my AI work (M/W/F schedule). Inspired by Simon Willison's daily blogging and Seth Godin's short format.
 
 **Target Audience**: Developers building with AI, anyone interested in learning in public.
 
@@ -12,7 +12,7 @@ This project started as a 10-post blog series that I'd never write. Instead, I b
 
 **Categories**: Building, Breaking, Learning, Measuring, Questioning
 
-## The Daily Blog CLI Tool
+## The Blog CLI Tool
 
 I built `daily-blog`, a Node.js CLI that helps me turn git commits into blog post ideas. It scans my `~/Projects` repos, analyzes recent activity, and suggests topics based on what I actually worked on.
 
@@ -53,7 +53,7 @@ daily-blog list
 ```
 mosaic-mesh-ai-blog/
 ├── README.md                          # This file
-├── daily-posts/                       # Daily blog posts (markdown)
+├── daily-posts/                       # Blog posts (markdown, M/W/F)
 ├── tools/
 │   └── daily-blog/                    # CLI tool for blog generation
 │       ├── index.js                   # Main CLI entry point
@@ -69,13 +69,46 @@ mosaic-mesh-ai-blog/
 
 ## Writing Philosophy
 
-Daily posts follow a simple structure:
+Blog posts follow a simple structure:
 
 1. **The Hook** - What happened? What made me curious?
 2. **The Story** - What did I actually do? Show the work.
 3. **The Reflection** - What did I learn? What's next?
 
 Keep it short (~150-300 words as a guideline, but telling a good story matters more than hitting an arbitrary word count), honest (include the failures), and specific (use real examples). Write like I'm talking to another developer over coffee.
+
+## Voice and Tone: No Hype, Be Honest
+
+**Core Principle:** This blog doesn't hype things. Be intellectually honest about what we know vs. what we're inferring.
+
+**Key Guidelines:**
+
+1. **Epistemic Humility** - Distinguish observations from interpretations
+   - ✅ "The model reproduced speech patterns" (observable)
+   - ❌ "The model learned speech patterns" (interpretation of internal state)
+
+2. **Tentative Language for Hypotheses**
+   - ✅ "A possible cause..." / "may have learned..." / "likely..."
+   - ❌ "The cause..." / "learned..." / "definitely..."
+
+3. **Scope Claims to Actual Experiments**
+   - ✅ "In this experiment with 111 examples, -it models worked better"
+   - ❌ "Use -it models for personality fine-tuning" (universal directive)
+
+4. **Avoid Absolutes Unless Verified**
+   - ✅ "significantly better" / "noticeably stronger" / "addresses"
+   - ❌ "dramatically better" / "perfectly" / "solves"
+
+5. **Suggest Tests for Unverified Hypotheses**
+   - ✅ "To test this, you'd need to fine-tune with varied lengths..."
+   - ❌ "The solution is to vary lengths" (stated as fact)
+
+**Examples from Gemma Fine-Tuning Series (Dec 2025):**
+- Response length problem: Presented as hypothesis requiring testing, not established fact
+- Parameter mitigation: Described as "partial" and "one approach," not "the fix"
+- Model comparison: Scoped to "this experiment" not universal recommendation
+
+See `personal-notes/writing-voice-and-tone.md` for detailed examples and anti-patterns.
 
 ## Categories Explained
 
@@ -195,7 +228,7 @@ git push
 
 ## What's Next
 
-- [ ] Write daily (or as often as possible)
+- [ ] Write consistently (M/W/F schedule)
 - [ ] Build the habit of documenting work
 - [ ] Share on [mosaicmeshai.com](https://www.mosaicmeshai.com/)
 - [ ] Maybe automate Squarespace publishing someday
