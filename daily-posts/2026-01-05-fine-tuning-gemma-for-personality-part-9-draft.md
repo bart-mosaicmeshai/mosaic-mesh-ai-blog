@@ -22,9 +22,9 @@ Nine posts about teaching an AI to talk like a cartoon dog. Here's what actually
 ┌─────────────────────────────────────────────────────────────┐
 │                    Key Lessons Learned                       │
 ├─────────────────────────────────────────────────────────────┤
-│  1. Instruction-tuned > Base models                         │
-│     └─ For personality, -it models worked significantly better│
-│        with same training time                              │
+│  1. Model type made minimal difference                     │
+│     └─ Both -pt and -it struggled with 111 examples       │
+│        -it slightly longer (30-40 vs 25-35 words)         │
 ├─────────────────────────────────────────────────────────────┤
 │  2. Training data patterns may become constraints            │
 │     └─ Uniform 52-76 word responses → model may have learned│
@@ -45,7 +45,7 @@ Nine posts about teaching an AI to talk like a cartoon dog. Here's what actually
 └─────────────────────────────────────────────────────────────┘
 -->
 
-**1. Instruction-tuned models worked better than base models for personality in this experiment.** Same training data, same time, significantly different results. The `-it` suffix mattered more than model size (see [Part 5](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-5-base-vs-instruction-tuned)).
+**1. Model type made minimal difference with limited data.** I tested both base (-pt) and instruction-tuned (-it) models with 111 examples. Both struggled with consistency, both went off-topic sometimes, both truncated. The `-it` model produced slightly longer responses (30-40 vs 25-35 words) but not meaningfully better results (see [Part 5](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-5-base-vs-instruction-tuned)).
 
 **2. Training data patterns may become constraints.** Averaged 65-word responses (52-76 range)? The model may have learned that length as "correct." Vary response lengths deliberately in your dataset (see [Part 4](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-4-when-your-model-learns-too-well)).
 

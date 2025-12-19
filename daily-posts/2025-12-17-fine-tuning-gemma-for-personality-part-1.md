@@ -5,7 +5,7 @@ project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 1: Why Fine-Tune a 6-Year-Old?"
 slug: fine-tuning-gemma-for-personality-part-1-why-fine-tune-a-six-year-old
 tags: gemma fine-tuning local-ai apple-silicon personality character-ai
-published: false
+published: true
 ---
 
 # Fine-Tuning Gemma for Personality - Part 1: Why Fine-Tune a 6-Year-Old?

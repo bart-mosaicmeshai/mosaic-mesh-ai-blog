@@ -28,7 +28,7 @@ The Bluey experiment worked. But 111 examples and 5 minutes of training isn't pr
 - Off-topic handling (staying in character)
 - Age-appropriate boundaries (deflecting adult topics gracefully)
 
-**Better generation parameters from the start**: Discovered `min_new_tokens=50` fixed early stopping. Should have tested parameter sensitivity earlier, not after training.
+**Better generation parameters from the start**: Discovered `min_new_tokens=50` helped mitigate early stopping. Should have tested parameter sensitivity earlier, not after training.
 
 **Systematic evaluation**: Build a test suite with expected responses for consistency testing across training iterations.
 

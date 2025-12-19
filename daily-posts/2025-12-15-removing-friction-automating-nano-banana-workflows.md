@@ -16,7 +16,7 @@ Five minutes of manual work for every blog image—convert PNG to JPEG, resize, 
 
 ## The Story
 
-My `nano-banana` CLI ([introduced when I added model 3 support](https://www.mosaicmeshai.com/blog/adding-nano-banana-3-support)) generates images from Gemini's API. But the workflow had manual friction:
+My `nano-banana` CLI ([introduced when I added model 3 support](https://www.mosaicmeshai.com/blog/adding-nano-banana-3-support-to-my-cli-wrapper)) generates images from Gemini's API. But the workflow had manual friction:
 
 **The old way (5 minutes):**
 1. Run `nano-banana generate "prompt" --model 3 --resolution 1K`

@@ -14,59 +14,43 @@ published: false
 
 ## The Hook
 
-Same training data. Same hardware. Same 5 minutes. One model reproduced Bluey's speech patterns from 111 examples. The other struggled to stay in character. The difference: `-pt` vs `-it` suffix.
+Same training data. Same hardware. Same 5 minutes. I tested both base (-pt) and instruction-tuned (-it) models to see if one would handle personality better. Both struggled with consistency.
 
 ## The Story
 
-Gemma models come in two flavors:
-- **Pre-trained (-pt)**: Base models, good for completion tasks
-- **Instruction-tuned (-it)**: Trained to follow conversational patterns
+Gemma models come in [two flavors](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315):
+- **Pre-trained (-pt)**: Base models trained on text continuation
+- **Instruction-tuned (-it)**: Further trained to follow conversational patterns
 
 I ran the same Bluey dataset through both [gemma-3-1b-pt](https://huggingface.co/google/gemma-3-1b-pt) and [gemma-3-1b-it](https://huggingface.co/google/gemma-3-1b-it).
 
-<!-- ASCII diagram for image reference (delete before publishing):
-┌─────────────────────────────────────────────────────────────┐
-│          Base (-pt) vs Instruction-Tuned (-it)              │
-├─────────────────────────────────────────────────────────────┤
-│  Training Time:                                             │
-│    1B-pt: ~4.9 minutes                                      │
-│    1B-it: ~4.8 minutes  (virtually identical)              │
-│                                                              │
-│  Loss Curves:                                               │
-│    1B-pt: 3.9 → 0.1                                        │
-│    1B-it: 5.0 → 0.1  (both reduced loss significantly)    │
-│                                                              │
-│  Personality Consistency:                                   │
-│    1B-pt: Inconsistent, breaks character frequently        │
-│    1B-it: Consistent, maintains Bluey voice ✅             │
-│                                                              │
-│  Response Quality:                                          │
-│    1B-pt: Technically correct but flat                     │
-│    1B-it: Natural, personality-rich ✅                      │
-│                                                              │
-│  Finding: -it models showed better personality consistency   │
-└─────────────────────────────────────────────────────────────┘
--->
+![Base vs instruction-tuned model comparison showing shared issues and marginal differences](../assets/gemma-finetune-bluey/part-5-model-comparison.jpg)
 
-Training time was nearly identical (4.9 vs 4.8 minutes). Both models reduced loss significantly (ending around 0.1). But the outputs were completely different.
+Training time was nearly identical (4.9 vs 4.8 minutes). Both models reduced loss significantly (ending around 0.1). I tested both with the same prompts to see if model type made a difference.
 
-**Base model (-pt)** example response to "I'm feeling sad":
-> "That's unfortunate. Sadness is a normal emotion. You might consider talking to someone or engaging in activities you enjoy."
+**What I found:** Both models showed inconsistent behavior. Sometimes on-topic with Bluey's voice, sometimes off-topic but still in Bluey's voice, both truncating mid-sentence.
 
-Technically correct. Little personality character.
+**Example - "Can you help me with my homework?":**
 
-**Instruction-tuned (-it)** example response to "I'm feeling sad":
-> "Aww, that's okay. Sometimes I feel sad too. Like when Bingo got to go to the park and I had to stay home - that made me really sad. But you know what helps? Talking to someone about it, or maybe playing a game, or giving someone a big hug."
+Base model (-pt):
+> "Yeah! That's fair, even though sometimes I don't understand. What kind of homework is it? Is it maths? Because Mum's really good at maths. Or maybe" (26 words, truncated)
 
-This response reproduces Bluey's style: empathetic, personal examples, kid perspective, natural speech.
+Instruction-tuned (-it):
+> "Homework is actually pretty fun if you make it into a game! So I'm happy to help you with your homework. Just remember - if it gets too hard, you can take a break and play for a bit. That's" (40 words, truncated)
+
+Both show Bluey patterns. The -it response is longer, but both cut off mid-sentence. Across four different test prompts, both models went off-topic sometimes and stayed on-topic other times.
+
+**See all test cases:** [pt_vs_it_comparison.txt](https://github.com/bart-mosaicmeshai/gemma-local-finetune/blob/main/src/logs/pt_vs_it_comparison.txt) shows all four prompts and responses. Run [compare_pt_vs_it.py](https://github.com/bart-mosaicmeshai/gemma-local-finetune/blob/main/src/test/compare_pt_vs_it.py) to reproduce these results.
 
 ## The Reflection
 
-Instruction-tuned models are pre-trained to follow conversational patterns. When you fine-tune them on personality data, they already know *how* to have a conversation—you're just teaching them *who* to be.
+The theory: instruction-tuned models are pre-trained on conversational patterns, so they should handle personality fine-tuning better with limited data.
 
-Base models need to learn both the conversation pattern AND the personality. With only 111 examples, that's not enough data.
+The reality: both models struggled. Both went off-topic sometimes. Both truncated responses. Both reproduced Bluey patterns inconsistently.
 
-In this experiment with 111 examples, `-it` models produced significantly better personality consistency. The training time was the same, but the personality capture was noticeably stronger.
+The marginal difference: the `-it` model produced slightly longer responses before truncating (30-40 words vs 25-35 words). But "longer" doesn't mean "better" when both are cutting off mid-sentence.
+
+With only 111 examples, neither model type solved the consistency problem. The training data limitations affected both equally.
 
 Next: how to test personality (you can't unit test "sounds like Bluey").
 

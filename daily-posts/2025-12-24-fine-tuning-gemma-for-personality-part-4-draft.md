@@ -55,7 +55,7 @@ Overfitting is usually bad. For personality capture, it can be a useful feature.
 
 The lesson: training data patterns may matter as much as content. If all your examples are 52-76 words, the model may learn that as "correct." Generation parameters can mitigate this but may not fully override it. One approach to test: vary response lengths deliberately in your training data from the start and compare the results.
 
-Next: why instruction-tuned models learn personality better than base models.
+Next: comparing base models vs instruction-tuned models for personality consistency.
 
 ---
 
