@@ -5,7 +5,7 @@ project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 2: Building the Training Dataset"
 slug: fine-tuning-gemma-for-personality-part-2-building-the-training-dataset
 tags: dataset-creation fine-tuning training-data conversational-ai jsonl
-published: false
+published: true
 ---
 
 # Fine-Tuning Gemma for Personality - Part 2: Building the Training Dataset

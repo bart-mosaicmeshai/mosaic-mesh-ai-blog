@@ -4,7 +4,7 @@ category: Measuring
 project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 6: Testing Personality (Not Just Accuracy)"
 slug: fine-tuning-gemma-for-personality-part-6-testing-personality
-tags: evaluation testing personality-ai human-evaluation conversational-quality
+tags: evaluation testing personality-ai human-evaluation conversational-quality llm-as-judge automated-evaluation golden-dataset
 published: false
 ---
 
@@ -14,7 +14,7 @@ published: false
 
 ## The Hook
 
-How do you test if an AI sounds like a 6-year-old dog? You can't unit test personality. There's no accuracy metric for "sounds like Bluey."
+How do you test if an AI sounds like a personified 6-year-old dog? You can't unit test personality. There's no accuracy metric for "sounds like Bluey."
 
 ## The Story
 
@@ -31,29 +31,7 @@ chat_with_bluey("outputs/bluey_1b_it/final_model")
 # Test various prompts interactively
 ```
 
-<!-- ASCII diagram for image reference (delete before publishing):
-┌─────────────────────────────────────────────────────────────┐
-│              Testing Personality Checklist                   │
-├─────────────────────────────────────────────────────────────┤
-│  ✓ Catchphrase usage                                        │
-│    Does it use "That's a tricky one!", "I reckon"?         │
-│                                                              │
-│  ✓ Speech pattern consistency                               │
-│    Enthusiasm markers, questions, kid logic present?        │
-│                                                              │
-│  ✓ Knowledge domain accuracy                                │
-│    Mentions family correctly, references show events?       │
-│                                                              │
-│  ✓ Tone maintenance                                         │
-│    Stays optimistic, helpful, empathetic throughout?        │
-│                                                              │
-│  ✓ Character breaking detection                             │
-│    Responses that don't sound like Bluey at all?           │
-│                                                              │
-│  ✓ Edge case handling                                       │
-│    Unknown topics, adult concepts—stays in character?       │
-└─────────────────────────────────────────────────────────────┘
--->
+![Diagram showing personality testing approach: human judgment, interactive chat testing, and the challenge of testing feel vs correctness](../assets/gemma-finetune-bluey/part-6-personality-testing.jpg)
 
 **What to test:**
 
@@ -64,18 +42,44 @@ chat_with_bluey("outputs/bluey_1b_it/final_model")
 5. **Character breaking**: Prompts that might break personality (technical jargon, adult topics)
 
 **Example test prompts:**
-- "What's your favorite game?" (should mention Keepy Uppy, Magic Claw)
-- "I'm feeling sad" (should show empathy, give examples from her experience)
+- "What's your favorite game?" (mention Keepy Uppy, Magic Claw)
+- "I'm feeling sad" (show empathy, give examples from her experience)
 - "How do you handle disagreements?" (kid wisdom, references Bingo)
-- "Explain quantum physics" (should stay in character, admit not knowing like a kid would)
+- "Explain quantum physics" (stay in character, admit not knowing like a kid would)
 
-The model performed well on most tests. It used catchphrases naturally, maintained optimism, referenced family correctly. But edge cases revealed limitations—abstract topics sometimes produced generic responses.
+**Test results:**
+
+I ran these prompts against the 1B model ([full results](https://github.com/bart-mosaicmeshai/gemma-local-finetune/blob/main/src/logs/personality_test_results.txt)). The outputs revealed both strengths and weaknesses:
+
+*Success example - "How do you handle disagreements?" (48 words):*
+> Yeah, even though it's hard, disagreements are still there. Like when I disagree with Mum about what game to play, we had to say sorry and find a way where both people were happy. But usually you just gotta say sorry and move on. That's what families do!
+
+This response demonstrates strong personality: family references, kid logic, optimistic tone, natural phrasing. It sounds like Bluey.
+
+*Challenge examples - early stopping:*
+- "What's your favorite game?" → 12 words, cut off mid-sentence
+- "I'm feeling sad" → 7 words, incomplete thought
+- "Explain quantum physics" → 1 word ("That'")
+
+The model captured Bluey's personality but struggled with response completion—the same early stopping issue from [Part 4](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-4-when-your-model-learns-too-well). Even with `min_new_tokens=50`, some prompts triggered premature EOS tokens.
+
+**Key insight:** Personality presence ≠ response completeness. Even truncated responses maintained Bluey's voice, showing the fine-tuning captured style successfully despite generation parameter challenges.
+
+**Try it yourself:** The interactive chat interface ([chat_bluey.py](https://github.com/bart-mosaicmeshai/gemma-local-finetune/blob/main/src/chat/chat_bluey.py)) lets you test prompts directly. See the [README](https://github.com/bart-mosaicmeshai/gemma-local-finetune#example-training-a-bluey-personality-model) for setup instructions. 
 
 ## The Reflection
 
 Testing personality requires human judgment. You know it when you hear it, but you can't automate the evaluation. This makes iteration slower than task-specific fine-tuning where you can measure accuracy.
 
 The best test: would someone familiar with Bluey think this sounds like her? That's the bar. Everything else is proxy metrics.
+
+**Future improvements for production:**
+
+**1. Golden dataset evaluation**: Build a test set of 50-100 prompts with expected personality characteristics (not exact responses, but criteria like "should mention family" or "should use optimistic tone"). Run every model version against this dataset to track regression and improvement across training iterations.
+
+**2. LLM-as-a-Judge**: Use a frontier model to evaluate responses against Bluey personality criteria: catchphrase usage, family references, optimistic tone, kid logic. This enables systematic testing across hundreds of prompts with consistent evaluation criteria and faster iteration cycles during model development.
+
+Human evaluation would still validate both the golden dataset criteria and the judging rubric, but automated evaluation could scale the testing process beyond what's practical with manual review.
 
 Next: deploying this to the web for browser-based inference.
 

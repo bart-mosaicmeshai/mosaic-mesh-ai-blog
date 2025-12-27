@@ -5,7 +5,7 @@ project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 4: When Your Model Learns Too Well"
 slug: fine-tuning-gemma-for-personality-part-4-when-your-model-learns-too-well
 tags: overfitting generation-parameters eos-token fine-tuning debugging
-published: false
+published: true
 ---
 
 # Fine-Tuning Gemma for Personality - Part 4: When Your Model Learns Too Well

@@ -5,7 +5,7 @@ project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 3: Training on Apple Silicon"
 slug: fine-tuning-gemma-for-personality-part-3-training-on-apple-silicon
 tags: apple-silicon mps pytorch gemma fine-tuning local-training
-published: false
+published: true
 ---
 
 # Fine-Tuning Gemma for Personality - Part 3: Training on Apple Silicon

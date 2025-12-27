@@ -5,7 +5,7 @@ project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 5: Base Models vs Instruction-Tuned"
 slug: fine-tuning-gemma-for-personality-part-5-base-vs-instruction-tuned
 tags: instruction-tuning model-comparison gemma fine-tuning benchmarking
-published: false
+published: true
 ---
 
 # Fine-Tuning Gemma for Personality - Part 5: Base Models vs Instruction-Tuned

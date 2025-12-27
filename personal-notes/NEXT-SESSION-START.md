@@ -2,7 +2,7 @@
 
 Read README.md to get up to speed on this blog project, then read personal-notes/agentic-personal-trainer-series-plan.md and personal-notes/gemma-finetune-bluey-series-plan.md for context on completed and upcoming series.
 
-## Current Status (as of Dec 17, 2025)
+## Current Status (as of Dec 27, 2025)
 
 ### Completed Series:
 - **MCP Stock Trading** (5 parts) - Published
@@ -11,15 +11,46 @@ Read README.md to get up to speed on this blog project, then read personal-notes
 
 ### Published:
 - **Dec 15**: Nano-banana enhancement post (published Dec 17)
-- **Dec 17**: Gemma/Bluey Part 1 (proofread, image generated, published)
-- **Dec 19**: Gemma/Bluey Part 2 (proofread, image generated, published)
+- **Dec 17**: Gemma/Bluey Part 1 (published)
+- **Dec 19**: Gemma/Bluey Part 2 (published)
+- **Dec 22**: Gemma/Bluey Part 3 (published)
+- **Dec 24**: Gemma/Bluey Part 4 (published)
+- **Dec 26**: Gemma/Bluey Part 5 (published)
 
 ### Ready to Publish:
-- **Dec 22**: Gemma/Bluey Part 3 (FULLY PROOFREAD, images generated, ready for publishing)
-- **Dec 24**: Gemma/Bluey Part 4 (FULLY PROOFREAD, image generated, ready for publishing)
+- **Dec 29**: Gemma/Bluey Part 6 (COMPLETE - proofread, experimental data added, image generated, ready for Monday Dec 29)
 
 ### In Progress:
-- **Dec 26-Jan 5**: Gemma/Bluey Parts 5-9 (language consistency updates complete, need images)
+- **Dec 31-Jan 5**: Gemma/Bluey Parts 7-9 (Part 7 model size corrections complete, need images for all three)
+
+### Session G Complete (Dec 27, 2025):
+
+**Gemma/Bluey Part 6 - Complete with Experimental Data:**
+- Ran 4 personality test prompts against 1B model
+- Created test_personality_examples.py in gemma-local-finetune project
+- Saved results to personality_test_results.txt
+- Updated Part 6 with actual test output (1 success, 3 early stopping failures)
+- Added honest assessment: personality present even in truncated responses
+- Added future improvements section: Golden Dataset + LLM-as-a-Judge
+- Documented future series idea in NEXT-SESSION-START.md
+- Generated image (3 attempts, $0.39 total) - simple diagram showing testing approach
+- Updated tags to include llm-as-judge, automated-evaluation, golden-dataset
+- Ready for Dec 29 publishing
+
+**Gemma/Bluey Part 7 - Model Size Corrections:**
+- Verified actual model sizes in gemma-local-finetune project
+- Discovered web deployment uses 270M model (not 1B as implied)
+- Updated Part 7 to clarify model size switch (1B training → 270M deployment)
+- Corrected quantization reduction: 30% → 24% (actual measurement)
+- Corrected model size: 700MB → 764MB (actual file size)
+- Added explanation for why 270M was deployed (better UX at 764MB vs 3GB)
+- Updated ASCII diagram to reflect 270M model and accurate sizes
+
+**Key Pattern - Experimental Verification:**
+- Interactive testing showed early stopping still problematic despite min_new_tokens=50
+- Only 1/4 test prompts produced complete response
+- Documented both successes (48-word response with good personality) and failures (1-12 word truncations)
+- Maintained "no hype, be honest" voice by showing real mixed results
 
 ### Session F Complete (Dec 17, 2025):
 
@@ -232,6 +263,46 @@ When making claims about ML behavior:
   - Images go to assets/gemma-finetune-bluey/
 - **daily-blog**: For scanning git activity and generating post ideas
 - **Claude Code**: That's you! Keep verifying claims against actual code and git history
+
+## Future Series Ideas
+
+### Model Evaluation & Testing (from Gemma/Bluey Part 6)
+**Concept**: Follow-up to Gemma/Bluey series implementing production-grade evaluation
+
+**Two-part implementation series:**
+
+**Part 1: Building a Golden Dataset for Personality Evaluation**
+- Create 50-100 test prompts with expected personality characteristics
+- Define evaluation criteria (not exact responses, but characteristics like "should mention family", "optimistic tone")
+- Structure the dataset for regression testing across model versions
+- Run baseline evaluation against the Bluey 1B model
+- Track improvements/regressions across training iterations
+
+**Part 2: Implementing LLM-as-a-Judge**
+- Design evaluation rubric for personality testing
+- Build prompt for frontier model to judge responses
+- Criteria: catchphrase usage, family references, optimistic tone, kid logic
+- Automate evaluation across golden dataset
+- Compare LLM judge scores vs human evaluation
+- Measure inter-rater reliability (LLM vs human)
+- Production deployment: systematic testing at scale
+
+**Why this works:**
+- Natural follow-up to Gemma/Bluey series
+- Addresses "how do you test personality at scale?" question
+- Demonstrates production ML practices (golden datasets, automated evaluation)
+- Combines frontier models (judge) with fine-tuned models (subject)
+- Shows honest evaluation (including where automation fails vs human judgment)
+
+**Prerequisites:**
+- Complete Gemma/Bluey series (Parts 1-9)
+- Keep bluey_1b_it model for testing
+
+### Agent Testing Deep Dive
+- See personal-notes/agent-testing-deep-dive.md
+
+### Claude Code Writing Workflow (Meta)
+- See personal-notes/claude-code-writing-workflow.md
 
 ## Git Configuration
 
