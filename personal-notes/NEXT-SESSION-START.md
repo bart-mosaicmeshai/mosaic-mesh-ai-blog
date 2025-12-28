@@ -2,7 +2,7 @@
 
 Read README.md to get up to speed on this blog project, then read personal-notes/agentic-personal-trainer-series-plan.md and personal-notes/gemma-finetune-bluey-series-plan.md for context on completed and upcoming series.
 
-## Current Status (as of Dec 27, 2025)
+## Current Status (as of Dec 28, 2025)
 
 ### Completed Series:
 - **MCP Stock Trading** (5 parts) - Published
@@ -18,10 +18,64 @@ Read README.md to get up to speed on this blog project, then read personal-notes
 - **Dec 26**: Gemma/Bluey Part 5 (published)
 
 ### Ready to Publish:
-- **Dec 29**: Gemma/Bluey Part 6 (COMPLETE - proofread, experimental data added, image generated, ready for Monday Dec 29)
+- **Dec 29**: Gemma/Bluey Part 6 (COMPLETE - ready for Monday Dec 29)
+- **Dec 31**: Gemma/Bluey Part 7 (COMPLETE - ready for Wednesday Dec 31)
 
 ### In Progress:
-- **Dec 31-Jan 5**: Gemma/Bluey Parts 7-9 (Part 7 model size corrections complete, need images for all three)
+- **Jan 2**: Gemma/Bluey Part 8 (text ready, need image)
+- **Jan 5**: Gemma/Bluey Part 9 (text ready, need image)
+
+### Session H Complete (Dec 28, 2025):
+
+**Gemma/Bluey Part 7 - Complete with 1B Browser Investigation:**
+
+**1. Attempted 1B model browser deployment:**
+- Created deploy_1b_to_web.sh script in gemma-local-finetune/scripts/
+- Successfully converted 1B model to ONNX (1.6GB quantized)
+- Discovered 1B model does NOT work in browser - sliding window attention incompatibility
+- Transformers.js 3.6.3 doesn't support sliding window attention
+- ONNX Runtime fails during session initialization with "Aborted()" error
+- Added warning to deployment script documenting the limitation
+- Committed script to gemma-local-finetune for documentation value
+
+**2. Verified 270M model browser deployment:**
+- Tested 270M model in Chrome browser at localhost:8800
+- Model loads successfully (764MB download)
+- Confirmed coherence issues (repetitive loops, word salad)
+- Discovered Bedtime Story Generator uses same 270M model with better coherence
+- Created FUTURE_INVESTIGATIONS.md in gemma-local-finetune project
+- Documented hypothesis: coherence issue may be fine-tuning approach, not model size
+
+**3. Part 7 proofread and updates:**
+- Added honest motivation: curiosity about browser deployment (line 21)
+- Added Bedtime Story Generator as inspiration link
+- Updated hook: "Browser-based inference" instead of "I put Bluey in your browser"
+- Clarified "no backend server" vs file server distinction throughout
+- Fixed quantization percentage: 30% → 24% (verified measurement)
+- Added cost model clarification: local only, public hosting would have bandwidth costs
+- Listed practical use cases: sharing, demos, privacy, educational
+- Generated image with nano-banana ($0.13)
+- Removed ASCII diagram
+- Part 7 COMPLETE and ready for Dec 31 publishing
+
+**4. gemma-local-finetune project updates:**
+- Committed deploy_1b_to_web.sh with warning about sliding attention
+- Committed FUTURE_INVESTIGATIONS.md for coherence investigation
+- Switched gh user to bart-mosaicmeshai
+- Pushed both commits to remote
+
+**Key discoveries:**
+- 1B model's sliding window attention is incompatible with browser runtime
+- 270M model works in browser but has coherence issues
+- Browser deployment valuable for process documentation even though 1B doesn't work
+- Cost model differs significantly: bandwidth vs inference costs
+
+**Files modified in blog project:**
+- daily-posts/2025-12-31-fine-tuning-gemma-for-personality-part-7-draft.md
+- assets/gemma-finetune-bluey/part-7-web-deployment.jpg (generated)
+- personal-notes/NEXT-SESSION-START.md (this file)
+
+**Total image generation cost this session:** $0.13
 
 ### Session G Complete (Dec 27, 2025):
 

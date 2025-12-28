@@ -14,43 +14,25 @@ published: false
 
 ## The Hook
 
-I put Bluey in your browser. No server, no API keys, no monthly fees. Just client-side inference with WebGPU. The fine-tuned model runs entirely on your device.
+Browser-based inference with a fine-tuned model. No backend server, no API keys, no monthly fees. Just client-side WebGPU running entirely on your device.
 
 ## The Story
 
-**Note:** While Parts 1-6 focused on training the 1B model, I deployed the smaller 270M variant for web use. The 1B model would be ~3GB after quantization—larger than ideal for browser downloads. The 270M model at 764MB provides a better user experience while still demonstrating the personality learned during fine-tuning.
+I wanted to see if browser deployment was possible with a fine-tuned model. I'd seen browser-based ML demos like the [Bedtime Story Generator](https://huggingface.co/spaces/webml-community/bedtime-story-generator) and was curious if the same approach would work with my Bluey model.
+
+**Note:** While Parts 1-6 focused on training the 1B model, I deployed the smaller 270M variant for web use. The 270M model (764MB after quantization) provides better browser compatibility. The 1B model uses sliding window attention which isn't supported by Transformers.js 3.6.3, causing the ONNX Runtime to fail during session initialization.
 
 Web deployment requires converting PyTorch models to ONNX format. The full pipeline is documented in [DEPLOYMENT.md](https://github.com/bart-mosaicmeshai/gemma-local-finetune/blob/main/DEPLOYMENT.md), but the key steps are:
 
 1. Prepare the fine-tuned model in Transformers format
-2. Convert to ONNX with 4-bit quantization (reduces size ~30%)
+2. Convert to ONNX with 4-bit quantization (reduces size ~24%)
 3. Deploy with Transformers.js + WebGPU in the browser
 
 The conversion process uses external tooling to handle Gemma's architecture and apply quantization during export.
 
-<!-- ASCII diagram for image reference (delete before publishing):
-┌─────────────────────────────────────────────────────────────┐
-│              Web Deployment Pipeline                         │
-├─────────────────────────────────────────────────────────────┤
-│  PyTorch Model - 270M (1.0GB)                               │
-│    ↓                                                         │
-│  Convert to ONNX format                                     │
-│    ↓                                                         │
-│  Quantize to 4-bit (764MB, -24% size)                       │
-│    ↓                                                         │
-│  Deploy with Transformers.js                                │
-│    ↓                                                         │
-│  Browser Inference (WebGPU/WASM)                            │
-│    - No server required                                     │
-│    - 100% client-side                                       │
-│    - User data never leaves device                          │
-│    - No API costs per inference                             │
-│                                                              │
-│  Note: Deployed 270M (not 1B) for smaller download          │
-└─────────────────────────────────────────────────────────────┘
--->
+![Web deployment pipeline: PyTorch model to ONNX, quantization to 4-bit, deployment to browser with WebGPU for client-side inference](../assets/gemma-finetune-bluey/part-7-web-deployment.jpg)
 
-[Transformers.js](https://huggingface.co/docs/transformers.js) runs the model in-browser using WebGPU (or WASM fallback). The user loads the model once, then all inference happens locally. Their conversations with Bluey never leave their device.
+[Transformers.js](https://huggingface.co/docs/transformers.js) runs the model in-browser using WebGPU (or WASM fallback). The user loads the model once, then all inference happens locally. Conversations with Bluey never leave their device.
 
 **Model size:**
 - Original PyTorch (270M model): ~1.0GB
@@ -64,11 +46,16 @@ The conversion process uses external tooling to handle Gemma's architecture and 
 
 ## The Reflection
 
-Browser-based inference addresses the deployment cost problem. No servers to maintain, no API costs, no rate limits. The user downloads the model once (~764MB), then inference has no API fees.
+Browser deployment isn't better than the CLI for my use case—it's just different. The CLI version with the 1B model is more coherent. But browser deployment opens different possibilities:
 
-The privacy win matters too. Fine-tuned personality models often involve personal conversations. Running client-side means that data never hits a server.
+- **Sharing with non-technical users**: No Python installation, no terminal. Just a URL.
+- **Demos and presentations**: "Here, try it yourself" beats showing screenshots.
+- **Privacy-focused deployment**: Client-side inference means conversations never hit a server.
+- **Educational value**: Showing that ML can run entirely in the browser.
 
-This deployment pattern worked for this fine-tuned 270M model (~764MB) and should work for other small models (<2GB). The 1B model from training would be larger (~3GB ONNX Q4), so I deployed the smaller 270M variant for better web performance. The conversion pipeline is repeatable.
+Public web hosting changes the cost model. Instead of per-inference API costs, you pay for bandwidth to download the model (~764MB per new visitor). No backend servers to maintain, no rate limits. For this project, I ran everything locally on my machine, so I haven't incurred any hosting costs.
+
+This deployment pattern worked for the 270M model and should work for other small models with full attention (not sliding window). The conversion pipeline is repeatable.
 
 Next: what I'd do differently if I fine-tuned Bluey again.
 
