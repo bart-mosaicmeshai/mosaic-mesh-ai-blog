@@ -57,7 +57,7 @@ Next: training the model in 5 minutes on Apple Silicon.
 
 ---
 
-**Part 2 of 9** in the Fine-Tuning Gemma for Personality series.
+**Part 2 of 8** in the Fine-Tuning Gemma for Personality series.
 
 ---
 

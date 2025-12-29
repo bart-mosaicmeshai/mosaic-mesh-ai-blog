@@ -1,13 +1,52 @@
 # Fine-Tuning Gemma for Personality: The Bluey Experiment
 
-**Status**: In Progress - Publishing M/W/F through Jan 5, 2026
+**Status**: COMPLETE - 8-part series published Dec 17, 2025 - Jan 2, 2026
 **Project**: ~/Projects/gemma-local-finetune
-**Series**: 9 parts
-**Publishing**: December 17, 2025 - January 5, 2026 (M/W/F schedule)
+**Series**: 8 parts (originally planned as 9, consolidated in Session I)
+**Publishing**: December 17, 2025 - January 2, 2026 (M/W/F schedule)
 
 ---
 
 ## Session History
+
+### Session I (Dec 29, 2025) - Series Consolidation: 9 Parts → 8 Parts
+
+**Series Consolidation Decision:**
+- Reviewed Part 8 (What I'd Do Differently) vs Part 9 (Lessons Learned)
+- Part 8 contained generic best practices not grounded in actual experiments
+- Part 9 was grounded with direct links to experimental work in earlier parts
+- Decision: Cut Part 8, merge valuable content into Part 9, rename Part 9 → Part 8
+- Result: Tighter, more grounded 8-part series
+
+**Part 8 (Lessons Learned) Proofread:**
+- Reframed Lesson #3: "Fine-tuning personality is iterative, not sequential"
+  - Changed from naive "test parameters earlier" to sophisticated "training and parameters are interrelated processes"
+  - Emphasizes cyclical workflow as default mindset, not linear steps
+- Added BLEU score definition with Wikipedia link for accessibility
+- Fixed overstated Apple Silicon claim: reframed as cost structure difference (upfront vs pay-as-you-go)
+- Made honest about already owning M4 Max hardware
+- Removed speculative "what's next" content
+- Updated tags: removed non-technical (lessons-learned, retrospective), added iterative-fine-tuning
+- Generated image ($0.13)
+
+**Series-wide Updates:**
+- Updated Parts 1-7: Changed all "Part X of 9" → "Part X of 8"
+- Updated Part 7 transition from "what I'd do differently" to "broader lessons learned"
+- Published Part 6 to blog, committed file rename
+- All 6 published posts updated in Squarespace
+
+**Key Achievement:**
+- Series now 8 parts instead of 9
+- Every lesson in final part links to specific experimental work
+- Maintains "no hype, be honest" voice throughout
+- All content grounded in actual experiments, not speculation
+
+**Files:**
+- Renamed: 2026-01-05-part-9-draft.md → 2026-01-02-part-8-draft.md
+- Updated: Parts 1-7 (series numbering)
+- Generated: part-8-lessons-learned.jpg
+
+---
 
 ### Session F (Dec 17, 2025) - Part 4 Experimental Verification + Parts 5-9 Language Consistency
 

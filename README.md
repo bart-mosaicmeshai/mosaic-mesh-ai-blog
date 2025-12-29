@@ -226,12 +226,33 @@ git commit -m "Publish: Your Post Title"
 git push
 ```
 
+## Completed Series
+
+- **Fine-Tuning Gemma for Personality (Bluey)** - 8 parts (Dec 17, 2025 - Jan 2, 2026)
+- **Agentic Personal Trainer** - 9 parts (Dec 6-14, 2025)
+- **EmbeddingGemma/Local Semantic Search** - 5 parts (Published)
+- **MCP Stock Trading** - 5 parts (Published)
+
+## Upcoming Series
+
+**The Bart Test** - Evaluating LLM Cultural Fluency (5+ parts)
+- **Jan 5**: Part 1 - Introducing the Bart Test
+- **Jan 7**: Part 2 - Finding the Sweet Spot
+- **Jan 9**: Part 3 - What the Teen Judges Said
+- **Jan 12**: Part 4 - The Bart Test Hit a Wall
+- **Jan 14**: Part 5 - Fixing the Bart Test
+- Additional parts may follow as experiments continue
+
+A signature benchmark evaluating LLMs through Gen-Alpha slang and teenage judges. Follows the methodology pivot from technical scenarios to short-form text messages, quarterly judging sessions, and tracking slang evolution.
+
+See `~/Projects/bart-test/blog-drafts/SERIES-OUTLINE.md` for detailed series plan.
+
 ## What's Next
 
+- [ ] Launch The Bart Test series (Jan 5-14, 2026)
 - [ ] Write consistently (M/W/F schedule)
-- [ ] Build the habit of documenting work
-- [ ] Share on [mosaicmeshai.com](https://www.mosaicmeshai.com/)
-- [ ] Maybe automate Squarespace publishing someday
+- [ ] Continue quarterly Bart Test judging sessions
+- [ ] Document ongoing experiments and learnings
 
 ---
 

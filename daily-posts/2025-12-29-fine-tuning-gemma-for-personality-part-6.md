@@ -85,7 +85,7 @@ Next: deploying this to the web for browser-based inference.
 
 ---
 
-**Part 6 of 9** in the Fine-Tuning Gemma for Personality series.
+**Part 6 of 8** in the Fine-Tuning Gemma for Personality series.
 
 ---
 

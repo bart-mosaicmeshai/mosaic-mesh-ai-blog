@@ -43,7 +43,7 @@ That subjective evaluation makes this both harder and more interesting. Next: ho
 
 ---
 
-**Part 1 of 9** in the Fine-Tuning Gemma for Personality series.
+**Part 1 of 8** in the Fine-Tuning Gemma for Personality series.
 
 ---
 

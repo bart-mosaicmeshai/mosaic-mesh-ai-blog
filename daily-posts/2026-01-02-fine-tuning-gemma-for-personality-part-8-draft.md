@@ -2,67 +2,51 @@
 date: 2026-01-02
 category: Learning
 project: gemma-local-finetune
-title: "Fine-Tuning Gemma for Personality - Part 8: What I'd Do Differently"
-slug: fine-tuning-gemma-for-personality-part-8-what-id-do-differently
-tags: retrospective lessons-learned training-data fine-tuning iteration
+title: "Fine-Tuning Gemma for Personality - Part 8: Lessons Learned"
+slug: fine-tuning-gemma-for-personality-part-8-lessons-learned
+tags: personality-ai local-ml iterative-fine-tuning gemma
 published: false
 ---
 
-# Fine-Tuning Gemma for Personality - Part 8: What I'd Do Differently
+# Fine-Tuning Gemma for Personality - Part 8: Lessons Learned
 
 *This is Part 8 of a series on fine-tuning Gemma for personality. Read [Part 1](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-1-why-fine-tune-a-six-year-old) for the concept, [Part 2](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-2-building-the-training-dataset) for the dataset, [Part 3](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-3-training-on-apple-silicon) for training, [Part 4](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-4-when-your-model-learns-too-well) for challenges, [Part 5](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-5-base-vs-instruction-tuned) for model comparison, [Part 6](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-6-testing-personality) for testing, and [Part 7](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-7-pytorch-to-browser) for web deployment.*
 
 ## The Hook
 
-The Bluey experiment worked. But 111 examples and 5 minutes of training isn't production—it's a proof of concept. Here's what I'd change for a real character AI.
+Eight posts about teaching an AI to talk like a cartoon dog. Here's what actually mattered.
 
 ## The Story
 
-**More training data**: 111 examples demonstrated the approach, but edge cases revealed gaps. For production: 500-1,000 examples covering wider scenario diversity.
+![Six key lessons from fine-tuning Gemma for personality: model comparison, data constraints, iterative workflow, local benefits, subjective testing, and small model capabilities](../assets/gemma-finetune-bluey/part-8-lessons-learned.jpg)
 
-**Varied response lengths**: Training data averaged 52-76 words. The model may have learned that as "correct length." Next time: intentionally vary from 30-200 words to teach flexibility.
+**1. Model type made minimal difference with limited data.** I tested both base (-pt) and instruction-tuned (-it) models with 111 examples. Both struggled with consistency, both went off-topic sometimes, both truncated. The `-it` model produced slightly longer responses (30-40 vs 25-35 words) but not meaningfully better results (see [Part 5](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-5-base-vs-instruction-tuned)).
 
-**Include failure modes**: The dataset only had successful, helpful responses. Should include:
-- "I don't know" responses (admit knowledge gaps)
-- Misunderstanding recovery (clarifying questions)
-- Off-topic handling (staying in character)
-- Age-appropriate boundaries (deflecting adult topics gracefully)
+**2. Training data patterns may become constraints.** Averaged 65-word responses (52-76 range)? The model may have learned that length as "correct." To test this hypothesis, you could vary response lengths deliberately in your training dataset and compare results (see [Part 4](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-4-when-your-model-learns-too-well)).
 
-**Better generation parameters from the start**: Discovered `min_new_tokens=50` helped mitigate early stopping. Should have tested parameter sensitivity earlier, not after training.
+**3. Fine-tuning personality is iterative, not sequential.** I treated training and parameter tuning as separate steps: train the model, then adjust generation parameters. But they're interrelated, iterative processes. Testing parameters early reveals what the training data is actually teaching the model. `min_new_tokens`, `temperature`, `repetition_penalty` expose patterns (like learned response length constraints) that inform the next training iteration. The workflow is iterative: test parameters, adjust training data based on what you learn, retrain, repeat (see [Part 4](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-4-when-your-model-learns-too-well) for this cycle in action).
 
-**Systematic evaluation**: Build a test suite with expected responses for consistency testing across training iterations.
+**4. Local fine-tuning unlocks experimentation.** Five-minute training cycles with no API costs meant trying variations freely. Cloud GPU time pressure kills iteration (see [Part 3](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-3-training-on-apple-silicon)).
 
-<!-- ASCII diagram for image reference (delete before publishing):
-┌─────────────────────────────────────────────────────────────┐
-│          Prototype vs Production Approach                    │
-├─────────────────────────────────────────────────────────────┤
-│  Prototype (what I did):                                    │
-│    111 examples, uniform length, 5 epochs                   │
-│    Proved: concept works, approach demonstrated             │
-│                                                              │
-│  Production (what I'd do):                                  │
-│    500-1000 examples, varied lengths, 10+ epochs           │
-│    Failure modes, edge cases, systematic testing           │
-│    Parameter optimization from start                        │
-│    Automated evaluation suite                               │
-│                                                              │
-│  The Gap: Time investment vs completeness                   │
-└─────────────────────────────────────────────────────────────┘
--->
+**5. Personality testing is subjective.** No [BLEU score](https://en.wikipedia.org/wiki/BLEU) (automated text similarity metric), no accuracy percentage. Human judgment: "does this sound like Bluey?" Testing requires actual conversation, not automated eval (see [Part 6](https://www.mosaicmeshai.com/blog/fine-tuning-gemma-for-personality-part-6-testing-personality)).
+
+**6. Small models can reproduce distinctive voice.** One billion parameters is enough to demonstrate personality-style learning. You don't need 70B models for character AI experiments. Start small, scale up only if needed.
 
 ## The Reflection
 
 This was a learning prototype, not a production system. The goal was "can I fine-tune personality on Apple Silicon?" Answer: yes. The goal wasn't "can I build a flawless Bluey chatbot?"
 
-The right approach depends on your goal. For learning and experimentation: 111 examples and 5 minutes proves the concept. For production character AI: multiply everything by 5-10x.
+The biggest surprise: how little data you need to demonstrate the approach. One hundred eleven examples isn't production-ready, but it's enough to show fine-tuning can work for conversational style.
 
-The infrastructure works. The approach is validated. Scaling up is just more of the same—more data, more testing, more iteration.
+The infrastructure matters more than the initial results. Now that training runs in 5 minutes locally, iteration is cheap. Want to try a different character? Different speech style? Just swap the dataset and retrain.
 
-Next: the broader lessons learned from this experiment.
+Apple Silicon changed the cost structure: I already owned the M4 Max with 128GB memory so using this machine allowed me the freedom of not worrying about per-experiment cloud fees resulting in lower friction for iteration.
+
+**The core lesson holds: small models + good data + local training can demonstrate personality-style learning.**
 
 ---
 
-**Part 8 of 9** in the Fine-Tuning Gemma for Personality series.
+**Part 8 of 8** in the Fine-Tuning Gemma for Personality series. Thanks for following along!
 
 ---
 

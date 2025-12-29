@@ -59,7 +59,7 @@ Next: comparing base models vs instruction-tuned models for personality consiste
 
 ---
 
-**Part 4 of 9** in the Fine-Tuning Gemma for Personality series.
+**Part 4 of 8** in the Fine-Tuning Gemma for Personality series.
 
 ---
 

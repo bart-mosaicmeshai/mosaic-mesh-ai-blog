@@ -56,7 +56,7 @@ Next: how to test personality (you can't unit test "sounds like Bluey").
 
 ---
 
-**Part 5 of 9** in the Fine-Tuning Gemma for Personality series.
+**Part 5 of 8** in the Fine-Tuning Gemma for Personality series.
 
 ---
 

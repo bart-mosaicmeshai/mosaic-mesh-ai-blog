@@ -55,7 +55,7 @@ Next: the problems that emerged when the model worked *too* well.
 
 ---
 
-**Part 3 of 9** in the Fine-Tuning Gemma for Personality series.
+**Part 3 of 8** in the Fine-Tuning Gemma for Personality series.
 
 ---
 

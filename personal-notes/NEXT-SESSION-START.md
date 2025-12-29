@@ -1,13 +1,14 @@
 # Session Start Prompt for Next Blog Writing Session
 
-Read README.md to get up to speed on this blog project, then read personal-notes/agentic-personal-trainer-series-plan.md and personal-notes/gemma-finetune-bluey-series-plan.md for context on completed and upcoming series.
+Read README.md to get up to speed on this blog project, then read personal-notes/agentic-personal-trainer-series-plan.md, personal-notes/gemma-finetune-bluey-series-plan.md, and ~/Projects/bart-test/blog-drafts/SERIES-OUTLINE.md for context on completed and upcoming series.
 
-## Current Status (as of Dec 28, 2025)
+## Current Status (as of Dec 29, 2025)
 
 ### Completed Series:
 - **MCP Stock Trading** (5 parts) - Published
 - **EmbeddingGemma/Local Semantic Search** (5 parts) - Published
 - **Agentic Personal Trainer** (9 parts) - All published (Dec 6-14, 2025)
+- **Fine-Tuning Gemma for Personality (Bluey)** (8 parts) - All published (Dec 17 - Jan 2, 2025)
 
 ### Published:
 - **Dec 15**: Nano-banana enhancement post (published Dec 17)
@@ -16,14 +17,65 @@ Read README.md to get up to speed on this blog project, then read personal-notes
 - **Dec 22**: Gemma/Bluey Part 3 (published)
 - **Dec 24**: Gemma/Bluey Part 4 (published)
 - **Dec 26**: Gemma/Bluey Part 5 (published)
+- **Dec 29**: Gemma/Bluey Part 6 (published)
 
 ### Ready to Publish:
-- **Dec 29**: Gemma/Bluey Part 6 (COMPLETE - ready for Monday Dec 29)
 - **Dec 31**: Gemma/Bluey Part 7 (COMPLETE - ready for Wednesday Dec 31)
+- **Jan 2**: Gemma/Bluey Part 8 (COMPLETE - ready for Thursday Jan 2)
 
-### In Progress:
-- **Jan 2**: Gemma/Bluey Part 8 (text ready, need image)
-- **Jan 5**: Gemma/Bluey Part 9 (text ready, need image)
+### Upcoming Series:
+- **The Bart Test** (5+ parts) - Launch arc scheduled Jan 5-14, 2025
+  - Jan 5: Part 1 - Introducing the Bart Test
+  - Jan 7: Part 2 - Finding the Sweet Spot
+  - Jan 9: Part 3 - What the Teen Judges Said
+  - Jan 12: Part 4 - The Bart Test Hit a Wall
+  - Jan 14: Part 5 - Fixing the Bart Test
+  - Note: Additional parts may be added as experiments continue
+
+### Session I Complete (Dec 29, 2025):
+
+**Series Consolidation - 9 parts to 8 parts:**
+- Published Part 6 to blog, committed file rename (removed -draft suffix)
+- Reviewed Part 8 and Part 9 for grounded vs speculative content
+- Decision: Part 8 (What I'd Do Differently) was generic best practices, not grounded in actual experiments
+- Part 9 (Lessons Learned) was grounded with links to specific parts
+- Merged valuable Part 8 content (workflow lesson, prototype framing) into Part 9
+- Renamed Part 9 → Part 8 (date 2026-01-05 → 2026-01-02, updated all metadata)
+- Deleted old Part 8 content
+
+**Part 8 Proofread and Improvements:**
+- Reframed Lesson #3 from "test parameters earlier" to "fine-tuning is iterative, not sequential"
+- Key insight: training and parameters are interrelated processes, not sequential steps
+- Added BLEU definition with Wikipedia link for accessibility
+- Fixed overstated claim about Apple Silicon - reframed as cost structure difference (upfront vs pay-as-you-go)
+- Made honest about already owning the M4 Max hardware
+- Removed speculative "what's next" content, focused on core lesson
+- Updated tags: removed non-technical tags (lessons-learned, retrospective), added iterative-fine-tuning
+- Generated image with nano-banana ($0.13)
+
+**Series-wide Updates:**
+- Updated Parts 1-7: "Part X of 9" → "Part X of 8"
+- Updated Part 7's "Next:" transition to point to lessons learned
+- All 6 published posts updated in Squarespace
+
+**Key Pattern:**
+- Series now 8 parts instead of 9, tighter and more grounded
+- Every lesson in Part 8 links back to specific experimental work in earlier parts
+- Maintains "no hype, be honest" voice throughout
+
+**Files modified:**
+- daily-posts/2025-12-17-fine-tuning-gemma-for-personality-part-1.md
+- daily-posts/2025-12-19-fine-tuning-gemma-for-personality-part-2.md
+- daily-posts/2025-12-22-fine-tuning-gemma-for-personality-part-3.md
+- daily-posts/2025-12-24-fine-tuning-gemma-for-personality-part-4.md
+- daily-posts/2025-12-26-fine-tuning-gemma-for-personality-part-5.md
+- daily-posts/2025-12-29-fine-tuning-gemma-for-personality-part-6.md (renamed from -draft)
+- daily-posts/2025-12-31-fine-tuning-gemma-for-personality-part-7-draft.md
+- daily-posts/2026-01-02-fine-tuning-gemma-for-personality-part-8-draft.md (renamed from part-9)
+- assets/gemma-finetune-bluey/part-8-lessons-learned.jpg (generated)
+- personal-notes/NEXT-SESSION-START.md (this file)
+
+**Total image generation cost this session:** $0.13
 
 ### Session H Complete (Dec 28, 2025):
 

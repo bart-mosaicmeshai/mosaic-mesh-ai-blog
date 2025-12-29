@@ -57,11 +57,11 @@ Public web hosting changes the cost model. Instead of per-inference API costs, y
 
 This deployment pattern worked for the 270M model and should work for other small models with full attention (not sliding window). The conversion pipeline is repeatable.
 
-Next: what I'd do differently if I fine-tuned Bluey again.
+Next: the broader lessons learned from this experiment.
 
 ---
 
-**Part 7 of 9** in the Fine-Tuning Gemma for Personality series.
+**Part 7 of 8** in the Fine-Tuning Gemma for Personality series.
 
 ---
 
