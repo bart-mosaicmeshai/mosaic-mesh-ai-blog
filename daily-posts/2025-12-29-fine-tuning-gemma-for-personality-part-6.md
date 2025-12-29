@@ -5,7 +5,7 @@ project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 6: Testing Personality (Not Just Accuracy)"
 slug: fine-tuning-gemma-for-personality-part-6-testing-personality
 tags: evaluation testing personality-ai human-evaluation conversational-quality llm-as-judge automated-evaluation golden-dataset
-published: false
+published: true
 ---
 
 # Fine-Tuning Gemma for Personality - Part 6: Testing Personality (Not Just Accuracy)
