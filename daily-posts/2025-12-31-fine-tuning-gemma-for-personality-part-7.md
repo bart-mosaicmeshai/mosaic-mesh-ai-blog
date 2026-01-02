@@ -5,7 +5,7 @@ project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 7: From PyTorch to Browser"
 slug: fine-tuning-gemma-for-personality-part-7-pytorch-to-browser
 tags: onnx webgpu transformers-js browser-inference deployment quantization
-published: false
+published: true
 ---
 
 # Fine-Tuning Gemma for Personality - Part 7: From PyTorch to Browser

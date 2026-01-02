@@ -5,7 +5,7 @@ project: gemma-local-finetune
 title: "Fine-Tuning Gemma for Personality - Part 8: Lessons Learned"
 slug: fine-tuning-gemma-for-personality-part-8-lessons-learned
 tags: personality-ai local-ml iterative-fine-tuning gemma
-published: false
+published: true
 ---
 
 # Fine-Tuning Gemma for Personality - Part 8: Lessons Learned
