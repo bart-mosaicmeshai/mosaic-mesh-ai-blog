@@ -1,420 +1,350 @@
-# Session Start Prompt for Next Blog Writing Session
-
-Read README.md to get up to speed on this blog project, then read personal-notes/agentic-personal-trainer-series-plan.md, personal-notes/gemma-finetune-bluey-series-plan.md, and ~/Projects/bart-test/blog-drafts/SERIES-OUTLINE.md for context on completed and upcoming series.
-
-## Current Status (as of Dec 29, 2025)
-
-### Completed Series:
-- **MCP Stock Trading** (5 parts) - Published
-- **EmbeddingGemma/Local Semantic Search** (5 parts) - Published
-- **Agentic Personal Trainer** (9 parts) - All published (Dec 6-14, 2025)
-- **Fine-Tuning Gemma for Personality (Bluey)** (8 parts) - All published (Dec 17 - Jan 2, 2025)
-
-### Published:
-- **Dec 15**: Nano-banana enhancement post (published Dec 17)
-- **Dec 17**: Gemma/Bluey Part 1 (published)
-- **Dec 19**: Gemma/Bluey Part 2 (published)
-- **Dec 22**: Gemma/Bluey Part 3 (published)
-- **Dec 24**: Gemma/Bluey Part 4 (published)
-- **Dec 26**: Gemma/Bluey Part 5 (published)
-- **Dec 29**: Gemma/Bluey Part 6 (published)
-
-### Ready to Publish:
-- **Dec 31**: Gemma/Bluey Part 7 (COMPLETE - ready for Wednesday Dec 31)
-- **Jan 2**: Gemma/Bluey Part 8 (COMPLETE - ready for Thursday Jan 2)
-
-### Upcoming Series:
-- **The Bart Test** (5+ parts) - Launch arc scheduled Jan 5-14, 2025
-  - Jan 5: Part 1 - Introducing the Bart Test
-  - Jan 7: Part 2 - Finding the Sweet Spot
-  - Jan 9: Part 3 - What the Teen Judges Said
-  - Jan 12: Part 4 - The Bart Test Hit a Wall
-  - Jan 14: Part 5 - Fixing the Bart Test
-  - Note: Additional parts may be added as experiments continue
-
-### Session I Complete (Dec 29, 2025):
-
-**Series Consolidation - 9 parts to 8 parts:**
-- Published Part 6 to blog, committed file rename (removed -draft suffix)
-- Reviewed Part 8 and Part 9 for grounded vs speculative content
-- Decision: Part 8 (What I'd Do Differently) was generic best practices, not grounded in actual experiments
-- Part 9 (Lessons Learned) was grounded with links to specific parts
-- Merged valuable Part 8 content (workflow lesson, prototype framing) into Part 9
-- Renamed Part 9 → Part 8 (date 2026-01-05 → 2026-01-02, updated all metadata)
-- Deleted old Part 8 content
-
-**Part 8 Proofread and Improvements:**
-- Reframed Lesson #3 from "test parameters earlier" to "fine-tuning is iterative, not sequential"
-- Key insight: training and parameters are interrelated processes, not sequential steps
-- Added BLEU definition with Wikipedia link for accessibility
-- Fixed overstated claim about Apple Silicon - reframed as cost structure difference (upfront vs pay-as-you-go)
-- Made honest about already owning the M4 Max hardware
-- Removed speculative "what's next" content, focused on core lesson
-- Updated tags: removed non-technical tags (lessons-learned, retrospective), added iterative-fine-tuning
-- Generated image with nano-banana ($0.13)
-
-**Series-wide Updates:**
-- Updated Parts 1-7: "Part X of 9" → "Part X of 8"
-- Updated Part 7's "Next:" transition to point to lessons learned
-- All 6 published posts updated in Squarespace
-
-**Key Pattern:**
-- Series now 8 parts instead of 9, tighter and more grounded
-- Every lesson in Part 8 links back to specific experimental work in earlier parts
-- Maintains "no hype, be honest" voice throughout
-
-**Files modified:**
-- daily-posts/2025-12-17-fine-tuning-gemma-for-personality-part-1.md
-- daily-posts/2025-12-19-fine-tuning-gemma-for-personality-part-2.md
-- daily-posts/2025-12-22-fine-tuning-gemma-for-personality-part-3.md
-- daily-posts/2025-12-24-fine-tuning-gemma-for-personality-part-4.md
-- daily-posts/2025-12-26-fine-tuning-gemma-for-personality-part-5.md
-- daily-posts/2025-12-29-fine-tuning-gemma-for-personality-part-6.md (renamed from -draft)
-- daily-posts/2025-12-31-fine-tuning-gemma-for-personality-part-7-draft.md
-- daily-posts/2026-01-02-fine-tuning-gemma-for-personality-part-8-draft.md (renamed from part-9)
-- assets/gemma-finetune-bluey/part-8-lessons-learned.jpg (generated)
-- personal-notes/NEXT-SESSION-START.md (this file)
-
-**Total image generation cost this session:** $0.13
-
-### Session H Complete (Dec 28, 2025):
-
-**Gemma/Bluey Part 7 - Complete with 1B Browser Investigation:**
-
-**1. Attempted 1B model browser deployment:**
-- Created deploy_1b_to_web.sh script in gemma-local-finetune/scripts/
-- Successfully converted 1B model to ONNX (1.6GB quantized)
-- Discovered 1B model does NOT work in browser - sliding window attention incompatibility
-- Transformers.js 3.6.3 doesn't support sliding window attention
-- ONNX Runtime fails during session initialization with "Aborted()" error
-- Added warning to deployment script documenting the limitation
-- Committed script to gemma-local-finetune for documentation value
-
-**2. Verified 270M model browser deployment:**
-- Tested 270M model in Chrome browser at localhost:8800
-- Model loads successfully (764MB download)
-- Confirmed coherence issues (repetitive loops, word salad)
-- Discovered Bedtime Story Generator uses same 270M model with better coherence
-- Created FUTURE_INVESTIGATIONS.md in gemma-local-finetune project
-- Documented hypothesis: coherence issue may be fine-tuning approach, not model size
-
-**3. Part 7 proofread and updates:**
-- Added honest motivation: curiosity about browser deployment (line 21)
-- Added Bedtime Story Generator as inspiration link
-- Updated hook: "Browser-based inference" instead of "I put Bluey in your browser"
-- Clarified "no backend server" vs file server distinction throughout
-- Fixed quantization percentage: 30% → 24% (verified measurement)
-- Added cost model clarification: local only, public hosting would have bandwidth costs
-- Listed practical use cases: sharing, demos, privacy, educational
-- Generated image with nano-banana ($0.13)
-- Removed ASCII diagram
-- Part 7 COMPLETE and ready for Dec 31 publishing
-
-**4. gemma-local-finetune project updates:**
-- Committed deploy_1b_to_web.sh with warning about sliding attention
-- Committed FUTURE_INVESTIGATIONS.md for coherence investigation
-- Switched gh user to bart-mosaicmeshai
-- Pushed both commits to remote
-
-**Key discoveries:**
-- 1B model's sliding window attention is incompatible with browser runtime
-- 270M model works in browser but has coherence issues
-- Browser deployment valuable for process documentation even though 1B doesn't work
-- Cost model differs significantly: bandwidth vs inference costs
-
-**Files modified in blog project:**
-- daily-posts/2025-12-31-fine-tuning-gemma-for-personality-part-7-draft.md
-- assets/gemma-finetune-bluey/part-7-web-deployment.jpg (generated)
-- personal-notes/NEXT-SESSION-START.md (this file)
-
-**Total image generation cost this session:** $0.13
-
-### Session G Complete (Dec 27, 2025):
-
-**Gemma/Bluey Part 6 - Complete with Experimental Data:**
-- Ran 4 personality test prompts against 1B model
-- Created test_personality_examples.py in gemma-local-finetune project
-- Saved results to personality_test_results.txt
-- Updated Part 6 with actual test output (1 success, 3 early stopping failures)
-- Added honest assessment: personality present even in truncated responses
-- Added future improvements section: Golden Dataset + LLM-as-a-Judge
-- Documented future series idea in NEXT-SESSION-START.md
-- Generated image (3 attempts, $0.39 total) - simple diagram showing testing approach
-- Updated tags to include llm-as-judge, automated-evaluation, golden-dataset
-- Ready for Dec 29 publishing
-
-**Gemma/Bluey Part 7 - Model Size Corrections:**
-- Verified actual model sizes in gemma-local-finetune project
-- Discovered web deployment uses 270M model (not 1B as implied)
-- Updated Part 7 to clarify model size switch (1B training → 270M deployment)
-- Corrected quantization reduction: 30% → 24% (actual measurement)
-- Corrected model size: 700MB → 764MB (actual file size)
-- Added explanation for why 270M was deployed (better UX at 764MB vs 3GB)
-- Updated ASCII diagram to reflect 270M model and accurate sizes
-
-**Key Pattern - Experimental Verification:**
-- Interactive testing showed early stopping still problematic despite min_new_tokens=50
-- Only 1/4 test prompts produced complete response
-- Documented both successes (48-word response with good personality) and failures (1-12 word truncations)
-- Maintained "no hype, be honest" voice by showing real mixed results
-
-### Session F Complete (Dec 17, 2025):
-
-**Major Accomplishments:**
-
-**1. Publishing Schedule Change - Daily to M/W/F:**
-- Switched blog from daily to Monday/Wednesday/Friday publishing
-- Frees time for content sharing/promoting (action vs motion)
-- Updated README.md to reflect M/W/F schedule throughout
-- Removed "daily" from Gemma series footers (all 9 parts)
-- Renamed Gemma series files to M/W/F dates (Dec 17, 19, 22, 24, 26, 29, 31, Jan 2, 5)
-
-**2. Agentic Personal Trainer Series Complete:**
-- Committed Part 9 to git
-- Pushed to remote repository (switched gh user to bart-mosaicmeshai)
-- All 9 parts now published and in git
-
-**3. Gemma/Bluey Part 4 - Experimental Verification:**
-- Ran actual experiments to verify blog post claims
-- Tested model WITHOUT min_new_tokens: 12-63 word responses (all truncated)
-- Tested model WITH min_new_tokens=50: 37 words (still limited)
-- Discovered "60-200 word" claim in draft was not backed by data
-- Created test_min_tokens_fix.py in gemma-local-finetune project
-- Updated Part 4 with accurate experimental results
-- Reframed claims as hypotheses requiring testing
-- Generated image for Part 4 (regenerated to fix hypothesis test visualization)
-
-**4. Voice and Tone Guidelines Established:**
-- Created personal-notes/writing-voice-and-tone.md (comprehensive guide)
-- Updated README.md with "Voice and Tone: No Hype, Be Honest" section
-- Updated NEXT-SESSION-START.md proofreading principles
-- Documented five key guidelines:
-  1. Epistemic humility (observations vs interpretations)
-  2. Tentative language for hypotheses (may, possible, likely)
-  3. Scope claims to actual experiments
-  4. Avoid absolutes unless verified
-  5. Suggest tests for unverified hypotheses
-
-**5. Gemma/Bluey Parts 5-9 - Language Consistency Updates:**
-- Applied same rigorous proofreading to Parts 5-9
-- Changed "learned" → "reproduced" throughout
-- Changed "dramatically" → "significantly"
-- Changed "solves" → "addresses"
-- Changed "works for any" → "worked for this, should work for"
-- Changed "beat" → "worked better than"
-- Added "may have" to all hypothesis claims
-- Updated ASCII diagrams to match tentative language
-- All 9 parts now have consistent voice/tone
-
-**Key Pattern Established:**
-When making claims about ML behavior:
-- Observable behavior = confident language
-- Internal mechanisms = tentative language
-- Hypotheses = suggest how to test them
-- Partial solutions = don't call them "fixes"
-
-**Files Created/Modified:**
-- Created: test_min_tokens_fix.py (in gemma-local-finetune)
-- Created: personal-notes/writing-voice-and-tone.md
-- Modified: README.md (M/W/F schedule + voice/tone section)
-- Modified: Gemma series Parts 4-9 (all 6 files)
-- Modified: NEXT-SESSION-START.md (status updates + voice/tone reference)
-- Modified: personal-notes/agentic-personal-trainer-series-plan.md (marked complete)
-
-**Publishing Status:**
-- Dec 15: Nano-banana post (published)
-- Dec 17: Gemma Part 1 (published)
-- Dec 19: Gemma Part 2 (published)
-- Dec 22: Gemma Part 3 (ready)
-- Dec 24: Gemma Part 4 (ready)
-- Dec 26-Jan 5: Gemma Parts 5-9 (text ready, need images)
-
-### Session E Complete (Dec 13, 2025):
-
-**Gemma/Bluey Part 3 - Complete Proofread with Real Data:**
-- Ran live training during session to capture actual metrics (5-minute training run)
-- Captured Activity Monitor data: 41GB RAM usage, 96.5% GPU utilization, 10% battery drain
-- Verified loss curves: 5.0 → 0.1 (matches original claims)
-- Updated all training times to 4.9 minutes (verified via live run)
-- Removed untested 2B model estimate (keeping only tested 270M and 1B models)
-- Removed hallucinated Activity Monitor claim, replaced with real measured data
-- Generated 2 images for Part 3:
-  - Training performance metrics diagram (nano-banana generated)
-  - GPU History screenshot showing full training cycle (captured during live run)
-- Added personal narrative: training run happened in high school cafeteria during daughter's basketball game
-- Emphasized cost/benefit: M4 Max with 128GB RAM investment vs no cloud/API fees + privacy
-- Removed `m4-max` tag (too product-specific), kept tech-focused tags
-- Removed technical spec detail (unified memory architecture) from Reflection, replaced with workflow benefits
-
-**Key accomplishment:** Part 3 now has 100% verified, measured data with visual proof. No hallucinated claims.
-
-### Session D Complete (Dec 12, 2025):
-
-**Gemma/Bluey Parts 1-2 accomplishments:**
-- Proofread and corrected both parts for accuracy
-- Updated dataset size from 110 to 111 examples (verified against actual data)
-- Softened claims throughout all 9 parts (changed "learned personality" to "learned to mimic speech patterns", etc.)
-- Removed weasel words ("well", "effectively", etc.)
-- Fixed "free"/"$0" claims to "no API costs" (acknowledging electricity costs)
-- Removed vague benefits ("Iteration", "Full control")
-- Updated Part 1 to reflect multiple model experiments (270M, 1B-pt, 1B-it)
-- Added personal touch (daughter loved Bluey show)
-- Clarified dataset was AI-generated via Claude.ai, not carefully curated
-- Added Google search link for Bluey character
-- Added JSONL format link
-- Added forward reference to Part 4 for response length problem
-- Generated images for Parts 1-2 with nano-banana
-- Published Parts 1-2 in Squarespace (Dec 16-17)
-
-**Key editorial decisions:**
-- Frame as proof-of-concept/experiment, not fully successful production system
-- Remove subjective qualifiers (well, effectively, successfully, perfectly)
-- Change "free" to "no API costs" (acknowledges electricity but emphasizes no cloud fees)
-- Use "mimic speech patterns" instead of "learned personality"
-- Use "demonstrate approach" instead of "capture personality"
-
-**Technical corrections made across all 9 parts:**
-- 111 examples (not 110)
-- Response length: 52-76 words (average 65.4)
-- Training times: 270M=1.6min, 1B-pt=4.9min, 1B-it=4.9min (updated in Session E)
-- Model size: 1.0GB → 700MB (30% reduction)
-- Activity Monitor metrics (Session E): 41GB RAM, 96.5% GPU utilization, 10% battery drain
-
-### Session C Complete (Dec 10, 2025):
-
-**Agentic Personal Trainer Parts 6-9 accomplishments:**
-- Part 6: Added context window discussion (8K vs 1M tokens), clarified learned_preferences infrastructure-only, added vector embeddings link to EmbeddingGemma series
-- Part 7: Fixed cost claims, updated hardware requirements, depersonalized iteration claims
-- Part 8: Restructured flow, added 4th debugging layer (debug-tool-selection.js), ran tests and fixed callback bug, included real test results (6/6 passed)
-- Part 9: Added 6th lesson on testing, standardized cross-reference links, consolidated reflection
-
-**Nano-banana enhancement:**
-- Implemented automated JPEG output (separate Claude agent, 20 minutes)
-- Used for Parts 7-9 image generation (saved 15 minutes)
-- Dec 15 post drafted and image generated (meta break-even moment!)
-
-**Gemma/Bluey series:**
-- Created all 9 draft files (Dec 16-24)
-- Series explores fine-tuning small models for personality on Apple Silicon
-- Ready for proofreading walkthrough in future session
-
-**Git commits:**
-1. Part 4 + Parts 5-9 images + README updates (committed and pushed)
-2. Asset reorganization + Dec 15 image (committed and pushed)
-
-## Key Workflow Patterns Established
-
-**Image generation:**
-- Use nano-banana with automated JPEG workflow:
-  ```bash
-  nano-banana generate "prompt" --output ~/Projects/mosaic-mesh-ai-blog/assets/series-name/filename.jpg --model 3 --resolution 1K
-  ```
-- Claude Code runs this command directly during sessions
-- Remove ASCII diagrams after images generated
-
-**Proofreading principles:**
-- **READ personal-notes/writing-voice-and-tone.md FIRST** - Contains voice/tone guidelines
-- Use tentative language for hypotheses (may, possible, likely vs definitive claims)
-- Distinguish observations from interpretations ("reproduced" vs "learned")
-- Scope claims to actual experiments (not universal recommendations)
-- Avoid absolutes unless verified (significantly vs dramatically, addresses vs solves)
-- Suggest tests for unverified hypotheses
-- Depersonalize claims not backed by commit history
-- Keep authentic "I" statements for actual experiences
-- Verify code references against actual repositories
-- Check git history to support iteration/refinement claims
-- Tags should be tech-focused (avoid tool-specific like "garmin", "wahoo")
-- Standardize cross-reference patterns (e.g., "see [Part X]")
-
-**Cross-series linking:**
-- Link between series when relevant (Agentic Trainer ↔ EmbeddingGemma)
-- Build on previous series concepts
-- Reference related work appropriately
-
-## Next Steps
-
-**Continue Gemma/Bluey series - Generate Images** (Parts 5-9):
-- Parts 1-4 are COMPLETE (proofread, language consistency verified, images generated)
-- Parts 5-9 have language consistency updates complete, need images
-- Generate images with nano-banana for Parts 5-9
-- Replace ASCII diagrams with image captions
-- Review tags for tech focus (avoid tool-specific tags)
-- All parts follow voice/tone guidelines in personal-notes/writing-voice-and-tone.md
-
-2. **Start new content**
-   - Use daily-blog scanner to find recent work
-   - Explore other projects (bart-test, Marina-Winterization, etc.)
-
-## Files to Reference
-
-**Blog infrastructure:**
-- README.md - Overall blog project documentation
-- **personal-notes/writing-voice-and-tone.md** - Voice/tone guidelines (READ FOR ALL PROOFREADING)
-- personal-notes/agentic-personal-trainer-series-plan.md - Session history and accomplishments
-- personal-notes/gemma-finetune-bluey-series-plan.md - New series plan (9 parts)
-- personal-notes/nano-banana-enhancements.md - Enhancement tracking and Dec 15 post plan
-- personal-notes/agent-testing-deep-dive.md - Future series idea on testing
-- personal-notes/claude-code-writing-workflow.md - Meta post idea about this workflow
-
-**Project repos to verify against:**
-- ~/Projects/agentic-personal-trainer
-- ~/Projects/gemma-local-finetune
-- ~/Projects/nano-banana-experiments
-
-## Tools Available
-
-- **nano-banana**: For image generation with automated JPEG output
-  - See personal-notes/nano-banana-usage-notes.md for complete command template
-  - Must activate venv from ~/Projects/nano-banana-experiments
-  - Images go to assets/gemma-finetune-bluey/
-- **daily-blog**: For scanning git activity and generating post ideas
-- **Claude Code**: That's you! Keep verifying claims against actual code and git history
-
-## Future Series Ideas
-
-### Model Evaluation & Testing (from Gemma/Bluey Part 6)
-**Concept**: Follow-up to Gemma/Bluey series implementing production-grade evaluation
-
-**Two-part implementation series:**
-
-**Part 1: Building a Golden Dataset for Personality Evaluation**
-- Create 50-100 test prompts with expected personality characteristics
-- Define evaluation criteria (not exact responses, but characteristics like "should mention family", "optimistic tone")
-- Structure the dataset for regression testing across model versions
-- Run baseline evaluation against the Bluey 1B model
-- Track improvements/regressions across training iterations
-
-**Part 2: Implementing LLM-as-a-Judge**
-- Design evaluation rubric for personality testing
-- Build prompt for frontier model to judge responses
-- Criteria: catchphrase usage, family references, optimistic tone, kid logic
-- Automate evaluation across golden dataset
-- Compare LLM judge scores vs human evaluation
-- Measure inter-rater reliability (LLM vs human)
-- Production deployment: systematic testing at scale
-
-**Why this works:**
-- Natural follow-up to Gemma/Bluey series
-- Addresses "how do you test personality at scale?" question
-- Demonstrates production ML practices (golden datasets, automated evaluation)
-- Combines frontier models (judge) with fine-tuned models (subject)
-- Shows honest evaluation (including where automation fails vs human judgment)
-
-**Prerequisites:**
-- Complete Gemma/Bluey series (Parts 1-9)
-- Keep bluey_1b_it model for testing
-
-### Agent Testing Deep Dive
-- See personal-notes/agent-testing-deep-dive.md
-
-### Claude Code Writing Workflow (Meta)
-- See personal-notes/claude-code-writing-workflow.md
-
-## Git Configuration
-
-- User: Bart Gottschalk <bart@mosaicmeshai.com>
-- GitHub user: bart-mosaicmeshai (already active)
+# Next Session Start: Blog Strategy & Series Planning
+**Created:** January 1, 2026
+**Last Updated:** January 1, 2026
+**Status:** Ready for next Claude Code session
 
 ---
 
-Ready to continue the blogging workflow! Let me know which series you want to work on.
+## 🎯 Quick Start: Tell Claude to Read This File
+
+**Start your next session with:**
+> "Read personal-notes/NEXT-SESSION-START.md"
+
+This file contains everything from Session I (Jan 1, 2026) and sets up your next session.
+
+---
+
+## Session II Accomplishments (Jan 4, 2026)
+
+### Bart Test Series - Complete 9-Post Arc
+1. ✅ **Restructured from 5 to 9 parts** (400-500 words each)
+   - Honest framing: experiment attempting to build benchmark, not solved problem
+   - Addressed all feedback on Part 1
+   - Added "stochastic parrots" deeper question to Part 9
+
+2. ✅ **Part 1 finalized and ready to publish**
+   - 3 images generated via nano-banana ($0.40 total):
+     - Slang density spectrum (conceptual framework)
+     - Rubric vs Natural comparison (ELA project insight)
+     - Planning paradox (inverse relationship visualization)
+   - All embedded GitHub links throughout series (experiments, outputs, documentation)
+   - Voice/tone guidelines followed (epistemic humility, scoped claims)
+
+3. ✅ **Series framing decisions**
+   - Workflow: drafts in source project (bart-test), publish from blog project
+   - Part 9 opens future research direction without committing
+   - Honest about uncertainty throughout (not "I built X" but "I'm attempting X")
+
+**Files created:**
+- `daily-posts/2026-01-05-bart-test-part-1.md` (READY)
+- `daily-posts/2026-01-07-bart-test-part-2.md`
+- `daily-posts/2026-01-09-bart-test-part-3.md`
+- `daily-posts/2026-01-12-bart-test-part-4.md`
+- `daily-posts/2026-01-14-bart-test-part-5.md`
+- `daily-posts/2026-01-17-bart-test-part-6.md`
+- `daily-posts/2026-01-19-bart-test-part-7.md`
+- `daily-posts/2026-01-21-bart-test-part-8.md`
+- `daily-posts/2026-01-24-bart-test-part-9.md`
+- `assets/bart-test/bart-test-part-1-spectrum.jpg`
+- `assets/bart-test/bart-test-part-1-rubric-vs-natural.jpg`
+- `assets/bart-test/bart-test-part-1-planning-paradox.jpg`
+
+---
+
+## Session I Accomplishments (Jan 1, 2026)
+
+### Major Strategy Work Completed
+1. ✅ **Merchant Identity Framework** - Processed Gemini conversation about Retailer vs. Merchant
+2. ✅ **Merchant Series Outlined** - 20-part thought leadership series (18-20 months)
+3. ✅ **Claude Code Series Outlined** - 48-52 part technical series (~4-5 months)
+4. ✅ **Git History Analysis** - 96 commits to SESSION_START_PROMPT.md (goldmine)
+5. ✅ **Meta Series Updated** - Claude Code writing workflow timing refined
+
+### Documents Created (~60,000 words total)
+1. **`merchant-identity-strategic-framework.md`** (~23,000 words)
+   - Complete Gemini conversation transcript
+   - 20-part series outline with business strategy integration
+   - Connection to BBY research, historical study, business thinkers
+
+2. **`claude-code-series-outline.md`** (~18,000 words)
+   - 48-52 part series documenting StartUpWebApp modernization
+   - 10 major phases mapped to 2-month journey
+   - Supporting documentation map (53 archived files + git history)
+
+3. **`claude-code-session-prompt-evolution.md`** (~16,000 words)
+   - Analysis of 96 git commits showing AI collaboration evolution
+   - Key patterns: consolidation crisis, test count obsession, emoji usage
+   - Narrative arc for blog series (hero's journey structure)
+   - 4 new blog parts identified from git history
+
+4. **`claude-code-writing-workflow.md`** (updated)
+   - Timing recommendation: Mid-2026 for meta-series
+   - Will document 90+ posts written with this workflow
+
+---
+
+## Current Publishing Status (Jan 1, 2026)
+
+### Completed Series (All Published)
+- ✅ MCP Stock Trading (5 parts)
+- ✅ EmbeddingGemma/Local Semantic Search (5 parts)
+- ✅ Agentic Personal Trainer (9 parts)
+- ✅ Fine-Tuning Gemma for Personality/Bluey (8 parts) - Final post Jan 2
+
+**Publishing Schedule:** M/W/F (Monday/Wednesday/Friday)
+
+**Most Recent:**
+- Dec 29: Gemma/Bluey Part 6
+- Dec 31: Gemma/Bluey Part 7 (COMPLETE)
+- Jan 2: Gemma/Bluey Part 8 (COMPLETE - series finale)
+
+---
+
+## Upcoming Series (20 Months of Content Planned!)
+
+### Series 1: The Bart Test (Technical - M/W/F)
+**Launch:** Jan 5-24, 2026
+**Parts:** 9 (revised from original 5-part plan)
+**Drafts:** `/Users/bartgottschalk/Projects/mosaic-mesh-ai-blog/daily-posts/`
+
+**Status:** ✅ Part 1 COMPLETE (ready to publish Jan 5)
+- All 9 parts drafted (400-500 words each, Part 9 ~900 words)
+- Part 1 has 3 images generated and embedded
+- Series reframed as honest experiment (not solved benchmark)
+- Part 9 includes "stochastic parrots" deeper question
+
+**Schedule:**
+- Jan 5 (Sun): Part 1 - When AI Does Its Homework Too Well ✅ READY
+- Jan 7 (Tue): Part 2 - Testing the Overthinking Hypothesis
+- Jan 9 (Thu): Part 3 - The Zoo-Not-Duck Problem
+- Jan 12 (Sun): Part 4 - When My Teen Judges Ghosted Me
+- Jan 14 (Tue): Part 5 - Redesigning From Scratch
+- Jan 17 (Fri): Part 6 - The Validation Session That Half-Worked
+- Jan 19 (Sun): Part 7 - Iteration and Ghosting (Again)
+- Jan 21 (Tue): Part 8 - The Social Cost I Didn't Anticipate
+- Jan 24 (Fri): Part 9 - When an Interesting Experiment Isn't a Useful Tool
+
+**Next Actions:**
+1. Review Part 1 before Jan 5 publication
+2. Consider adding images to Parts 2-9 (optional)
+3. Follow normal publishing workflow (pandoc to HTML, paste to Squarespace)
+
+---
+
+### Series 2: How I Learned to Leverage Claude Code (Technical - M/W/F)
+**Launch:** Jan 27, 2026 (Monday after Bart Test completes)
+**Parts:** 48-52 (enhanced with git history insights)
+**Duration:** ~4-4.5 months (ending May 2026)
+**Outline:** `personal-notes/claude-code-series-outline.md`
+**Git Analysis:** `personal-notes/claude-code-session-prompt-evolution.md`
+
+**Overview:** Complete resurrection of 8-year-old StartUpWebApp codebase using Claude Code
+- Django 2.2 → 5.2 LTS, Python 2.7 → 3.12, MySQL → PostgreSQL 16
+- 0 tests → 818 tests passing
+- Full AWS production deployment (ECS Fargate, RDS, CloudFront, S3)
+- Security hardened, fork-ready (RefrigeratorGames & CarbonMenu forked)
+
+**Key Resource:** 96 commits to SESSION_START_PROMPT.md documenting evolution
+
+**10 Major Phases:**
+1. Foundation & Strategy (Parts 1-5)
+2. Test-Driven Development (Parts 6-12)
+3. Database Migration (Parts 13-17)
+4. AWS Infrastructure (Parts 18-25)
+5. CI/CD & Automation (Parts 26-28)
+6. Security Hardening (Parts 29-33)
+7. Stripe Upgrade (Parts 34-37)
+8. Django Upgrades (Parts 38-40)
+9. Fork-Ready Architecture (Parts 41-44)
+10. Lessons & Reflections (Parts 45-48+)
+
+**Audience:** Developers, DevOps, AI enthusiasts, technical leaders
+
+---
+
+### Series 3: The Merchant's Return (Strategic - Monthly)
+**Launch:** Jan 31, 2026 (last Friday of month)
+**Parts:** 20 posts over 18-20 months
+**Cadence:** 1-2 posts per month (last day of month)
+**Duration:** Jan 2026 - Aug 2027
+**Outline:** `personal-notes/merchant-identity-strategic-framework.md`
+
+**Core Thesis:** Companies identifying as "retailers" treat tech as "support function" and cannot adopt Product Operating Models. Shift to "merchant" identity (tech as core tradecraft) is prerequisite for transformation.
+
+**4 Major Phases:**
+1. The Semantic Trap (Posts 1-5, Jan-May 2026)
+2. The Silk Road vs. The Shopkeeper (Posts 6-10, Jun-Oct 2026)
+3. Gunboat Diplomacy and Global Tech (Posts 11-15, Nov 2026-Mar 2027)
+4. The Product Operating Model for Merchants (Posts 16-20, Apr-Aug 2027)
+
+**Bridge Posts (Quarterly):** Connect technical work to merchant framework
+- Feb 28: "Test-Driven Development as Merchant Tradecraft" (after Claude Code Part 12)
+- Apr 30: "Infrastructure Ownership as Merchant Behavior" (after Claude Code Part 25)
+- Jul 31: "Fork-Ready Systems Enable Merchant Agility" (after Claude Code Part 44)
+
+**Audience:** C-suite, VPs, corporate leaders, product managers
+
+**Business Impact:**
+- Completes Segment 2 positioning ($10K+ corporate engagements)
+- Justifies higher rates ($200-300/hr strategic advisory)
+- Creates IP for Segment 3 products (courses, books, workshops)
+
+---
+
+### Series 4: Claude Code Writing Workflow (Meta - Future)
+**Timing:** Mid-2026 (after 6+ months of Claude Code series)
+**Purpose:** Meta-commentary on using Claude Code to write all other series
+**Evidence:** 90+ posts written using this workflow by mid-2026
+**Status:** Documented in `personal-notes/claude-code-writing-workflow.md`
+
+This becomes the "capstone" series showing how everything was created.
+
+---
+
+## Strategic Context: The Merchant Framework
+
+### The Breakthrough (Gemini Chat, Jan 1, 2026)
+
+**Retailer Identity (Problem):**
+- Focus on transaction (storefront, customer experience)
+- Technology as "support function"
+- Outsources strategic thinking to consultants
+- Department store model (20th century limitation)
+
+**Merchant Identity (Solution):**
+- Focus on operation (full value chain, end-to-end)
+- Technology as "core tradecraft"
+- Owns infrastructure and capabilities
+- Silk Road trader model (ancient wisdom → modern practice)
+
+**Connection to Your Work:**
+- 14 months BBY ethnography validates framework
+- Cagan + Galloway + Thompson + Godin synthesis
+- StartUpWebApp fork-ready = merchant behavior
+- Claude Code collaboration = tech as tradecraft
+
+**Your Instinct Was Right:** This IS action (serves Q1 2026 business goals)
+
+---
+
+## Integrated Publishing Calendar (Q1 2026)
+
+### January 2026 (13 posts)
+**M/W/F Track:**
+- Jan 5-14: Bart Test (5 posts)
+- Jan 17-31: Claude Code Parts 1-7 (7 posts)
+
+**Monthly Track:**
+- Jan 31: Merchant Post 1 - "Why 'Retailer' Became a Trap"
+
+### February 2026 (14 posts)
+**M/W/F Track:** Claude Code Parts 8-19 (12 posts)
+
+**Monthly Track:**
+- Feb 28: Merchant Post 2 - "Product Theater at Scale"
+- Feb 28: Bridge Post - "TDD as Merchant Tradecraft"
+
+### March 2026 (14 posts)
+**M/W/F Track:** Claude Code Parts 20-32 (13 posts)
+
+**Monthly Track:**
+- Mar 31: Merchant Post 3 - "The Department Store Delusion"
+
+**Total Q1 Posts:** 41 (33 technical + 8 strategic/bridge)
+
+---
+
+## Next Session Options
+
+### Option A: Draft Bart Test Part 1 (Recommended - Launch in 4 Days!)
+**Goal:** Finalize for Jan 5 publication
+**Files:** `/Users/bartgottschalk/Projects/bart-test/blog-drafts/01-introducing-the-bart-test.md`
+**Action:** Read draft, refine, prepare for publishing
+**Why Now:** Launch imminent, already drafted
+
+### Option B: Draft Merchant Post 1 Outline
+**Goal:** Prepare for Jan 31 publication
+**Title:** "Why 'Retailer' Became a Trap"
+**Reference:** `merchant-identity-strategic-framework.md` (Post 1 outline, lines 176-211)
+**Action:** Create detailed section breakdowns
+
+### Option C: Draft Claude Code Part 1 Outline
+**Goal:** Prepare for Jan 17 publication
+**Title:** "Resurrecting an 8-Year-Old Codebase: The Strategic Assessment"
+**Reference:** `claude-code-series-outline.md` (Part 1 outline, lines 145-157)
+**Action:** Identify specific git commits/files to reference
+
+### Option D: Continue Strategic Planning
+**Goal:** Refine series integration with planning agent
+**Status:** Already in progress with separate agent
+**Action:** Return after strategic decisions finalized
+
+---
+
+## Pattern Recognition Warnings
+
+**🚩 Pattern #1: Waiting for Certainty**
+- Don't spend weeks "perfecting" Merchant Post 1 before publishing
+- Draft → Test in conversations → Iterate
+
+**🚩 Pattern #2: Building Infrastructure**
+- Don't create elaborate systems before testing resonance
+- Publish → Share → See if it resonates → THEN optimize
+
+**✅ This IS Action (Not Motion):**
+- Merchant framework completes Q1 2026 positioning
+- Claude Code series leverages documented collaboration (96 commits)
+- Both serve 8-10 year vision across all three segments
+
+---
+
+## Key Files to Reference
+
+### Strategic Planning
+- **`merchant-identity-strategic-framework.md`** - Complete Merchant series plan
+- **`claude-code-series-outline.md`** - Complete Claude Code series plan
+- **`claude-code-session-prompt-evolution.md`** - Git history insights
+
+### Voice & Writing
+- **`writing-voice-and-tone.md`** - Voice/tone guidelines (READ FOR PROOFREADING)
+- **`claude-code-writing-workflow.md`** - Meta-series documentation
+- **`README.md`** - Overall blog project context
+
+### Series Plans
+- **`gemma-finetune-bluey-series-plan.md`** - Completed series history
+- **`agentic-personal-trainer-series-plan.md`** - Completed series history
+- **`~/Projects/bart-test/blog-drafts/SERIES-OUTLINE.md`** - Upcoming series
+
+---
+
+## Tools Available
+
+- **nano-banana**: Image generation with automated JPEG output (see README.md section "Generate Blog Post Images" for complete instructions)
+- **daily-blog**: Scan git activity for post ideas
+- **Claude Code**: Verify claims, check git history, read actual code
+
+---
+
+## What We Accomplished This Session
+
+**Planning work:** 20 months of content outlined (68+ posts)
+**Documentation:** ~60,000 words across 4 major strategy documents
+**Business integration:** Merchant framework completes positioning
+**Git archaeology:** 96 commits analyzed, narrative arc discovered
+
+**This is enough content to keep you publishing through most of 2026 and into 2027.**
+
+---
+
+## Final Reminder
+
+**Don't forget:** You're working with a strategic planning agent separately. After those decisions are finalized, return to this agent for content drafting.
+
+**Trust your instincts.** The Merchant framework IS action. The Claude Code series leverages real work. Both serve your business goals.
+
+**Next step:** Choose Option A, B, C, or D above and let's execute.
+
+---
+
+*Session I Complete: January 1, 2026*
+*Ready for Session II: Choose your path forward*

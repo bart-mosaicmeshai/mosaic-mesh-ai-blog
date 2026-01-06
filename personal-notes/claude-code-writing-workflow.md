@@ -188,12 +188,17 @@ A meta post (or series) about the actual workflow of using Claude Code as a writ
 - Could benefit from patterns across multiple series
 - Risk seeming too "meta" too quickly
 
-**Recommendation:** Wait until after Gemma/Bluey series starts (late Dec/early Jan). Then you'll have three complete series using this workflow:
-1. Agentic Personal Trainer (9 parts)
-2. Nano-banana enhancement (1 part)
-3. Gemma/Bluey fine-tuning (9 parts)
+**Recommendation:** Wait until after Gemma/Bluey series complete AND Claude Code series is well underway. Then you'll have substantial evidence:
+1. Agentic Personal Trainer (9 parts) - COMPLETE
+2. Nano-banana enhancement (1 part) - COMPLETE
+3. Gemma/Bluey fine-tuning (8 parts) - COMPLETE (Jan 2026)
+4. Bart Test (5 parts) - Launching Jan 5-14, 2026
+5. Claude Code series (48-52 parts) - Launching Jan 17, 2026
+6. Merchant series (20 parts) - Launching Jan 31, 2026 (monthly)
 
-That's 19 posts written with this workflow—much stronger evidence base.
+That's 90+ posts written with this workflow—extremely strong evidence base.
+
+**Timing:** Write this meta-series around mid-2026 when you have 6+ months of Claude Code collaboration documented. This becomes the "capstone" series showing how all the other series were written.
 
 ---
 

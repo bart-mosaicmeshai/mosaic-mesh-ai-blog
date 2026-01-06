@@ -54,6 +54,7 @@ yarn-error.log*
 
 # Drafts in progress (unpublished work-in-progress files only)
 drafts/wip-*.md
+*-draft.md
 
 # Scratch work (temporary notes)
 scratch/
