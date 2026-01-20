@@ -37,6 +37,36 @@ A meta post (or series) about the actual workflow of using Claude Code as a writ
 
 ## Evidence from Recent Sessions
 
+### Session D (Jan 9-10, 2026) - Bart Test Parts 3-5
+
+**What happened:**
+1. Part 3 proofreading with [BG:] comments
+2. Verified ALL quotes/claims against bart-test repository
+3. Found experiment numbering confusion (Exp 03 not clearly labeled)
+4. Updated bart-test repo to clarify Experiment 03 in human_reviews file
+5. Fixed GPT-4o vs GPT-5.2 filename mismatch, renamed file in repo
+6. Part 4: Fixed model versions, added direct links, strengthened teaser
+7. Part 5: Complete rewrite from lifeless lists to narrative with doubt
+8. Generated focused images for Parts 3-4 (zoo-not-duck, favor-to-labor, hybrid-workflow)
+
+**Key collaboration patterns:**
+- **Iterative editing**: BG edits file with comments, Claude discusses before implementing
+- **Source verification**: Checked every claim against git files, caught inconsistencies
+- **Repository fixes**: Renamed misleading filenames, updated documentation for clarity
+- **Narrative coaching**: Identified Part 5 was "lists not story", rewrote with voice and emotion
+- **Image strategy**: Simple focused images supporting narrative, not poster-style reproductions
+- **Link clarity**: Changed "Part 1 and 2" to explicit experiment numbers (ambiguous otherwise)
+
+**Critical lessons learned:**
+1. **Narrative over lists** - Bullet points kill voice; need emotion, process, doubt
+2. **Verify EVERYTHING** - Model versions, file names, experiment numbers all need checking
+3. **Clear labeling matters** - Experiment 03 confusion required repo documentation fix
+4. **Images should enhance, not replace** - One focused image at emotional moment > multiple decorative images
+5. **Simple images work best** - Support the narrative rather than trying to be comprehensive posters
+6. **Iterative review works** - User edits with comments, Claude verifies/discusses before changes
+7. **Links need explicit context** - "Part 1 and 2" could mean blog parts OR experiments (ambiguous!)
+8. **Find the story** - Even methodology posts need narrative arc (doubt → attempt → mixed results)
+
 ### Session C (Dec 10, 2025) - Agentic Personal Trainer Parts 6-9
 
 **What happened:**

@@ -1,7 +1,139 @@
 # Next Session Start: Blog Strategy & Series Planning
 **Created:** January 1, 2026
-**Last Updated:** January 1, 2026
+**Last Updated:** January 20, 2026
 **Status:** Ready for next Claude Code session
+
+---
+
+## Session VI Summary (Jan 20, 2026) - BART TEST SERIES COMPLETE
+
+### Bart Test Parts 7-10 - Final Series Completion
+
+1. ✅ **Parts 7-9 - Complete Edits and Images**
+   - Part 7: Social cost discovery, "fire" slang updates, hero image (fire vs hate contrast)
+   - Part 8: Title updated "(And Why That's Okay)", novelty-utility paths image, intuition-building content
+   - Part 9: Experiment 05 data integrated, title changed to "The Question I Couldn't Answer", explicit project pause statement, pause-with-question hero image
+
+2. ✅ **Part 10 - Stochastic Parrots Philosophical Reflection**
+   - Extracted "Deeper Question" section from Part 8
+   - Complete rewrite with stochastic parrots debate context
+   - Added Selfish Gene parallel (Dawkins)
+   - Addressed human exceptionalism and "what it means to be human" questions
+   - Brain comparison hero image (biological vs artificial cognition)
+
+3. ✅ **Experiment 05 Data Analysis**
+   - Another Claude agent processed evaluation sheets
+   - Created comprehensive analysis files in bart-test repo
+   - Key finding: 2 judges insufficient for statistical significance
+   - Judge burnout documented (2 sessions in 3 days)
+
+4. ✅ **Critical Series Decisions**
+   - Explicitly stated project is paused in Part 9
+   - Reframed Part 9 from "test got too easy" to "insufficient data to know"
+   - Part 10 explores philosophical questions independent of project status
+
+**Total images generated this session:** 6 ($0.804)
+- 1 failed (complex network diagram)
+- 5 successful (social contrast, novelty-utility paths, pause-question, brain comparison)
+
+**Key learning:** Judge count and burnout are critical operational constraints; 2 judges = anecdotal data, not conclusions
+
+**Publishing Status:**
+- Part 7 (Jan 19): Published ✅
+- Part 8 (Jan 21): Setup in Squarespace, ready to publish ✅
+- Part 9 (Jan 23): Setup in Squarespace, ready to publish ✅
+- Part 10 (Jan 26): Complete with hero image, ready to publish ✅
+
+**BART TEST SERIES: COMPLETE (10 parts, Jan 5-26, 2026)**
+
+---
+
+## Session V Summary (Jan 15, 2026)
+
+### Bart Test Part 5 & 6 - Images and Complete Rewrite
+
+1. ✅ **Part 5 - Images Generated**
+   - Generated 6 image variations testing different concepts ($0.804 total)
+   - Selected: `bart-test-part-5-iteration-process-v2.jpg` and `bart-test-part-5-before-after-v4.jpg`
+   - Placed images in post with captions
+   - Part 5 published to Squarespace (Jan 14, 6am)
+
+2. ✅ **Part 6 - Complete Rewrite and Images**
+   - **Major insight:** Realized the series was slipping into "success = 10s" framing
+   - **Complete rewrite:** New title "The American Ninja Warrior Problem"
+   - **Core concept:** Good benchmarks need difficulty to create differentiation
+   - Verified all claims against `completed_ratings_20251228.json`
+   - Fixed word count claim (35-85 → 27-68 words)
+   - Reframed "failed" → "showed patterns" throughout
+   - Generated 2 images:
+     - Hero: American Ninja Warrior obstacle course ($0.134)
+     - Mid-post: Test iteration cycle ($0.268 for v1+v2)
+   - Part 6 ready to publish (Jan 17, 6am)
+
+3. ✅ **Part 10 - New Draft Created**
+   - Extends series from 9 to 10 parts
+   - Tests the hypothesis from Part 6: Did Experiment 05 make the test too easy?
+   - Awaits Experiment 05 data entry (evaluation sheets received but not processed)
+   - Preserves Parts 7-9 as honest documentation of ghosting/social cost/value questions
+
+4. ✅ **Git Commits**
+   - Parts 4 and 5 committed and pushed
+
+**Total images generated this session:** 8 ($1.072)
+**Key learning:** Benchmark design is about maintaining difficulty for differentiation, not optimizing for high scores
+
+---
+
+## ⚠️ CRITICAL: Bart Test Series Framing (Read This Every Session!)
+
+**The Bart Test goal is NOT to make LLMs score 10s. It's to create a difficult benchmark that differentiates models.**
+
+### The Core Principle (From Part 6 - American Ninja Warrior)
+
+Think of American Ninja Warrior: If the course is easy enough that every competitor succeeds, the show reveals nothing. **Difficulty creates differentiation. The challenge is the value.**
+
+**DO NOT frame the series as:**
+- ❌ "Finding prompts that help models score higher"
+- ❌ "Making the test easier so models succeed"
+- ❌ "Models that score 10s are successful"
+- ❌ "The goal is to eliminate the challenge"
+
+**CORRECT framing:**
+- ✅ "The test reveals how different models handle cultural fluency"
+- ✅ "Experiment 04 differentiated models (some struggled with length, some with emojis, some with formatting)"
+- ✅ "One output stood out" (not "scored well" or "succeeded")
+- ✅ "The difficulty is valuable because it creates useful comparison"
+- ✅ "Higher scores don't mean better benchmark - they might just mean easier test"
+
+### Language to Avoid
+
+When editing/writing Bart Test posts, **avoid "success = high scores" language:**
+- ❌ "scored exceptionally well"
+- ❌ "models succeeded" / "models failed"
+- ❌ "the winning output"
+- ❌ "beat other models"
+
+**Use instead:**
+- ✅ "stood out" / "showed patterns"
+- ✅ "revealed differences"
+- ✅ "differentiated models"
+- ✅ "most models struggled with X, some with Y"
+
+### Why This Matters
+
+**Part 6 rewrite happened because:** The series was slipping into "let's help models score better" framing, which completely misses the point of benchmarking.
+
+**Part 9 reveals this:** With only 2 judges and high variance between them (5-point spreads on same outputs), couldn't conclusively answer if test got easier or harder. Insufficient data led to project pause.
+
+**The insight:** Making the test easier collapses the differentiation, which destroys the benchmark's value.
+
+### Quick Test Before Publishing
+
+Ask: "Does this language suggest high scores = success?"
+- If yes → reframe to focus on differentiation and patterns
+- Remember: A test where everyone scores 10s is a bad test
+
+This is **surprisingly easy to slip into** because "success" and "high scores" are so culturally ingrained. Stay vigilant!
 
 ---
 
@@ -10,7 +142,98 @@
 **Start your next session with:**
 > "Read personal-notes/NEXT-SESSION-START.md"
 
-This file contains everything from Session I (Jan 1, 2026) and sets up your next session.
+This file contains everything from previous sessions and sets up your next session.
+
+---
+
+## 🚀 Next Session Priorities
+
+### Immediate Tasks
+
+**1. Publish Remaining Bart Test Parts**
+- Part 8 (Jan 21): Setup in Squarespace, ready to publish
+- Part 9 (Jan 23): Setup in Squarespace, ready to publish
+- Part 10 (Jan 26): Setup in Squarespace, ready to publish
+
+**2. Begin Next Series**
+- See "Upcoming Series" section below for Claude Code series plan
+
+### Current Series Status
+
+**Bart Test Series (10 parts total - COMPLETE ✅):**
+- ✅ Part 1 (Jan 5): Published, 3 images
+- ✅ Part 2 (Jan 7): Published, 1 image
+- ✅ Part 3 (Jan 9): Published, 2 images
+- ✅ Part 4 (Jan 12): Published, 1 image
+- ✅ Part 5 (Jan 14): Published, 2 images
+- ✅ Part 6 (Jan 17): Published, 2 images
+- ✅ Part 7 (Jan 19): Published, 1 image
+- ✅ Part 8 (Jan 21): Ready to publish, 1 image
+- ✅ Part 9 (Jan 23): Ready to publish, 1 image
+- ✅ Part 10 (Jan 26): Ready to publish, 1 image
+
+**Total: 10 parts, 15 images, published Jan 5-26, 2026**
+
+### Workflow Reminders
+
+**Review Process:**
+1. User reads draft and adds [BG:] comments
+2. Claude reads comments and discusses proposed changes
+3. Verify ALL claims against source repositories (bart-test, etc.)
+4. Check experiment numbering clarity
+5. Make agreed-upon edits
+6. Generate images (simple, focused, narrative-supporting)
+7. User publishes in Squarespace at 6am
+8. User removes -draft suffix from filename
+9. Commit and push to remote
+
+**Image Strategy:**
+- Simple, focused images at key emotional/conceptual moments
+- Support narrative, don't try to reproduce entire post
+- Use nano-banana: `cd ~/Projects/nano-banana-experiments && source venv/bin/activate && nano-banana generate "prompt" --output ~/Projects/mosaic-mesh-ai-blog/assets/bart-test/filename.jpg --model 3 --resolution 1K`
+
+**Verification Checklist:**
+- Model versions correct? (GPT-5.2 not GPT-4o)
+- File names accurate? (check actual repo files)
+- Experiment numbers clear? (Exp 01, 02, 03, etc.)
+- Links point to correct files? (not directories)
+- Quotes verified against source? (git history, JSON files)
+
+---
+
+## Session III Accomplishments (Jan 9-12, 2026)
+
+### Bart Test Parts 3-5 - Verification and Narrative Revision
+
+1. ✅ **Part 3 verified and published (Jan 9)**
+   - Verified ALL quotes/claims against bart-test repository
+   - Fixed experiment numbering confusion (updated `human_reviews_20251217.md` to clearly state Experiment 03)
+   - Fixed GPT-4o vs GPT-5.2 mismatch, renamed file in bart-test repo
+   - Generated 2 images ($0.268 total):
+     - Zoo-not-duck metaphor (hero image)
+     - Hybrid evaluation workflow diagram
+   - Updated tags to methodology-focused: `hybrid-evaluation ai-judges human-evaluation llm-benchmarking evaluation-methodology`
+
+2. ✅ **Part 4 verified and published (Jan 12)**
+   - Fixed model version (GPT-4o → GPT-5.2, renamed file in repo)
+   - Added direct link to GPT output file
+   - Strengthened Part 5 teaser ending
+   - Generated 1 image ($0.134 total):
+     - Favor-to-labor shift visualization
+
+3. ✅ **Part 5 complete narrative rewrite**
+   - Original draft was lifeless bullet points, no emotion
+   - Rewrote with narrative voice: doubt → redesign process → mixed results
+   - Added iteration details (Claude Code session designing HTML sheets)
+   - Included actual Judge feedback: "This sheet was much easier to do"
+   - Added critical issues discovered and the one success (OLMo output)
+   - Linked to completed_ratings_20251228.json for transparency
+
+**Key lessons documented in `claude-code-writing-workflow.md`:**
+- Narrative over lists (bullet points kill voice)
+- Verify EVERYTHING (model versions, file names, experiment numbers)
+- Images should enhance not replace (simple, focused, supporting narrative)
+- Iterative review works (user edits with [BG:] comments, Claude discusses before implementing)
 
 ---
 
