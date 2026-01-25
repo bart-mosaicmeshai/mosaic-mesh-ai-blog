@@ -12,14 +12,14 @@ This series documents the complete resurrection and modernization of an 8-year-o
 - **Django 2.2 → 5.2 LTS** (2-year security extension)
 - **Python 2.7 → 3.12** (modern language features)
 - **MySQL → PostgreSQL 16** (better transactions, multi-tenant support)
-- **Manual deployment → AWS ECS Fargate + CI/CD** (auto-deploy on merge)
+- **Manual deployment → AWS ECS Fargate + CI/CD** (auto-deploy on merge) [BG: It wasn't manaul deployment at the beginning, it was AWS EC2 with AWS based CI/CD]
 - **Stripe v2 → Checkout Sessions** (modern payment processing)
-- **0 tests → 818 tests passing** (693 unit + 125 functional, now 37)
+- **0 tests → 818 tests passing** (693 unit + 125 functional, now 37) [BG: We didn't start at 0 tests, I don't think.]
 - **Security hardened** (CSRF, rate limiting, XSS protection, transaction protection)
 - **Multi-tenant architecture** (one DB instance, multiple isolated databases)
-- **Full AWS production deployment** (VPC, RDS, ECS, CloudFront, S3, Secrets Manager)
+- **Full AWS production deployment** (VPC, RDS, ECS, CloudFront, S3, Secrets Manager) [BG: Using GitHub Actions for CI/CD]
 
-**Result:** A "fork-ready" system that Bart can use to rapidly iterate on business ideas (RefrigeratorGames, CarbonMenu already forked).
+**Result:** A "fork-ready" system that Bart can use to rapidly iterate on business ideas (RefrigeratorGames already forked).
 
 **Value Proposition:** This series teaches readers how to collaborate with Claude Code on complex, multi-phase modernization projects—not just "write code," but strategic planning, TDD, security hardening, and production deployment.
 
@@ -31,15 +31,15 @@ This series documents the complete resurrection and modernization of an 8-year-o
 
 1. **Strategic Collaboration with AI**
    - How to prompt Claude Code for complex multi-phase projects
-   - Session management: continuity across 20+ sessions
-   - When to guide vs. when to let Claude lead
+   - Session management: continuity across 20+ sessions [BG: It was way more than 20 sessions.]
+   - When to guide vs. when to let Claude lead [BG: Vibe coding vs AI Assisted Engineering]
    - Documentation-driven development (Claude reads your docs)
 
 2. **Test-Driven Development (TDD) with AI**
    - Red-Green-Refactor cycle with Claude Code
    - Writing failing tests first, then implementing
    - Using tests to preserve behavior during upgrades
-   - Achieving 818 tests passing (battle-tested reliability)
+   - Achieving 818 tests passing (battle-tested reliability) [BG: I'm not sure how much I want to emphasize the number 818. This number keeps changing as I modify things. For example, I just removed all of the discount code functionality that was built into SWA in favor of using Stripe discount logic and that removed a bunch of tests.]
 
 3. **Legacy Code Resurrection**
    - Approaching 8-year-old codebases strategically
@@ -74,7 +74,7 @@ This series documents the complete resurrection and modernization of an 8-year-o
 After reading this series, developers will be able to:
 
 1. **Plan complex modernization projects** with Claude Code as strategic partner
-2. **Write effective prompts** for AI-assisted development (SESSION_START_PROMPT pattern)
+2. **Write effective prompts** for AI-assisted development (SESSION_START_PROMPT pattern) [I need to talk about why I didn't use AGENTS.md or CLAUDE.md instead.]
 3. **Implement TDD workflows** using Claude Code to write tests first
 4. **Deploy production-ready systems** to AWS with CI/CD automation
 5. **Harden security** using industry best practices (OWASP Top 10)

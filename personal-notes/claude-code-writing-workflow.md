@@ -37,6 +37,79 @@ A meta post (or series) about the actual workflow of using Claude Code as a writ
 
 ## Evidence from Recent Sessions
 
+### Session E (Jan 24, 2026) - Claude Code Part 1: The Interview Method
+
+**What happened:**
+1. User felt overwhelmed by starting two long series (Claude Code 48-52 parts, Merchant 20 parts)
+2. Claude suggested: "Start with Claude Code Part 1. It's just one blog post."
+3. Instead of having user write, Claude used **interview method**:
+   - Asked targeted questions to extract information
+   - User answered conversationally (not writing)
+   - Claude drafted sections based on answers
+   - Iterated with user feedback and corrections
+4. Drafted complete post through Q&A: Hook, Story (3 sections), Reflection
+5. User made inline edits with [BG:] comments
+6. Claude addressed all comments, added GitHub links
+7. Complete post drafted in ~2 hours
+
+**The Interview Method Pattern:**
+
+**When to use:** User is stuck, overwhelmed, or doesn't know where to start writing
+
+**How it works:**
+1. **Break post into small sections** (Hook, Story parts 1-3, Reflection)
+2. **Ask specific questions** for each section:
+   - "What was the moment when X happened?"
+   - "What surprised you about Y?"
+   - "If someone wanted to replicate this, what would you tell them?"
+3. **User answers conversationally** - no pressure to "write"
+4. **Claude drafts based on answers** - preserves user's voice and words
+5. **User reviews and corrects** - treats it like editing, not writing from scratch
+6. **Iterate until approved** - move to next section
+
+**Why it works:**
+- Removes writer's block (talking is easier than writing)
+- Preserves authentic voice (uses user's actual words)
+- Maintains narrative flow (Claude structures answers into story)
+- User corrects rather than creates (less intimidating)
+- Iterative and collaborative (not "Claude writes, user accepts")
+
+**Key collaboration patterns:**
+- **Question-driven extraction**: Targeted questions pull out specific information
+- **Conversational answers**: User talks naturally, Claude captures it
+- **Real-time corrections**: "October not November", "check the test count", etc.
+- **Inline [BG:] comments**: User edits draft with comments, Claude addresses them
+- **GitHub link additions**: Claude added 6+ links to source repos and docs
+- **Voice preservation**: Used user's metaphors ("eager intern", "army of interns")
+- **Fact verification**: Checked baseline test count, session count, git history
+
+**Example exchange:**
+- Claude: "When exactly did you decide to resurrect StartUpWebApp? What triggered it?"
+- User: "This is something I've wanted to do for several years. But I didn't have the available time..."
+- Claude: [drafts Hook incorporating this language verbatim]
+- User: "It was actually October, not November when this all started"
+- Claude: [corrects immediately]
+
+**Critical lessons learned:**
+1. **Interview beats blank page** - Asking questions extracts better content than "write this section"
+2. **Talk, don't write** - User resistance drops when answering questions vs writing prose
+3. **Use their words** - Direct quotes from answers preserve authentic voice
+4. **Small sections** - Hook (150 words) feels manageable, "write 1000 words" doesn't
+5. **Correct iteratively** - "October not November" style corrections keep momentum
+6. **Meta awareness** - User noted: "It's very similar to this writing session—you're drafting, I'm correcting"
+7. **Build confidence gradually** - Starting with Hook → success → momentum for Story
+8. **Session continuity pattern applies to writing** - Same SESSION_START_PROMPT concept user used for SWA
+
+**User feedback:**
+> "I really liked this 'interview' style that you use in this session to extract info out of me. I would have really struggled to write this otherwise."
+
+**Result:**
+- Complete 1000+ word blog post drafted and refined
+- User went from "overwhelmed" to post ready for images/publishing
+- All facts verified against source repos
+- Authentic voice preserved throughout
+- User confident to continue with Part 2
+
 ### Session D (Jan 9-10, 2026) - Bart Test Parts 3-5
 
 **What happened:**
