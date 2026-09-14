@@ -12,9 +12,27 @@ https://www.mosaicmeshai.com/blog/running-my-day-part-1-two-views-of-the-same-su
 LinkedIn (first public BartBot post). Everything verified in prod: three images, the video, both
 `?item=` deep links, comments open.
 
+**ASK BART FIRST, before any Part 2 work:** how did Part 1 land? It went live 2026-09-14 and this
+handoff was written the same day, so by the next session there should be about a day of real data:
+LinkedIn comments and reactions, blog comments, anything that came in by email or text. Ask him to
+paste or summarize what came back.
+
+Why it matters more than the usual "how'd it go":
+- **The series' whole premise is that readers supply what he can't.** Part 1 asked what's in their
+  95% and where it lives. The answers are the point, not a vanity metric.
+- **Two questions were expected**, with ready replies in the published post's LinkedIn notes:
+  "why don't you have AI do that?" and "couldn't you do this with any list?" If either showed up,
+  that's a signal about the candidate part "Why Don't You Have AI Do That?" and about Part 10.
+  If a thread went deep on the AI one, that part should probably be its own post.
+- **LinkedIn is distribution only** and Bart doesn't read the platform. If it didn't distribute,
+  that's worth knowing now rather than after nine more posts.
+- **It may change Part 2.** Reader reactions are evidence about which questions land, and the plan's
+  part map is a hypothesis, not a commitment.
+
 **Read first:** `personal-notes/bartbot-dailys-series-plan.md` (plan v2: the rules, the post
-template, per-part Evidence/Excluded lists, LinkedIn rules, pre-publish checklist) and
-`personal-notes/bartbot-dailys-demo-list-spec.md` (per-post frozen lists, redaction, deep links).
+template, per-part Evidence/Excluded lists, LinkedIn rules including the "Finding the voice"
+section, pre-publish checklist) and `personal-notes/bartbot-dailys-demo-list-spec.md` (per-post
+frozen lists, redaction, deep links). Tools are in `tools/bartbot-dailys/`.
 
 **Part 2: "A Page for a Wednesday in 2027."** Question: how does something I need in November reach
 me in November, ready to use? Evidence: the three-line first view, `Future`'s sparsity, `7 Nov` as a
