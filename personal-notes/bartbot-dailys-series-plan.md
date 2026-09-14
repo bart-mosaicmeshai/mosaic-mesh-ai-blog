@@ -149,6 +149,38 @@ appears (LI rule 5 exception).
 
 ---
 
+## Distribution: three surfaces for the same work
+
+**1. The blog (Squarespace) is canonical.** Owned, and the only place with comments. The ask lives
+here and nowhere else.
+
+**2. LinkedIn is the reach.** Bart has 1,000+ contacts there and **no other social presence**, so
+it's his entire distribution, full stop. He doesn't enjoy the platform and doesn't read it, but
+that's beside the point: this is where the people are. Earlier drafts of this plan treated "is
+LinkedIn worth it?" as open. It isn't. What's worth watching is what actually comes back, not
+whether to post.
+
+**3. The BartBot monthly newsletter** (Bart, 2026-09-14: "the newsletter can basically just be this
+blog post"). Sent via **Buttondown**; drafts live in `~/Projects/WebApps/BartBot/bart-bot-newsletters/`
+as `YYYY-MM-DD-slug.html`, with images in `images/<edition-slug>/`. That repo's README has the
+workflow: draft the HTML, drop in screenshots, proof in a browser, paste into Buttondown, send,
+commit. **Inline styles only**, because email clients strip `<style>` blocks.
+
+**Reusing a post as an issue.** The body transfers nearly verbatim. Three things don't:
+- **The video won't play in email.** Use a still frame linked to the post, or cut it and rely on
+  the screenshots.
+- **Images need edition-local copies** in `images/<edition-slug>/`, not the blog's asset paths.
+- **The comment ask needs rewording.** "Drop your answer in a comment" means clicking through to
+  the blog from an email, so make that explicit or invite a reply instead.
+
+Deep links into the frozen public lists work fine in email and are worth keeping.
+
+**Open decision:** the newsletter is monthly and the series publishes when ready, so an issue could
+be either one part reproduced, or a recap of the month's parts with the best one reproduced in full.
+Decide after a couple of parts, when the real cadence is known.
+
+---
+
 ## LinkedIn post rules
 
 Every blog post gets a LinkedIn post the same day. Same author, same tone, same discipline. The LI
