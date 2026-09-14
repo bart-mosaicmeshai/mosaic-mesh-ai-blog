@@ -200,6 +200,41 @@ post whose argument is visual, attaching the redacted image natively and putting
 text usually reads better than a link card. For a text-led post, the card is fine. Only ever attach
 images from `assets/bartbot-dailys/`.
 
+### Finding the voice (Part 1, 2026-09-14). Read this before drafting any LI post.
+
+Eight versions. The full evolution, with every draft and the reasoning, is in
+`~/Projects/mosaic-mesh-ai-blog-private/dailys-raw/li-post-versions.md`. The short form:
+
+**The problem.** Bart has never found his voice on any social platform. Everything he writes there
+comes out "over formal, over-thought, or just odd." The cause isn't a missing skill. It's that the
+four registers the platform rewards are all ones he rejects: **aggressive, sloppy, overly casual,
+and the brag** (humble or otherwise). Rule all four out and formality looks like the only option
+left, and formality reads as over-thought. He also doesn't read LinkedIn and finds most of it a
+waste of time, so there's no model he wants to imitate.
+
+**The way out is not a fifth register.** Don't write in a register at all. Build the LI post out of
+sentences already edited for the blog post, which are already in his voice. The first four drafts
+failed because they were composed for LinkedIn; the ones that worked were assembled from the post.
+
+**Vulnerability is enacted, not declared.** Bart: "I don't have to state the nervousness
+specifically. I just need to be vulnerable in how I write." Show the thing that costs something to
+admit; never write a sentence about how you feel admitting it. In Part 1 the admission is that a
+normal family Sunday overwhelms him and he wants to go back to bed, said plainly to an audience of
+colleagues. "My first blog post about BartBot" carries the first-time fact without a confession.
+A sentence like "this makes me nervous" would have tipped it into the trope, which is the brag
+wearing a different coat.
+
+**The structure that solved state-versus-tease.** Bart's own fix, and it's reusable: *"I answer that
+fully in my first blog post..."* then *"Super short version: ..."* then *"Now, go read the full
+answer."* The reader gets a real answer immediately and knows where the complete one is. Nothing is
+withheld, and nothing is padded.
+
+**Brag test for every post:** does it claim a result about me, or show a method and let the reader
+judge? Two screenshots and an admission are showing. "This changed how I work" is claiming.
+
+**The model to imitate is Part 1's published LI post**, in the draft file's `## LinkedIn post`
+section. When in doubt, start from the blog post's own sentences and cut.
+
 **Template:**
 
 ```
