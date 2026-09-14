@@ -66,3 +66,15 @@ dist/
 
 # Daily blog posts - HTML conversion output
 daily-posts/*.html
+
+# Private/unredacted source screenshots — NEVER commit to this public repo.
+# Raw captures live outside the repo at ../mosaic-mesh-ai-blog-private/
+# Only redacted images sourced from the public demo list belong in assets/.
+/*.png
+/*.jpg
+/*.jpeg
+/*.heic
+/*.HEIC
+assets/**/raw/
+assets/**/*-raw.*
+assets/**/*unredacted*

@@ -1,49 +1,89 @@
 # Next Session Start: Blog Strategy & Series Planning
 **Created:** January 1, 2026
-**Last Updated:** January 20, 2026
+**Last Updated:** January 24, 2026
 **Status:** Ready for next Claude Code session
 
 ---
 
-## Summary for Next Session - NEXT TWO SERIES DRAFTS CREATED
+## NEXT UP: Running My Day, Part 2
 
-### Merchant Post 1 & Claude Code Part 1 - Draft Files Created
+**Part 1 shipped 2026-09-14.** Blog post live at
+https://www.mosaicmeshai.com/blog/running-my-day-part-1-two-views-of-the-same-sunday and posted on
+LinkedIn (first public BartBot post). Everything verified in prod: three images, the video, both
+`?item=` deep links, comments open.
 
-1. ✅ **Merchant Post 1 Draft Created** (Publish Jan 31, 2026)
+**Read first:** `personal-notes/bartbot-dailys-series-plan.md` (plan v2: the rules, the post
+template, per-part Evidence/Excluded lists, LinkedIn rules, pre-publish checklist) and
+`personal-notes/bartbot-dailys-demo-list-spec.md` (per-post frozen lists, redaction, deep links).
+
+**Part 2: "A Page for a Wednesday in 2027."** Question: how does something I need in November reach
+me in November, ready to use? Evidence: the three-line first view, `Future`'s sparsity, `7 Nov` as a
+trigger date, and `8 Sept Wed 2027`. Part 1's closing line already promises it.
+
+**To do, in order:**
+1. Duplicate the Part 1 list, retitle it "Dailys, Part 2 (…)", make the changes Part 2 describes,
+   make it public. Never edit Part 1's list again; it's a published record.
+2. Pull fresh `?item=` IDs from **Part 2's** list (IDs are per-list). Deep links now persist until
+   the reader clicks, fixed and verified in prod 2026-09-14.
+3. Record the Future-scroll video (tomorrow out to a year away).
+4. Draft against the plan. One question, evidence proves the answer, reader reactions as statements,
+   no em dashes, no code blocks, captions are plain text, no bare URLs as link text.
+5. Hero: local composite of Part 2's own screenshots, plum ground, about 1.9:1. Assets go in
+   `assets/bartbot-dailys/part-2/`.
+6. LinkedIn post: sentences from the post, vulnerability enacted not declared, no comment ask.
+
+**Open items:**
+- Decide whether "Why Don't You Have AI Do That?" becomes its own part or the second half of Part 5.
+  It's a candidate part in the plan; decide before drafting Part 5.
+- BartBot has no `og:image`, so any BartBot URL previews as a bare card. Roadmap item, not urgent.
+
+**Do not commit anything from `~/Projects/mosaic-mesh-ai-blog-private/`.** This repo is public.
+
+---
+
+## Summary for Next Session - CLAUDE CODE PART 1 COMPLETE ✅
+
+### Session E Accomplishments (Jan 24, 2026)
+
+1. ✅ **Claude Code Part 1 - COMPLETE** (Scheduled: Jan 28, 2026 6am)
+   - File: `daily-posts/2026-01-28-claude-code-part-1-draft.md`
+   - Title: "How I Learned to Leverage Claude Code - Part 1: Resurrecting an 8-Year-Old Codebase"
+   - **Complete using Interview Method** (~2 hours, ~1100 words)
+   - Hero image generated: `assets/claude-code/phase-1/part-1-resurrecting-codebase-v2.jpg`
+   - Published in Squarespace, scheduled for Jan 28 6am
+   - Tags: claude-code legacy-modernization django startupwebapp fork-ready-architecture ai-collaboration ai-coding-agents agents-md
+   - **METHOD: Interview Method** - Question-driven extraction, user answers conversationally, Claude drafts
+
+2. ✅ **Interview Method Documented**
+   - Added Session E to `personal-notes/claude-code-writing-workflow.md`
+   - Pattern: Break into sections → Ask questions → User talks → Claude drafts → Iterate
+   - When to use: User stuck, overwhelmed, doesn't know where to start
+   - Why it works: Talking is easier than writing, preserves voice, builds confidence
+   - User feedback: "I really liked this 'interview' style...I would have really struggled to write this otherwise"
+
+3. ✅ **Published Posts Committed**
+   - Bart Test Part 8 (2026-01-21)
+   - Bart Test Part 9 (2026-01-23)
+   - Efficiency Trap essay (2026-01-24)
+   - All pushed to remote
+
+### Next Session Priority
+
+**Merchant Post 1** (Publish Jan 31, 2026) - USE INTERVIEW METHOD
    - File: `daily-posts/2026-01-31-merchant-post-1-draft.md`
    - Title: "Why 'Retailer' Became a Trap"
    - Structure: Hook → Story → Reflection (900-1000 words)
-   - Outline includes:
+   - Outline ready:
      - HOOK: BBY meeting moment, semantic trap realization
      - STORY: Etymology, identity problem in action, Marty Cagan connection
      - REFLECTION: What would change, what I'm learning, what's next
    - Voice: Authoritative but accessible, executive language
    - Audience: C-suite, VPs, corporate leaders, product managers
+   - **Use Interview Method** - User prefers this approach for drafting
 
-2. ✅ **Claude Code Part 1 Draft Created** (Publish Jan 28, 2026)
-   - File: `daily-posts/2026-01-28-claude-code-part-1-draft.md`
-   - Title: "Resurrecting an 8-Year-Old Codebase"
-   - Structure: Hook → Story → Reflection (800-1000 words)
-   - Outline includes:
-     - HOOK: 8-year-old Django codebase resurrection question
-     - STORY: Strategic assessment, first session, SESSION_START_PROMPT pattern
-     - REFLECTION: AI collaboration learnings, what surprised me, what's next
-   - Voice: Narrative, honest, teaching-focused, meta-commentary on AI
-   - Audience: Developers, technical leaders, AI enthusiasts
+**Key Decision:** Interview Method proved highly effective for Claude Code Part 1. Use same approach for Merchant Post 1.
 
-3. ✅ **Hook → Story → Reflection Structure Enforced**
-   - Both drafts explicitly labeled with three-part structure
-   - Word count targets for each section
-   - Clear narrative arc built into outlines
-   - Maintains consistency with best writing patterns
-
-**Next Actions:**
-- Bart to read and flesh out Merchant Post 1 draft
-- Bart to read and flesh out Claude Code Part 1 draft
-- Both posts ready for parallel development
-- Publishing schedule: Claude Code (Jan 28), Merchant (Jan 31)
-
-**Key Decision:** Working on both series in parallel to maintain momentum
+**Note:** `merchant-identity-strategic-framework.md` is located at `~/Projects/mosaic-mesh-strategic-planning/artifacts/02_active_workstreams/` (moved Jan 24, 2026)
 
 ---
 
@@ -188,6 +228,12 @@
 - **nano-banana**: Image generation with automated JPEG output (see README.md section "Generate Blog Post Images" for complete instructions)
 - **daily-blog**: Scan git activity for post ideas
 - **Claude Code**: Verify claims, check git history, read actual code
+- **shot-scraper**: Website screenshot tool (by Simon Willison) installed in project venv
+  - Activate venv: `source venv/bin/activate`
+  - Basic usage: `shot-scraper URL -o path/to/output.png --width 1280 --height 1024`
+  - Example: `shot-scraper https://example.com/page/ -o assets/screenshots/page.png --width 1280 --height 1024`
+  - Playwright chromium browser already installed in venv
+  - Note: URLs with trailing slash (/) typically work better than .html extensions
 
 ---
 
