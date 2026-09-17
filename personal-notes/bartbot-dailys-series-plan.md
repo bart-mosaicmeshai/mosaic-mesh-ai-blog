@@ -992,6 +992,42 @@ the post template, and the pre-publish checklist all exist because of this.
 **The rule that would have prevented it:** *the image proves the answer to the headline question, or
 it belongs to a different post.*
 
+**2026-09-15 to 17 — Part 2's line-by-line review.** The first draft was structurally right (it
+followed plan v2) and still took about sixty edits, most from Bart. What they had in common, so
+Part 3's first draft starts past them:
+
+- **The answer paragraph carries the payoff, not just the mechanism.** Part 2's first answer was
+  all structure and ended on "start on what's there"; Bart: "we forgot to include the payoff."
+  Part 1's ended on "present." Every answer paragraph ends on what it buys him.
+- **Lead every paragraph with its point; exceptions come after or get cut.** The notifications
+  paragraph opened "What that buys me" with the exception and buried the point, then got cut
+  entirely once the point led. If a paragraph starts with what the list *doesn't* do, rewrite.
+- **Name Dailys on first mention.** "The list" before "Dailys" is ambiguous under an italic line
+  that just said "the Lists tool."
+- **Captions describe the image. They don't argue.** "Nothing between now and then will show it
+  to me" came out of a caption for that reason.
+- **A link earns a sentence only when there's no image of the thing.** Otherwise put the link on
+  the noun ("[Wednesday, September 8, 2027]") and drop the "open it and see" sentence, which asks
+  the reader to look at what they're already looking at. When a link does get a sentence, say what
+  they'll find ("a line under a date, nearly three weeks before the meal"), not "see for
+  yourself."
+- **State a rule once.** Example paragraph shows; rule paragraph tells; neither does the other's
+  job. "Due" appeared four times across two paragraphs before this.
+- **Push language is banned in this series.** "Comes back to me," "reminds me" (without "not with
+  a notification"), and "arrives" for the item all imply the list acts. Bart reaches the day; the
+  item is there. Part 3's headline was reworded for this.
+- **Sidebars go where sidebars live.** The Notes-moved note went from the middle of an argument to
+  the closing list paragraph, unchanged.
+- **The ask mirrors the headline at the same distance and is answerable from a chair.** Part 2's
+  first ask (farthest-out thing you ever reminded yourself of) rewarded a distance story; the
+  final one asks where the reader keeps something they need in two months and what holding it
+  costs. Ten Part 1 visitors answered nothing; lower the effort.
+- **Claims about other people stay out**, even true ones. The ask is about to invite those people
+  to answer.
+- **Dates month-first; node names as the list spells them** (production notes).
+- **The headline is one question.** "Ready to use?" was a second question (Part 3's) riding on the
+  first; cut.
+
 ---
 
 ## Source material
