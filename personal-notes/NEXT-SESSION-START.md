@@ -1,59 +1,76 @@
 # Next Session Start: Blog Strategy & Series Planning
 **Created:** January 1, 2026
-**Last Updated:** January 24, 2026
+**Last Updated:** September 17, 2026
 **Status:** Ready for next Claude Code session
 
 ---
 
-## NEXT UP: Running My Day, Part 2
+## NEXT UP: Running My Day, Part 3
 
-**Part 1 shipped 2026-09-14.** Blog post live at
-https://www.mosaicmeshai.com/blog/running-my-day-part-1-two-views-of-the-same-sunday and posted on
-LinkedIn (first public BartBot post). Everything verified in prod: three images, the video, both
-`?item=` deep links, comments open.
+**Part 2 shipped 2026-09-17.** Blog post live at
+https://www.mosaicmeshai.com/blog/running-my-day-part-2-a-wednesday-in-2027-already-on-my-list and
+posted on LinkedIn the same day. Verified in prod: hero as og:image, three stills, the video
+(1:13, faststart), both `?item=` deep links, the Part 1 link, comments open with no sign-in wall.
+Committed as `ff2edcf`. Published file: `daily-posts/published/2026-09-15-running-my-day-part-2.md`
+(its draft notes record every decision from the two-day line-by-line review).
 
-**ASK BART FIRST, before any Part 2 work:** how did Part 1 land? It went live 2026-09-14 and this
-handoff was written the same day, so by the next session there should be about a day of real data:
-LinkedIn comments and reactions, blog comments, anything that came in by email or text. Ask him to
-paste or summarize what came back.
+**ASK BART FIRST, before any Part 3 work:** how did Part 2 land? Log the numbers in the "What came
+back" table in the plan (under Distribution), next to Part 1's row: LI impressions, reactions,
+clicks, LI comments, blog comments, anything by email or text. Part 1's day-one numbers were 146 /
+4 / 10 / 1 / 0. Two things to look for:
+- **Did anyone answer the ask?** Part 2 asked where the reader keeps something they'll need in two
+  months, and what holding it costs them. Part 1 got no answers from ten visitors. If Part 2 also
+  gets none, check whether Squarespace commenting is friction (it showed the form directly with no
+  sign-in wall in a headless fetch, so probably not) and consider whether the ask is too much work.
+- **Did anything change the part map?** Two candidate parts now wait on placement decisions:
+  "Why Don't You Have AI Do That?" (before Part 5) and "Where Did I Put That?" (search; before Part
+  8). Any comment touching either is evidence.
 
-Why it matters more than the usual "how'd it go":
-- **The series' whole premise is that readers supply what he can't.** Part 1 asked what's in their
-  95% and where it lives. The answers are the point, not a vanity metric.
-- **Two questions were expected**, with ready replies in the published post's LinkedIn notes:
-  "why don't you have AI do that?" and "couldn't you do this with any list?" If either showed up,
-  that's a signal about the candidate part "Why Don't You Have AI Do That?" and about Part 10.
-  If a thread went deep on the AI one, that part should probably be its own post.
-- **LinkedIn is distribution only** and Bart doesn't read the platform. If it didn't distribute,
-  that's worth knowing now rather than after nine more posts.
-- **It may change Part 2.** Reader reactions are evidence about which questions land, and the plan's
-  part map is a hypothesis, not a commitment.
+**Read first:** `personal-notes/bartbot-dailys-series-plan.md` (rules, template, per-part
+Evidence/Excluded, LinkedIn rules and "Finding the voice", checklist; Part 3's section has the
+reworded headline) and `personal-notes/bartbot-dailys-demo-list-spec.md` (frozen lists, the Notes
+list, redaction, deep links, the local-storage caveat). Tools in `tools/bartbot-dailys/`. Both
+published posts are the models for voice and structure.
 
-**Read first:** `personal-notes/bartbot-dailys-series-plan.md` (plan v2: the rules, the post
-template, per-part Evidence/Excluded lists, LinkedIn rules including the "Finding the voice"
-section, pre-publish checklist) and `personal-notes/bartbot-dailys-demo-list-spec.md` (per-post
-frozen lists, redaction, deep links). Tools are in `tools/bartbot-dailys/`.
+**Part 3: "Name It So Future-You Can Act."** Question (Bart's wording, 2026-09-16): When I reach a
+day, how do I make sure I can act on what's written without having to hunt for additional details?
+Part 2's Next line already promises it. Format: video, clicking through embedded links.
 
-**Part 2: "A Page for a Wednesday in 2027."** Question: how does something I need in November reach
-me in November, ready to use? Evidence: the three-line first view, `Future`'s sparsity, `7 Nov` as a
-trigger date, and `8 Sept Wed 2027`. Part 1's closing line already promises it.
+**What changed during Part 2 that Part 3 inherits:**
+1. **Notes is a separate public list** now (URL in the spec). The Grocery List, Part 3's friendliest
+   example, lives there, so Part 3 links two lists: its own frozen Dailys copy and the Notes list.
+   If Notes has changed by then, freeze a Part 3 copy of it too.
+2. **The Franklin Planner is half told.** Part 2 gave the page-per-day structure. Part 3 gets the
+   naming half (limited space, no eraser, "what do I need to call it") and should say "the same
+   planner," not re-introduce it.
+3. **The LinkedIn Premium line** (`1 Aug Sun 2027`, carries its own deadline) moved to Part 3's
+   "state lives in the name" evidence.
+4. **Dates in prose are month-first**; node names are quoted as the list spells them. Rule is in
+   the plan's production notes.
+5. **Deep-link highlight persists until click** (deployed 2026-09-14), which Part 3 needs because
+   it sends readers to one row among many siblings. Still worth a glance in prod before relying on
+   it.
 
 **To do, in order:**
-1. Duplicate the Part 1 list, retitle it "Dailys, Part 2 (…)", make the changes Part 2 describes,
-   make it public. Never edit Part 1's list again; it's a published record.
-2. Pull fresh `?item=` IDs from **Part 2's** list (IDs are per-list). Deep links now persist until
-   the reader clicks, fixed and verified in prod 2026-09-14.
-3. Record the Future-scroll video (tomorrow out to a year away).
-4. Draft against the plan. One question, evidence proves the answer, reader reactions as statements,
-   no em dashes, no code blocks, captions are plain text, no bare URLs as link text.
-5. Hero: local composite of Part 2's own screenshots, plum ground, about 1.9:1. Assets go in
-   `assets/bartbot-dailys/part-2/`.
-6. LinkedIn post: sentences from the post, vulnerability enacted not declared, no comment ask.
+1. Duplicate the Part 2 list, retitle "Dailys, Part 3 (…)", make any changes Part 3 describes, run
+   the redaction searches, make it public. Never edit Part 1's or Part 2's list.
+2. Pull `?item=` IDs from Part 3's list (`tools/bartbot-dailys/list_item_ids.py`) and from the
+   Notes list for the Grocery List.
+3. Screenshots: Playwright in dark mode from a fresh context, cropped to the rows, per the Part 2
+   draft notes. Hero: `tools/bartbot-dailys/hero_composite.py`, plum ground, about 1.9:1.
+4. Video: agree beats first, then Bart records on the public list in the shared view. Faststart
+   remux before the first upload. Check the transcript against the post.
+5. Draft against the plan; expect a line-by-line review with Bart over a day or two. Keep the
+   `<!-- CLAUDE, decision N -->` comments for anything deferred, and strip them before publishing.
+6. LinkedIn post from the post's own sentences; under 150 words; payoff sentence included.
 
 **Open items:**
-- Decide whether "Why Don't You Have AI Do That?" becomes its own part or the second half of Part 5.
-  It's a candidate part in the plan; decide before drafting Part 5.
+- Placement of the two candidate parts (see above).
+- The newsletter surface hasn't been used yet for this series. Two parts exist now; the plan's open
+  decision (one part per issue, or a monthly recap) can be made.
 - BartBot has no `og:image`, so any BartBot URL previews as a bare card. Roadmap item, not urgent.
+- The date shown on each post is the Squarespace publish date; the file's front matter keeps the
+  drafting date (Part 1: 09-10, Part 2: 09-15). Consistent so far; decide if it ever matters.
 
 **Do not commit anything from `~/Projects/mosaic-mesh-ai-blog-private/`.** This repo is public.
 
