@@ -8,6 +8,23 @@ Part 1 URL: https://bartbot.mosaicmeshai.com/lists/shared/6Ji6745t3Qod5nHCDi3o
 Owner view: `/lists/93`, titled `Dailys, Part 1 (A simplified, public version of the list I use to
 run my day)`
 All 14 demonstrations met. Redaction verified over four review rounds.
+Part 2 URL: https://bartbot.mosaicmeshai.com/lists/shared/ovMhhakwMiqmKyaSIoCI (public 2026-09-15).
+Checked against the API the same day: started as an exact copy of Part 1 (252 items with the same
+content, notes, and completion), all four columns off, every day name matching its date. Redaction
+searches find only what Part 1 already had, where the Gmail, Sheets, and Stripe links carry
+made-up IDs. Two edits the same day before freezing: the two em-dash lines under `8 Sept Wed 2027`
+reworded, and **`Notes` removed** (see below), leaving 127 items and a two-line top level,
+`8 Sept Tues` / `Future`.
+
+**Notes moved out of Dailys, 2026-09-15.** Bart: Notes was only ever in Dailys because the tool
+he used before BartBot capped the number of lists, so it got parked there. It's now its own public
+list, **`Notes (A simplified, public version of the list I use to keep notes)`** at
+https://bartbot.mosaicmeshai.com/lists/shared/ARVfQr8zvPo7swjW3wRz (125 items; verified against
+the API to hold exactly Part 1's Notes subtree, all columns off, three surviving links, none
+Gmail or Sheets). **Part 1's list keeps Notes**, because it's a published record and Notes really
+was there on Sept 8. From Part 2 on, no Dailys list has a Notes node. Part 3's Grocery List
+evidence comes from the Notes list; if Notes has changed by then, Part 3 gets its own frozen copy.
+Demonstrations #1 and #13 below are updated to match. The real Dailys list is Bart's call.
 **2026-09-11:** HHG scaffolding (`6am - 8am HHG CGs`, `After 8am`, `4pm Plan tomorrow's…`) being
 removed from the Part 1 list by Bart; demonstration #2 retired. After that edit: re-capture
 `dailys-13-sept.png`, and repoint the post's caption deep link (`?item=5891` was the deleted
@@ -18,6 +35,12 @@ only the shell, so it must be checked in a real browser):
 
 - **Loads collapsed.** First view is nine lines: four notes + `8 Sept Tues` / `Future` / `Notes`.
   Ideal — exactly the structure Part 2 argues about.
+  **Caveat (Bart, 2026-09-15):** only on a first visit. BartBot keeps each list's expansion state
+  in the browser's local storage, so a reload or a return visit reopens whatever the reader last
+  had expanded. Client-side only. So posts must never say "when the list loads" or "when I open
+  the list" about the collapsed view; describe the state instead ("with everything collapsed").
+  Same reason a fresh Playwright context is the right way to capture screenshots: it has no stored
+  state.
 - Expand works one level at a time; links render clickable; strikethrough renders on the public
   view, so demonstration #10 (`6 Mar 2027 → Tax 2025`) renders correctly.
 - The shared view also provides a search box and a "Sign Up for BartBot" footer CTA.
@@ -238,7 +261,7 @@ post.
 
 | # | Must show | Post |
 |---|---|---|
-| 1 | Top level is three siblings: today, `Future`, `Notes` — today hoisted out so it's first on screen | 2 |
+| 1 | Top level is two siblings: today and `Future` — today hoisted out so it's first on screen. (Was three with `Notes` until 2026-09-15; Part 1's list still shows three.) | 2 |
 | 2 | ~~The repeating two-bucket day~~ — removed 2026-09-11 with the HHG scaffolding | — |
 | 3 | Contiguous near-term days, then increasing sparsity — a page exists only if something is written on it | 2 |
 | 4 | **A day one full year out** (`8 Sept Wed 2027`) holding real content | 2, 3 |
@@ -250,7 +273,7 @@ post.
 | 10 | One rare completed-but-kept item (strikethrough) next to its live successor | 5 |
 | 11 | The three self-bouncing items | 6 |
 | 12 | A `Priorities` node on a Sunday | 8 |
-| 13 | A `Notes` section of undated reference material | 2 |
+| 13 | A `Notes` section of undated reference material — since 2026-09-15 a separate public list, used by Part 3 (Grocery List) | 3 |
 | 14 | **Sunday Sept 13 populated as the five-line day** — the Part 1 centerpiece | 1 |
 
 ### The one-year-out day

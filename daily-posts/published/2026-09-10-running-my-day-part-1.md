@@ -72,7 +72,7 @@ You can look at my list yourself. This [simplified public copy](https://bartbot.
 
 ---
 
-*Next: How does something I write down in September reach me in November, and why does my list have a page for a Wednesday in September 2027?*
+*Next: How does something I write down in September reach me in November, and why is a Wednesday in September 2027 already on my list?*
 
 ---
 

@@ -2,8 +2,10 @@
 
 **Created:** September 8, 2026
 **Rewritten:** September 10, 2026 — after the first Part 1 draft rambled. See "Lessons learned."
-**Status:** Plan v2. The plan-v1 Part 1 draft was deleted 2026-09-10. Part 1 is being redrafted
-from empty against this plan: `daily-posts/2026-09-10-running-my-day-part-1-draft.md`.
+**Status:** Plan v2. The plan-v1 Part 1 draft was deleted 2026-09-10 and Part 1 was redrafted
+from empty against this plan. Published 2026-09-14:
+`daily-posts/published/2026-09-10-running-my-day-part-1.md`. Part 2 in draft from 2026-09-15:
+`daily-posts/2026-09-15-running-my-day-part-2-draft.md`.
 **Cadence:** **Worked on** daily in the 6–8am HHG CGs block. **Published when ready** — not on a
 daily schedule. The HHG commitment is the two hours, not the publish rate.
 **Stakes:** First public post about BartBot on LinkedIn. Part 1 is a first impression for an
@@ -142,6 +144,9 @@ appears (LI rule 5 exception).
       against the live roadmap.
 - [ ] The link goes to this part's own frozen list, titled "Dailys, Part N (…)", and that list
       matches every screenshot in the post.
+- [ ] The body names the date the list is frozen on, the first time it shows the list ("as it
+      stood on Tuesday, September 8"). Every "today" and "tomorrow" in the post is relative to
+      that day, and the post publishes later (Bart, 2026-09-15, on Part 2).
 - [ ] `grep -n "—"` on the file returns nothing in the published body (rule 8).
 - [ ] Comments are enabled on the Squarespace post. The CTA points at them. (They're on by default
       for this blog; confirmed on the existing nano-banana post, 2026-09-10. This is a glance, not
@@ -178,6 +183,23 @@ Deep links into the frozen public lists work fine in email and are worth keeping
 **Open decision:** the newsletter is monthly and the series publishes when ready, so an issue could
 be either one part reproduced, or a recap of the month's parts with the best one reproduced in full.
 Decide after a couple of parts, when the real cadence is known.
+
+### What came back (one entry per part, about a day after publishing)
+
+Record third parties by role, never by name. This repo is public.
+
+| Part | LI impressions | LI reactions | Clicks to blog | LI comments | Blog comments | Other |
+|---|---|---|---|---|---|---|
+| 1 (2026-09-14, logged 09-15) | 146 | 4 | 10 | 1 | 0 | none |
+
+**Part 1 notes.** 146 impressions reached a small share of 1,000+ contacts, but 10 clicks is about
+7% of the people who saw it, which is high for a link post. The one comment was a paid BartBot
+subscriber tagging someone they know: "this is what I was talking about #bartbot." So they had
+already been describing BartBot to that person, and the post gave them something to point at.
+Neither expected question ("why don't you have AI do that?", "couldn't you do this with any list?")
+came up, and nobody answered the ask. One day of data is too thin to change the part map, so Part 2
+goes ahead as planned. Worth checking: whether Squarespace commenting asks readers to sign in,
+since 10 visitors and 0 comments could be friction as much as a lack of interest.
 
 ---
 
@@ -439,19 +461,30 @@ on the final phrasing; the plan recommends the narrow one.
 
 ---
 
-### Part 2 — A Page for a Wednesday in 2027
+### Part 2 — A Wednesday in 2027, Already on My List
 
-**Question:** How does something I need in November reach me in November, ready to use?
-**Format:** **Video** — the scroll from tomorrow to a year out is the point
+*(Retitled 2026-09-15 from "A Page for a Wednesday in 2027": a day is a list item with items under
+it, not a page. Part 1's published Next line was reworded to match, in the repo and in
+Squarespace.)*
+
+**Question:** How does something I need in November reach me in November?
+*("Ready to use?" dropped 2026-09-17. The tail asked about the item's state on arrival, which is
+Part 3's question; Part 2 answers how it arrives at all. Part 1's published Next line never had
+the tail.)*
+**Format:** **Video** — expanding Future and seeing tomorrow to a year out on one screen, then
+opening the last day, is the point. (Not "the scroll": the expanded Future fits in one view, which
+is the better fact. Recorded 2026-09-15 as `lists-dailys-part-2.mp4`, 1:13.)
 **Answer in one sentence:** Nothing reminds me; I write the thing under the day I want to meet it,
 and when that day arrives I open it.
 
 **Evidence:**
-- First view of the demo list, collapsed: three lines — today, `Future`, `Notes`. Today is hoisted
-  out so it's first on screen.
+- First view of the demo list, collapsed: **two lines** — today and `Future`. Today is hoisted
+  out so it's first on screen. (Was three lines with `Notes` until 2026-09-15, when Notes moved to
+  its own public list; see the spec. Part 2 says so in one sentence, per the snapshot protocol,
+  since Part 1's frozen list still shows it.)
 - `Future` expanded: `9 · 10 · 11 · 12 · 13 · 14 Sept`, then `25 Sept`, `28`, `30`, `3 Oct`, `7 Nov`,
   `29 Nov`, `31 Dec`, `6 Mar 2027`, `1 Aug 2027`, `8 Sept Wed 2027`. **Only days with something on
-  them exist.** Contiguous near-term, then sparse, then a year out, same structure, one scroll.
+  them exist.** Contiguous near-term, then sparse, then a year out, same structure, on one screen.
 - `7 Nov Sat → Thanksgiving Sweet Potatoes and Green Bean Casserole` — filed weeks before the meal.
   **The date is when I want to encounter it, not when it's due.** A due date is visible in every
   forward view until the deadline, which means carrying it. A trigger date is invisible until it
@@ -463,22 +496,48 @@ and when that day arrives I open it.
 - **Point back to Part 1's video** (added 2026-09-11). `lists-sept-13-post-demo.mp4` opens with
   "Sunday, September 13th, is the top level node here. It's no longer nested under future." Part 1
   shows today at the top without explaining why; Part 2 is where the structure gets explained.
+- **The Franklin Planner, structural half only** (Bart, 2026-09-15: "this is where the Franklin
+  Planner inspiration story is starting to fit"). The origin story splits in two. Part 2 gets the
+  page-per-day mechanism: write it on November's page, turn to the page when November comes, no
+  notification. One short paragraph in the Future section, with the contrast that the list only
+  has the days that are written on. Part 3 keeps the naming half (limited space, no eraser, "what
+  do I need to call it"), and should say "the same planner" rather than re-introducing it.
 
 **Excluded:**
+- The Franklin Planner's naming lesson (limited space, no eraser) → Part 3. Part 2 says only that
+  it had a page per day and you turned to the page.
 - What's *in* the Thanksgiving node and how it's named → Part 3
 - How items get written onto future days in the first place (Week plan, capture) → Parts 5, 8
 - Deleting today → Part 4
-- Why notifications are bad / the bell roadmap item → Part 9. Here it's only "there aren't any."
+- Notifications, all of it → Part 9: that Lists sends none, that the system exists for two other
+  tools and Lists was left out, Bart's personal reason ("I already get notifications for all sorts
+  of things and I tune most of them out. One more would be noise, not a reminder."), the bell
+  roadmap item, and users asking for it. **Settled 2026-09-16 after trying it both ways in Part
+  2:** the only notification fact Part 2 carries is the clause in its answer sentence, "the list
+  reminds me, but not with a notification." A paragraph about why was a second subject in the
+  payoff section and got cut. Part 9 should open with Bart's personal reason above; it's his
+  wording and it's the honest starting point for the product question.
 
-**Ask:** What's the farthest-out thing you've ever managed to remind yourself of — and what carried it
-there?
+**Ask (revised 2026-09-16):** Think of something you'll need two months from now. Where is it
+right now, and how will it reach you when the time comes? And what does holding it cost you in
+the meantime: does it sit quietly, or do you find yourself running through it at night to keep it
+alive?
+*(Replaced "What's the farthest-out thing you've ever managed to remind yourself of, and what
+carried it there?" The old ask was the 2027 section's angle, distance, and rewarded a distance
+story over the mechanism. The new one mirrors the headline question at the sweet potatoes'
+distance, can be answered from where the reader sits, and adds the cost of carrying it, which is
+the half of the answer "What that buys me" spends its section on.)*
 
 ---
 
 ### Part 3 — Name It So Future-You Can Act
 
-**Question:** When something comes back to me, how do I make sure I can act on it without going
-looking for anything?
+**Question:** When I reach a day, how do I make sure I can act on what's written without having
+to hunt for additional details?
+*(Bart's wording, 2026-09-16, adopted from Part 2's published Next line. Replaced "When something
+comes back to me, how do I make sure I can act on it without going looking for anything?" because
+"comes back to me" is push language, and Part 2 spent a post saying nothing comes to Bart, he
+reaches the day. Part 3 may still adjust it when drafted; keep it close.)*
 **Format:** **Video** — clicking through embedded links shows it
 **Answer in one sentence:** The item carries its own context — the action in the name, the reference
 material as children, the link to the system of record inside the line.
@@ -487,12 +546,17 @@ material as children, the link to the system of record inside the line.
 - `Thanksgiving … (start 3 hours before departing house)` — the instruction is in the name. Under
   it: two recipe links. I make these once a year, I don't know them, and I've decided not to.
 - `Library Books (next Due on Sept 9)`, `10:30am Charge Di2 (1st Sat of Month)`, `Wash Sleeping Bag
-  Last did on 04/22/2026` — state lives in the name.
+  Last did on 04/22/2026` — state lives in the name. Also `1 Aug Sun 2027 → Cancel or keep LI
+  Premium for another year? Expires Sept 2, 2027`: the line carries its own deadline while sitting
+  a month early. (Moved here from Part 2 on 2026-09-16, where it was a redundant second
+  trigger-date example.)
 - `12pm drive to gym` with tomorrow's actual sets nested under it: `Row The Metronome 15 Min`,
   `Simple Strength`, `Swim 500 IM, 500 Kick/Pull, 500+ Free, 500 random`. Written in the form I'll
   need it in at the gym.
-- `Notes → Grocery List`, organized `Produce → Refrigerator → Grocery → Freezer` — **the order I walk
-  the store**, not a taxonomy. The friendliest example; use it before the workout tree.
+- `Grocery List`, organized `Produce → Refrigerator → Grocery → Freezer` — **the order I walk
+  the store**, not a taxonomy. The friendliest example; use it before the workout tree. **Lives on
+  the separate public Notes list since 2026-09-15** (URL in the spec), not on the Dailys list, so
+  Part 3 links two lists.
 - Links inside items to where the real thing lives: a snoozed email, a Stripe page, a sheet,
   another BartBot tool, another BartBot list. Pasted by hand.
 - The origin, in two sentences: twenty-five years ago, a paper Franklin Planner with limited space
@@ -681,6 +745,15 @@ I'm watching the product drift toward a shape its most committed user doesn't wa
   value and adjust as necessary`. Not ignored — openly under question.
 - The counter-move already on the roadmap: *"Explore creating a special type of 'Dailys' list — be
   more opinionated about the right way to use this."*
+- **Candidate (Bart, 2026-09-15): why Notes lived inside Dailys for years.** The tool he used
+  before BartBot capped the number of lists, so reference material got parked under a `Notes`
+  node in Dailys. It moved to its own list on 2026-09-15, during the Part 2 review. A small,
+  honest example of a structure that was a workaround rather than a choice.
+- **Candidate (Bart, 2026-09-15): the "reduce visual distractions" design principle.** It's why
+  future days nest under `Future`: hiding them makes it easier to focus on now. Raised while
+  reviewing Part 2 and kept out of it, because the reason is Part 1's insight (what's removed) and
+  Part 2 only says the fold keeps what isn't today off screen. As a stated product principle it
+  fits here, next to the columns that default off, or in Part 10.
 
 **Excluded:**
 - The deleted cross-linking feature → Part 5 (that one's about automation removing thinking; this
@@ -713,8 +786,17 @@ one post where the ask is the whole point.
   nesting, delete-as-you-go, frozen public copies, deep links) and whether that's enough to be a
   feature or just Bart's habit. If the answer is "not much," say that too.
 - The open roadmap question is whether to make the tool opinionated about it.
+- **What writing the series changed** (Bart, 2026-09-15: "My process is organic and I'm always
+  open to improvements. This is a great example."). Writing about the practice is changing it, and
+  Part 10 is where to say so; the 2027 line on the Part 2 list, "Running My Day series, one year
+  on. Did any of it change?", is the hook. Keep this list as the series goes:
+  1. **Notes moved out of Dailys** (2026-09-15, during the Part 2 review). It had lived there
+     since a previous tool capped the number of lists. Part 2 says only "a change I made while
+     writing this post."
 
-**Excluded:** Recapping the series. Rule 3 applies to the last post too.
+**Excluded:** Recapping the series. Rule 3 applies to the last post too. (The "what changed" list
+is not a recap; it's evidence for the n=1 question, since a practice that keeps changing under
+observation is one whose owner can't fully judge.)
 
 **Ask:** Would an opinionated version of this help you, or would it wreck the thing that makes it
 work — that the structure is yours? What would you need it to do that mine doesn't?
@@ -756,6 +838,42 @@ himself gives Bart (voice guidelines).
 
 **Ask (candidate):** What's something you handed to software and then realized you'd stopped
 understanding?
+
+---
+
+### Candidate part — Where Did I Put That?
+
+*(Added 2026-09-15 while reviewing Part 2. Placement TBD: its own part after Part 8, or the
+opening contrast of Part 9, which is otherwise about features Bart doesn't use. Decide before
+drafting Part 8.)*
+
+**Question:** With a thousand items folded under days I can't see, how do I find something before
+its day comes?
+**Why it's a real question:** Part 2's fold hides everything that isn't today. That's the point,
+and it has a cost: Bart's real Dailys list had **1,134 items on 2026-09-15** (the public Part 2
+copy has 252), nested under future days and nested again under those, and he can't always remember
+where something is. Search is the counterweight to the fold, and in his words "a key enabling
+feature in Lists for me." Kept out of Part 2 because Part 2 is how a thing reaches you on its day;
+this is how you reach a thing before its day.
+
+**Answer (to draft with Bart):** I search. The item is wherever I filed it, and search finds it
+by its text without my having to remember which day.
+
+**Evidence available:**
+- The 1,134 / 252 fact, dated. The public list is a simplified copy, and the post can say so.
+- The search box on the shared view (readers can try it on the frozen list) and on the owner view.
+- Search covers item text and notes, and reads the database rather than the rendered page, so
+  collapsed nodes are found (`nestedlist/views.py:1060-1078`).
+- A video of searching for something filed months out and landing on it. **Record on the public
+  demo list**, never the real one: the owner view's search is cross-list and would show real
+  Dailys results.
+
+**Boundary with Part 2:** Part 2 says the fold keeps what isn't today off screen. This part says
+what to do when you need something that's off screen anyway. Neither restates the other.
+
+**Excluded:** how search is implemented; whether other tools' search is worse.
+
+**Ask (candidate):** When you file something for later and then need it early, how do you find it?
 
 ---
 
@@ -841,6 +959,12 @@ So no node carries two posts' arguments, and so a drafter can check quickly.
   removed from every demo list. "HHG," "CG," "high hard goals," and "clear goals" never appear in a
   post, caption, video narration, or LinkedIn post. Kotler and *The Art of Impossible* can be credited
   by name in Part 6; his framework is not taught.
+- **Dates in prose are month-first** ("November 7," "September 8, 2027," "Tuesday, September 8"),
+  the way Part 1 wrote "Sunday, September 13" and the way readers say them. Node names are quoted
+  as the list spells them ("8 Sept Wed 2027") in captions, alt text, and quotation marks. Part 2's
+  first draft mixed the two because the prose was echoing the node names (fixed 2026-09-16). When
+  several dates with years sit in one sentence, break the sentence rather than stacking commas
+  ("Then March 6, August 1, and September 8 of 2027").
 - **Category:** `Building` with `project: bartbot` for now. This post type doesn't fit the five
   categories cleanly; if the series holds up, a sixth may be worth adding to the CLI.
 
