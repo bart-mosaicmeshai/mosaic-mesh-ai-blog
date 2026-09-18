@@ -4,8 +4,9 @@
 **Rewritten:** September 10, 2026 — after the first Part 1 draft rambled. See "Lessons learned."
 **Status:** Plan v2. The plan-v1 Part 1 draft was deleted 2026-09-10 and Part 1 was redrafted
 from empty against this plan. Published 2026-09-14:
-`daily-posts/published/2026-09-10-running-my-day-part-1.md`. Part 2 in draft from 2026-09-15:
-`daily-posts/2026-09-15-running-my-day-part-2-draft.md`.
+`daily-posts/published/2026-09-10-running-my-day-part-1.md`. Part 2 published 2026-09-17:
+`daily-posts/published/2026-09-15-running-my-day-part-2.md`. Part 3 in draft from 2026-09-17,
+first review done 2026-09-18: `daily-posts/2026-09-17-running-my-day-part-3-draft.md`.
 **Cadence:** **Worked on** daily in the 6–8am HHG CGs block. **Published when ready** — not on a
 daily schedule. The HHG commitment is the two hours, not the publish rate.
 **Stakes:** First public post about BartBot on LinkedIn. Part 1 is a first impression for an
@@ -191,6 +192,7 @@ Record third parties by role, never by name. This repo is public.
 | Part | LI impressions | LI reactions | Clicks to blog | LI comments | Blog comments | Other |
 |---|---|---|---|---|---|---|
 | 1 (2026-09-14, logged 09-15) | 146 | 4 | 10 | 1 | 0 | none |
+| 2 (2026-09-17, logged 09-18) | 107 | 0 | 5 | 0 | 0 | none |
 
 **Part 1 notes.** 146 impressions reached a small share of 1,000+ contacts, but 10 clicks is about
 7% of the people who saw it, which is high for a link post. The one comment was a paid BartBot
@@ -200,6 +202,47 @@ Neither expected question ("why don't you have AI do that?", "couldn't you do th
 came up, and nobody answered the ask. One day of data is too thin to change the part map, so Part 2
 goes ahead as planned. Worth checking: whether Squarespace commenting asks readers to sign in,
 since 10 visitors and 0 comments could be friction as much as a lack of interest.
+
+**Part 2 notes.** Everything down: 107 impressions, no reactions, 5 clicks, no comments anywhere.
+
+*The zeros are probably one event, not four.* LinkedIn distributes on early engagement. Part 1's
+first comment (a paid subscriber tagging someone) and its 4 reactions bought it impressions;
+Part 2 got no early engagement and stalled at 107. Treat impressions as partly downstream of
+reactions, not as independent evidence.
+
+*Click-through held.* 5/107 is 4.7% against Part 1's 6.8%. Both are high for a link post. Of the
+people who saw it, a good share still clicked. Fewer people saw it. Reach is the constraint, not
+the post. Image treatment is not the explanation: both LI posts attached images natively with the
+link in the body (Part 1 two images, Part 2 one), so nothing about the link-card decision changed
+between them.
+
+*Part 1 had novelty Part 2 could not have.* First public post about BartBot to 1,000+ contacts.
+Part two of a series does not get that, and the readers most likely to click had already clicked.
+
+**The ask is not failing; the sample is too small to test it.** Fifteen visitors across two posts,
+zero comments. Blog comment rates run about 1% of visitors, so fifteen visitors predicts ~0.15
+comments and zero is the most likely outcome *even if the ask is perfect*. Part 2's ask was
+deliberately made easier than Part 1's and nothing changed, which is what you would expect from
+changing something that was never the binding constraint.
+
+**Consequences, decided 2026-09-18:**
+1. **Stop treating "nobody answered" as evidence about the ask's wording.** Keep asks short
+   because short is better writing. Do not re-tune the ask part over part hoping for comments,
+   and do not read a zero at this volume as a verdict on anything.
+2. **A public blog comment is the wrong instrument for this audience.** It asks someone who
+   arrived from a phone feed to leave the feed, read ~700 words, and post publicly under their own
+   name. The ask stays on the blog (it is the owned surface), but expect answers to arrive
+   privately if they arrive at all.
+3. **The newsletter is the likeliest place the ask ever gets answered.** It is the one surface
+   untouched after two parts, subscribers opted in, and "hit reply" is a far lower bar than a
+   public comment. **Deferred by Bart 2026-09-18: "that is a different concern."** Not rejected,
+   and not a series decision. It stays the plan's open decision under Distribution and gets taken
+   up on its own, not inside a part's drafting session.
+4. **Two parts is still not a trend.** Nothing here changes the part map, the rules, or the
+   cadence. Revisit after Part 3 or 4, and watch reactions (the lever on reach), not impressions.
+
+*Not evidence of anything yet, but free to vary and worth recording:* Part 1 posted Monday
+September 14, Part 2 Thursday September 17.
 
 ---
 
@@ -334,7 +377,7 @@ transcript, so check them by watching before citing.
 | Part | File | Anchor | Shows | Fit |
 |---|---|---|---|---|
 | 2 | `lists-new-and-items.mp4` | `#lists-new-and-items` | nesting, adding under a parent, dragging between parents | partial — the Future scroll needs a new recording |
-| 3 | `cross-tool-linking.mp4` | `#cross-tool-linking` | pasting a URL from one BartBot tool into an item in another, by hand | good |
+| 3 | `cross-tool-linking.mp4` | `#cross-tool-linking` | pasting a URL from one BartBot tool into an item in another, by hand | not used: Part 3 has no video (2026-09-18), and this one shows how a link gets made, not acting on a line |
 | 4 | `lists-delete-multiple-rows.mp4` | `#lists-delete-multiple-rows` | clearing several items at once | partial — the real end-of-day pass needs a new recording |
 | 9 | `lists-column-settings.mp4` | `#lists-columns` | the four columns being turned on and off | good — it's the feature the post says I don't use |
 | 9 | `lists-calendar-view.mp4` | `#lists-calendar-view` | calendar view driven by start/due dates | good — same |
@@ -530,7 +573,7 @@ the half of the answer "What that buys me" spends its section on.)*
 
 ---
 
-### Part 3 — Name It So Future-You Can Act
+### Part 3 — Name It So Future-Me Can Act
 
 **Question:** When I reach a day, how do I make sure I can act on what's written without having
 to hunt for additional details?
@@ -538,7 +581,12 @@ to hunt for additional details?
 comes back to me, how do I make sure I can act on it without going looking for anything?" because
 "comes back to me" is push language, and Part 2 spent a post saying nothing comes to Bart, he
 reaches the day. Part 3 may still adjust it when drafted; keep it close.)*
-**Format:** **Video** — clicking through embedded links shows it
+**Format:** Stills. ~~Video, clicking through embedded links~~ **cut 2026-09-18 in review.** The
+only motion on offer was a link opening in a new tab, which fails the part map's own test (does
+the idea depend on motion?). The stills show the links, and the deep links let a reader click for
+themselves on the real list. Bart: "The still images show the links clearly and the video is not
+needed." Lesson for later parts: the Format field was assigned before deep links and per-part
+stills existed, so re-run the motion test at drafting time instead of inheriting it.
 **Answer in one sentence:** The item carries its own context — the action in the name, the reference
 material as children, the link to the system of record inside the line.
 
@@ -553,12 +601,14 @@ material as children, the link to the system of record inside the line.
 - `12pm drive to gym` with tomorrow's actual sets nested under it: `Row The Metronome 15 Min`,
   `Simple Strength`, `Swim 500 IM, 500 Kick/Pull, 500+ Free, 500 random`. Written in the form I'll
   need it in at the gym.
-- `Grocery List`, organized `Produce → Refrigerator → Grocery → Freezer` — **the order I walk
-  the store**, not a taxonomy. The friendliest example; use it before the workout tree. **Lives on
-  the separate public Notes list since 2026-09-15** (URL in the spec), not on the Dailys list, so
-  Part 3 links two lists.
+- ~~`Grocery List`, organized in store-walk order~~ **Moved out 2026-09-18** to the candidate
+  part "The List I Delete to Finish" below. Part 3's first draft said "I read down the list as I
+  walk," which is not how Bart uses it, and the real pattern is a post of its own. Part 3 links one
+  list again.
 - Links inside items to where the real thing lives: a snoozed email, a Stripe page, a sheet,
-  another BartBot tool, another BartBot list. Pasted by hand.
+  another BartBot tool. Pasted by hand. (~~another BartBot list~~: the roadmap link isn't on the
+  Part 2 or Part 3 lists, and Bart decided 2026-09-18 not to add one: "We have enough examples
+  without it.")
 - The origin, in two sentences: twenty-five years ago, a paper Franklin Planner with limited space
   and no eraser forced the question *what do I need to call this so that when I come back in two
   weeks I'll know what to do?* That's the whole discipline.
@@ -569,8 +619,10 @@ material as children, the link to the system of record inside the line.
 - Times typed into text instead of date fields, as a *product* choice → Part 9. Here it's just
   how the items read.
 
-**Ask:** Open your own to-do app and read your five oldest items. How many could you act on right now
-without opening something else to find out what they meant?
+**Ask (rewritten in review, 2026-09-18):** Think of the last time you came back to something you'd
+written down for later. Could you act on what you'd written, or did you have to go hunting for the
+rest? *(Replaced "read your five oldest items…". Bart: "oldest" sends the reader the wrong
+direction. It points at stale, avoided items, which is Part 4's subject, not naming.)*
 
 ---
 
@@ -877,6 +929,55 @@ what to do when you need something that's off screen anyway. Neither restates th
 
 ---
 
+### Candidate part — The List I Delete to Finish
+
+**Surfaced 2026-09-18, in Part 3's review,** when the Grocery List example turned out to describe
+a different practice from the one Bart actually has. Working title only.
+
+**Question (draft):** How do I come home from the store with everything I need and nothing I
+don't?
+
+**The practice, in Bart's words (2026-09-18):** "What I actually do is duplicate/copy the full
+Grocery List and nest it under today. Then I do a 'pantry check' where I go through the full list
+and consider each item. For each item I first ask the question 'Do I want this item available at
+home over the next 3-7 days?' If yes, I then check to see if I already have enough of it at home.
+If the answer to either of these is No, I delete it from the copied, nested list under today.
+What remains is what I actually need to buy when I go to the grocery store. Then, when I'm at the
+grocery store and putting things in my cart, I delete the item from the copied, nested list under
+today until the Grocery list I'm using for shopping is fully deleted. At that point I know I
+bought everything I need and nothing I don't need. It helps me avoid impulse purchases and
+prevents me from getting home without some key ingredient." And: "this feels like a whole post
+on its own. It's another pattern for how I use Lists."
+
+**The shape of it:** a master list that never changes (the template, on the Notes list), a copy
+nested under the day, a pruning pass driven by two questions, and deletion as the progress bar,
+so an empty list means done. Four moves, and the master is untouched for next time.
+
+**Evidence available:** `Notes → Grocery List` on the public Notes list
+(`ARVfQr8zvPo7swjW3wRz`), organized `Produce → Refrigerator → Grocery → Freezer`. The store-walk
+ordering (in the spec since 2026-09-08, from Bart) would belong here too, but **confirm it with
+him before using it**; Part 3's draft built a sentence on it ("I never double back for something
+three aisles behind me") that was Claude's invention, not his. `8 Sept Tues → Grocery Shopping`
+is on every Dailys list with nothing nested under it, so this part's frozen list would need the
+copied-and-pruned Grocery List under a day. Motion test: copying, pruning, and deleting down to
+empty all depend on motion, so this is a real video candidate.
+
+**Placement, undecided.** It shares verbs with two planned parts: deleting as finishing (Part 4)
+and copying by hand as where the thinking happens (Part 5; the pantry check is exactly that). It
+could be evidence inside Part 5 or its own part right after it. Decide when Part 5 is drafted.
+**It is a pattern, not a grocery trick (Bart, 2026-09-18, same review):** "For some workouts I use
+delete to complete. For example, I've memorized the Simple Strength workout so I no longer do
+this, but if I did, I would have the following lines nested under Simple Strength and I would
+delete them as I go: Bench Press 5 x 10, Pullups 15 total, Roman chair 3 x 12, Leg Press 2 x 10,
+etc. I could also add in the amount of weight for each exercise as a reminder if needed." So the
+part has two examples: groceries (copy a master, prune, delete to done) and a workout (nest the
+steps, delete to done). The shared move is deletion as the progress bar. Note the second half:
+once a workout is memorized the nested lines go away, which is the same boundary Part 3 found
+with Thanksgiving ("none of this is written down, I just know"): a line carries what he will
+have forgotten, not what he reliably knows. Still worth asking about packing.
+
+---
+
 ## Where each demo-list node is used
 
 So no node carries two posts' arguments, and so a drafter can check quickly.
@@ -892,7 +993,7 @@ So no node carries two posts' arguments, and so a drafter can check quickly.
 | `7 Nov → Thanksgiving` **contents and name** | 3 | recipes as children, action in the name |
 | `Library Books`, `Charge Di2`, `Wash Sleeping Bag` | 3 | state in the name |
 | `12pm drive to gym` + nested sets | 3 | written in the form I'll need it |
-| `Notes → Grocery List` | 3 | store-walk order |
+| `Notes → Grocery List` | candidate: "The List I Delete to Finish" | a template copied under today, pruned, then deleted to done (was Part 3's store-walk order until 2026-09-18) |
 | `6 Mar 2027 → Tax 2025 / Tax 2026` | 4 | completed-but-kept |
 | `8 Sept Tues` present on Part 1's list, absent on Part 4's | 4 | the two-list demonstration |
 | `Week plan`, `Workout Plan` | 5 | self-bouncing items |
@@ -1027,6 +1128,40 @@ Part 3's first draft starts past them:
 - **Dates month-first; node names as the list spells them** (production notes).
 - **The headline is one question.** "Ready to use?" was a second question (Part 3's) riding on the
   first; cut.
+
+**2026-09-18 — Part 3's line-by-line review** (one morning, about thirty exchanges). What Part 4's
+first draft should start past:
+
+- **Don't invent details of Bart's life.** Three made it into the first draft and he caught each
+  one: a stance ("I've decided not to"), a scene ("three aisles behind me"), and a location
+  ("standing at the edge of the pool"). Each time, asking produced better material than the
+  invention: the November 7 questions, the pantry check, the day-before reason for "Simple
+  Strength." When a sentence needs to know how he actually does something, ask before drafting.
+- **An Excluded list can be over-applied.** The first draft withheld why the Thanksgiving line sits
+  on November 7 because the trigger-date idea is Part 2's. Bart: "None of the readers will" know.
+  The fix was one sentence and a link back, not re-arguing Part 2. Excluded means don't re-make the
+  other part's argument; it doesn't mean leave a hole a new reader falls into.
+- **Check that the example describes the practice, not just the artifact.** The Grocery List looked
+  like evidence for "written in the form I'll need it." The list is real; the practice around it
+  (copy, prune, delete to done) was a different post. Ask "is this how you use it?" before building
+  a section on a node.
+- **Re-run the motion test at drafting time.** Part 3's "Video" format was assigned before deep
+  links and per-part stills existed. At the line where the tag sat, the only motion on offer was a
+  link opening. Cut.
+- **Tie each claim to its real source.** Bart kept reworking one paragraph until each thing he
+  wouldn't remember was credited to the part of the line that holds it (the parenthetical gives
+  the start time; the nested links give the recipes). Terse connectives ("So", "I don't need to.")
+  hid that.
+- **"Sounds like clever AI writing" is a real category.** "The date it stops being mine to make"
+  went; "the deadline for making it" stayed. Prefer the plain verb the neighbouring sentences
+  already use ("tells me").
+- **Proxies in the ask mislead.** "Your five oldest items" stood in for "you've forgotten the
+  context" and pointed readers at stale, avoided work instead. Mirror the headline directly.
+- **The detail in a line scales with distance and quantity.** His rule, surfaced twice the same
+  morning ("none of this is written down, I just know"; "in 24 hours I'll still remember"): a line
+  carries what he will have forgotten, not what he reliably knows. It is in Part 3 as the Simple
+  Strength sentences and is available to later parts.
+- **Numbers, one at a time.** When asking how a post landed, ask for one figure per message.
 
 ---
 

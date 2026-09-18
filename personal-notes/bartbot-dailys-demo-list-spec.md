@@ -16,6 +16,22 @@ made-up IDs. Two edits the same day before freezing: the two em-dash lines under
 reworded, and **`Notes` removed** (see below), leaving 127 items and a two-line top level,
 `8 Sept Tues` / `Future`.
 
+Part 3 URL: https://bartbot.mosaicmeshai.com/lists/shared/C0lFrmmBNAc7Cn36A5U9 (public 2026-09-17).
+Checked against the API the same day: an exact copy of Part 2's list (127 items, identical
+content, notes, completion, and order), all four columns off, no item with notes, still frozen on
+`8 Sept Tues`. Redaction searches find only what Part 2 already had. Part 3 changes nothing on
+the list: its evidence (the Thanksgiving line, the gym sets, the state-in-the-name lines) was
+already there. The Notes list was unchanged at 125 items on 2026-09-17, so Part 3 links the
+existing Notes list rather than a copy. **Demonstration #9 (a pasted link to the public roadmap
+list) is not on the Part 2 or Part 3 lists**; it appears to have left with the HHG scaffolding on
+2026-09-11. **Decided 2026-09-18: Part 3 doesn't need it** (Bart: "We have enough examples without
+it"), so demonstration #9 stays unmet unless a later part wants it.
+**Real Gmail links on Bart's own public lists are acceptable to him** (2026-09-18, about one on
+the public roadmap list): "If someone clicks them when not authenticated as me they'll just get
+an error message. That is just like guessing long and complicated ids." The Dailys demo lists
+still use made-up IDs, because those were redacted from a private list; this is not a reason to
+re-flag real Gmail links found on lists he publishes himself.
+
 **Notes moved out of Dailys, 2026-09-15.** Bart: Notes was only ever in Dailys because the tool
 he used before BartBot capped the number of lists, so it got parked there. It's now its own public
 list, **`Notes (A simplified, public version of the list I use to keep notes)`** at
@@ -230,6 +246,12 @@ literal `**markdown**` in the notes, Note 2's duplicated clause, and the questio
 collapse state (it loads collapsed — confirmed in-browser).
 
 ### The Grocery List is a Part 4 asset
+
+**Superseded 2026-09-18.** The Grocery List is not Part 3's or Part 4's. Bart's real practice
+(copy it under today, prune it with a pantry check, delete each item as it goes in the cart until
+the copy is gone) is a candidate part of its own; see "The List I Delete to Finish" in the series
+plan. The paragraph below is kept for the record, and its store-walk claim needs confirming with
+Bart before any post uses it.
 
 Organized `Produce → Refrigerator → Grocery → Freezer` — **the order you walk the store**, not a
 taxonomy of food. Same principle as `8am Pack for the day's activities` and `(start 3 hours before
