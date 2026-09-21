@@ -181,7 +181,12 @@ commit. **Inline styles only**, because email clients strip `<style>` blocks.
 
 Deep links into the frozen public lists work fine in email and are worth keeping.
 
-**Open decision:** the newsletter is monthly and the series publishes when ready, so an issue could
+**2026-09-21: moved to the BartBot agent.** Bart is sending Part 1 as a newsletter issue, built
+with the BartBot Claude Code agent in `bart-bot-newsletters`, which read Part 1 and this section
+from a context prompt. That session owns the open decision below; series sessions don't. Replies
+from subscribers to a part's ask are logged here, in "What came back."
+
+**Open decision (now the BartBot agent's):** the newsletter is monthly and the series publishes when ready, so an issue could
 be either one part reproduced, or a recap of the month's parts with the best one reproduced in full.
 Decide after a couple of parts, when the real cadence is known.
 

@@ -25,6 +25,13 @@ the LI post, log what there is and come back to it. Read the plan's Part 2 notes
 interpreting: at this volume zero comments is the expected outcome, reactions are the lever on
 reach, and **the newsletter is out of scope in series sessions** (Bart, 09-18).
 
+**The newsletter is being built elsewhere.** On 2026-09-21 Bart started the BartBot Claude Code
+agent (repo `~/Projects/WebApps/BartBot/bart-bot-newsletters/`) on sending **Part 1 as a BartBot
+newsletter issue**, from a context prompt written in this session. That agent owns the issue, the
+format, and the one-part-or-recap decision; don't work on it here. What belongs here: if Bart
+mentions subscriber replies to a part's ask, they are responses to the series, so log them in
+that part's "Other" column in "What came back" (third parties by role, never by name).
+
 **Read first:** `personal-notes/bartbot-dailys-series-plan.md` (rules, template, Part 4's section,
 "What came back", LinkedIn rules, and **Lessons learned, which now has two Part 3 entries**) and
 `personal-notes/bartbot-dailys-demo-list-spec.md`. The three published posts are the models.
