@@ -5,8 +5,8 @@
 **Status:** Plan v2. The plan-v1 Part 1 draft was deleted 2026-09-10 and Part 1 was redrafted
 from empty against this plan. Published 2026-09-14:
 `daily-posts/published/2026-09-10-running-my-day-part-1.md`. Part 2 published 2026-09-17:
-`daily-posts/published/2026-09-15-running-my-day-part-2.md`. Part 3 in draft from 2026-09-17,
-first review done 2026-09-18: `daily-posts/2026-09-17-running-my-day-part-3-draft.md`.
+`daily-posts/published/2026-09-15-running-my-day-part-2.md`. Part 3 published 2026-09-21:
+`daily-posts/published/2026-09-17-running-my-day-part-3.md`.
 **Cadence:** **Worked on** daily in the 6–8am HHG CGs block. **Published when ready** — not on a
 daily schedule. The HHG commitment is the two hours, not the publish rate.
 **Stakes:** First public post about BartBot on LinkedIn. Part 1 is a first impression for an
@@ -573,7 +573,7 @@ the half of the answer "What that buys me" spends its section on.)*
 
 ---
 
-### Part 3 — Name It So Future-Me Can Act
+### Part 3 — Write It So Future-Me Can Act
 
 **Question:** When I reach a day, how do I make sure I can act on what's written without having
 to hunt for additional details?
@@ -1020,6 +1020,8 @@ So no node carries two posts' arguments, and so a drafter can check quickly.
   (its smallness is part of the argument) and overlapping the calendar, on a muted plum ground
   (`#4a4166`), ratio about 1.9:1 to survive Squarespace's featured-image crop. Later parts follow
   the same idea with their own evidence; the ground color can stay plum for series consistency.
+- **Squarespace caps image alt text at 250 characters** (found on Part 3, 2026-09-21: the hero's
+  267-character alt was cut off mid-word). Count before publishing.
 - **Squarespace constraints (learned on Part 1, 2026-09-14):** image captions are plain text only,
   no links and no Markdown, so any link that belongs with an image goes in a body paragraph under
   it. **No inline code spans either**: backticks render as pink monospace on a grey chip, the same
@@ -1162,6 +1164,23 @@ first draft should start past:
   carries what he will have forgotten, not what he reliably knows. It is in Part 3 as the Simple
   Strength sentences and is available to later parts.
 - **Numbers, one at a time.** When asking how a post landed, ask for one figure per message.
+
+**2026-09-21 — Part 3's fresh-eyes reread** (three days after the first review; five changes):
+
+- **Plan shorthand leaks into prose.** "Name" ("state lives in the name," "naming discipline") was
+  this plan's vocabulary, not Bart's, and it appeared in the title, two headings, and three
+  sentences before he noticed it read oddly. The series' word is "line." Before drafting, check
+  that a part's key noun appears in the published parts; if it only appears in the plan, it is
+  probably jargon. The title changed with it: "Write It So Future-Me Can Act."
+- **"The same X" is a hole for a reader who starts here.** "The same Franklin Planner" pointed at
+  Part 2. Same failure as the November 7 gap: re-ground in a clause and link back.
+- **Even his own published wording gets corrected by memory.** "No easy way to erase" was from
+  his Inspiration blurb; on reread he said he wrote in mechanical pencil and the real constraint
+  was line space. Ask about the physical facts even when there's a source.
+- **A fresh-eyes gap works.** Friday's review ended with "looks good"; Monday found the most
+  pervasive problem in the post. Keep the two-sitting rhythm.
+- **On LinkedIn, an example about LinkedIn is "too on the nose"** (his words) even when it's the
+  most recognizable one. It stayed in the blog body.
 
 ---
 
