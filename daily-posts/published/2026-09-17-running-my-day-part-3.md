@@ -120,7 +120,12 @@ https://www.mosaicmeshai.com/blog/running-my-day-part-3-write-it-so-future-me-ca
 - Image: attach `thanksgiving.png` natively. It shows exactly the quoted line opened to its two
   recipes, so the post's evidence, the image, and the blog's first section are the same thing.
   Parts 1 and 2 both attached natively too.
-- The URL assumes the Squarespace slug matches the front matter's. Confirm after publishing.
+- **Posted Monday 2026-09-21**, the same morning as the blog post, with `thanksgiving.png`
+  attached natively. The slug matched, so the URL in the post is live.
+- **LinkedIn composer gotcha (2026-09-21):** pasting text that contains a URL makes LinkedIn build
+  a link preview card, and while that card is attached the "Add media" button disappears. Click
+  the X on the card (the URL stays in the text) and the image button comes back. Or attach the
+  image first, then paste the text.
 - After posting: reply to comments briefly and warmly; point to the post when the answer is there.
 
 ---

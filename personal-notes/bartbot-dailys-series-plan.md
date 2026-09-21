@@ -291,6 +291,10 @@ it's the opposite of how most LI posts are built.
 10. **Same voice guidelines** as the blog: `writing-voice-and-tone.md`. Claims about my own practice
     are stated directly; claims about anyone else's are hedged.
 
+**Composer gotcha (Part 3, 2026-09-21):** pasting text with a URL makes LinkedIn attach a link
+preview card, and while the card is there the "Add media" button is hidden. Remove the card with
+its X (the URL stays in the text), or attach the image before pasting.
+
 **Image choice (decide per post):** LinkedIn renders *either* the link card (from Squarespace's OG
 tags, which include the hero image) *or* a native image you attach — not both prominently. For a
 post whose argument is visual, attaching the redacted image natively and putting the link in the

@@ -13,9 +13,9 @@ prod the same morning: hero as og:image, both stills, all 14 links (9 deep links
 list), every sentence verbatim, comments open, no video. Published file:
 `daily-posts/published/2026-09-17-running-my-day-part-3.md` (its draft notes record every decision
 from both review sittings, and Bart's own explanations kept as raw material for Parts 4 and 5).
-**The LinkedIn post had not gone up yet when this was written**; the Thanksgiving version is in
-the published file's LinkedIn section, to be posted with `thanksgiving.png` attached. Ask whether
-and when it went out.
+**LinkedIn post went up the same morning, Monday 2026-09-21** (the Thanksgiving version, in the
+published file's LinkedIn section), with `thanksgiving.png` attached natively and the link in the
+body, the same treatment as Parts 1 and 2.
 
 **ASK BART FIRST, before any Part 4 work:** how did Part 3 land? **One number per message** (his
 preference): LI impressions, then reactions, clicks to the blog, LI comments, blog comments, then
