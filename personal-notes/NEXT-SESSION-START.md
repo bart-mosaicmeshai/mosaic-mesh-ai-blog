@@ -1,87 +1,79 @@
 # Next Session Start: Blog Strategy & Series Planning
 **Created:** January 1, 2026
-**Last Updated:** September 18, 2026
+**Last Updated:** September 21, 2026
 **Status:** Ready for next Claude Code session
 
 ---
 
-## NEXT UP: Running My Day, Part 3 — Bart's fresh-eyes reread, then publish
+## NEXT UP: Running My Day, Part 4
 
-**Where Part 3 stands (end of 2026-09-18).** The first line-by-line review is done, top to bottom,
-in one morning. Draft: `daily-posts/2026-09-17-running-my-day-part-3-draft.md` (gitignored), titled
-**"Running My Day, Part 3: Name It So Future-Me Can Act"** (Bart changed "Future-You" to
-"Future-Me" on 09-18; the slug changed with it). No open `CLAUDE, decision` comments remain.
+**Part 3 shipped 2026-09-21.** "Running My Day, Part 3: Write It So Future-Me Can Act," live at
+https://www.mosaicmeshai.com/blog/running-my-day-part-3-write-it-so-future-me-can-act. Verified in
+prod the same morning: hero as og:image, both stills, all 14 links (9 deep links into the Part 3
+list), every sentence verbatim, comments open, no video. Published file:
+`daily-posts/published/2026-09-17-running-my-day-part-3.md` (its draft notes record every decision
+from both review sittings, and Bart's own explanations kept as raw material for Parts 4 and 5).
+**The LinkedIn post had not gone up yet when this was written**; the Thanksgiving version is in
+the published file's LinkedIn section, to be posted with `thanksgiving.png` attached. Ask whether
+and when it went out.
 
-**START HERE: Bart said he would reread the whole draft with fresh eyes over the weekend or on
-Monday 2026-09-21.** Ask whether he has. If yes, take his comments one line at a time (see the
-part-review memory). If not, that reread is the session. After the body settles, he rereads the
-two LinkedIn versions.
+**ASK BART FIRST, before any Part 4 work:** how did Part 3 land? **One number per message** (his
+preference): LI impressions, then reactions, clicks to the blog, LI comments, blog comments, then
+anything by email, text, or in person. Log the row in the plan's "What came back" table. Earlier
+rows: Part 1 146 / 4 / 10 / 1 / 0; Part 2 107 / 0 / 5 / 0 / 0. If less than a day has passed since
+the LI post, log what there is and come back to it. Read the plan's Part 2 notes before
+interpreting: at this volume zero comments is the expected outcome, reactions are the lever on
+reach, and **the newsletter is out of scope in series sessions** (Bart, 09-18).
 
-**What the review changed (details and his quotes are in the draft notes and the plan):**
-1. **No video.** Cut at the line where the tag sat: a link opening in a new tab isn't an idea that
-   depends on motion, and the stills plus deep links already show it. Part 3 is stills only.
-2. **The Grocery List left the post** and became a candidate part, "The List I Delete to Finish"
-   (plan, after the other two candidates). His real practice is copy the master list under today,
-   prune it with a pantry check, delete each item as it goes in the cart. He uses delete-to-finish
-   for some workouts too, so it is a pattern post. Placement undecided; Part 4 stays next.
-   Part 3 links one list again (its own), not the Notes list.
-3. **The Thanksgiving section now says why the line sits on November 7** (one sentence, his three
-   questions, a link back to Part 2) and that the line moves forward with him to Thanksgiving
-   morning. His fuller explanation (deferring to the 8th, 9th, 10th; shopping 1 to 3 days ahead;
-   "none of this is written down") is saved in the draft notes as raw material for Parts 4 and 5.
-4. **"Simple Strength" got two sentences:** it is two words because he has memorized it and writes
-   the line the day before; a line written months ahead couldn't get away with that.
-5. **The ask was rewritten** without "oldest," which pointed readers at stale, avoided items. New
-   ask mirrors the headline: the last time you came back to something written for later.
-6. **Every named node is deep-linked** on its quoted name, per the plan's production notes.
-7. **Hero rebuilt and approved:** Thanksgiving day in front, gym day behind, 890x466. New tool
-   `tools/bartbot-dailys/hero_stack.py` for two wide captures (defaults are Part 3's settings).
-8. **Roadmap link: not needed** ("We have enough examples without it"). Real Gmail links on lists
-   he publishes himself are fine with him; don't re-flag them (spec).
+**Read first:** `personal-notes/bartbot-dailys-series-plan.md` (rules, template, Part 4's section,
+"What came back", LinkedIn rules, and **Lessons learned, which now has two Part 3 entries**) and
+`personal-notes/bartbot-dailys-demo-list-spec.md`. The three published posts are the models.
 
-**Part 2's numbers are logged** (107 / 0 / 5 / 0 / 0 / none, against Part 1's 146 / 4 / 10 / 1 /
-0), with the read underneath in the plan. Short form: the zeros are one event (no early
-engagement, so reach stalled); click-through held at 4.7%; fifteen visitors across two posts
-predicts zero comments even for a perfect ask, so stop tuning the ask for comments. **The
-newsletter is out of scope for series sessions** (Bart, 09-18: "that is a different concern").
-Don't raise it while working on a part.
+**Part 4: "What Happens to Today at the End of Today."** Question, already promised by Part 3's
+published Next line: What do I do with everything on today's list when today is over? Answer in
+one sentence (plan): every item gets one of four dispositions (done, denied, deferred, delegated)
+and then the day itself is deleted.
+
+**What Part 3's review hands to Part 4:**
+1. **A ready-made "deferred" example, in Bart's words** (saved in Part 3's draft notes): on
+   November 7 he might work the Thanksgiving questions or "just as likely … defer this item to Nov
+   8, 9 or 10 depending on what else is actually happening that day." Part 3 already told readers
+   "the line moves forward with me until Thanksgiving morning," so Part 4 can pay that off.
+2. **Re-run the motion test before accepting "Video."** Part 3's video was cut because its only
+   motion was a link opening. Part 4's (an item-by-item end-of-day pass) probably does depend on
+   motion, but decide at drafting time. If it stays: agree beats first, record on a throwaway
+   duplicate (this one edits the list), faststart remux before the first upload.
+3. **Part 4's list is the first one that changes.** `8 Sept Tues` is deleted and the next day
+   comes to the top; the post links its own list and Part 1's for the side-by-side. Duplicate
+   Part 3's list, never edit a published part's list, run the redaction searches on the copy.
+4. **Don't invent details of Bart's life** (memory, and the plan's lessons). Part 4 is all
+   practice: ask him how the end-of-day pass actually goes before drafting it. The Interview
+   Method fits this part.
+5. **Vocabulary:** the series says "line," not "name," "item," or "label." Check a part's key
+   noun against the published parts before drafting.
+6. **The delete-to-finish candidate part** (groceries, some workouts) shares the verb "delete"
+   with Part 4. Keep Part 4 to the end-of-day rule; one sentence at most about deleting as you go.
+7. **Squarespace caps alt text at 250 characters.** Heroes from two wide captures use
+   `tools/bartbot-dailys/hero_stack.py`.
 
 **To do, in order:**
-1. Bart's reread; apply his edits line by line. Watch length: about 870 prose words against the
-   900 ceiling. If it needs cutting, the links paragraph's four examples are where (two prove it).
-2. LinkedIn post: two 147-word versions are in the draft, A (the LI Premium line) and B (the
-   Thanksgiving line), with a comparison. Claude leans B, narrowly. Any body sentence the reread
-   changes must change in both. Image: `thanksgiving.png` with B; `hero.png` or the link card with A.
-3. Pre-publish checklist in the draft notes. In particular: recheck every quoted node name
-   character for character against the Part 3 list's API; confirm the 9 deep links resolve
-   (`?item=` 8109, 8017, 8072, 8105, 8084, 8035, 8061, 8014, 8016 on token
-   `C0lFrmmBNAc7Cn36A5U9`); grep for em dashes, backticks, and HTML comments.
-4. Squarespace: captions as plain text, hero as featured image, slug
-   `running-my-day-part-3-name-it-so-future-me-can-act`, comments on. No Code Block this time.
-5. After publishing: move the draft to `daily-posts/published/` without the `-draft` suffix, set
-   `published: true`, commit with the Part 3 assets notes, verify in prod (og:image, stills, deep
-   links, the Part 2 link, comments open). About a day later, ask for the numbers, one at a time
-   (Bart's preference, 09-18), and log the row.
-
-**Working rule learned the hard way on 09-18: don't invent concrete details of Bart's life.**
-Three got into the first draft and he caught each: "I've decided not to" (an unsupported stance),
-"I never double back for something three aisles behind me," and "standing at the edge of the
-pool." When a draft needs a physical scene or a how-he-actually-does-it detail, ask him first.
-His answers were better material than the inventions every time.
-
-**Read first:** `personal-notes/bartbot-dailys-series-plan.md` (rules, template, per-part
-Evidence/Excluded, "What came back", LinkedIn rules, Lessons learned) and
-`personal-notes/bartbot-dailys-demo-list-spec.md` (the frozen lists, redaction, deep links). Both
-published posts are the models for voice and structure.
+1. Ask for Part 3's numbers and log them.
+2. Interview Bart on the end-of-day pass; then he duplicates the Part 3 list as "Dailys, Part 4
+   (…)" and makes the changes Part 4 describes. Redaction searches, then public.
+3. Pull `?item=` IDs from Part 4's list; stills by Playwright (dark mode, fresh context, cropped
+   to rows); hero from the part's own stills.
+4. Draft against the plan; expect two review sittings a few days apart (the fresh-eyes gap found
+   Part 3's biggest problem).
+5. LinkedIn post from the settled body, under 150 words, payoff sentence included.
 
 **Open items:**
 - Placement of three candidate parts: "Why Don't You Have AI Do That?", "Where Did I Put That?",
-  and "The List I Delete to Finish." None comes before Part 4. Decide when Part 5 is drafted.
-- For the delete-to-finish part: confirm the Grocery List's store-walk ordering with Bart before
-  using it, and ask whether he uses the pattern for packing.
+  and "The List I Delete to Finish." Decide when Part 5 is drafted.
+- For the delete-to-finish part: confirm the Grocery List's store-walk ordering with Bart, and ask
+  whether he uses the pattern for packing.
 - BartBot has no `og:image`, so any BartBot URL previews as a bare card. Roadmap item, not urgent.
-- The post date shown is the Squarespace publish date; front matter keeps the drafting date
-  (Part 1: 09-10, Part 2: 09-15, Part 3: 09-17). Consistent so far.
+- Post dates: Squarespace shows the publish date; front matter keeps the drafting date (Part 1:
+  09-10, Part 2: 09-15, Part 3: 09-17).
 
 **Do not commit anything from `~/Projects/mosaic-mesh-ai-blog-private/`.** This repo is public.
 
