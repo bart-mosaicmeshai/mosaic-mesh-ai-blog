@@ -31,10 +31,12 @@ were LinkedIn's all-clicks figure, not visits to the blog).
 in `~/Projects/WebApps/BartBot/bart-bot-newsletters/`. That agent owns the newsletter; don't work
 on it here. There is no traffic measurement on it, by choice.
 
-**The open question the goal raises, for drafting and not for analytics:** three parts have
-produced zero blog comments and one LinkedIn comment. Against a target of ten responses a month,
-the gap is not reach. Nothing has yet made responding easy. Worth putting to Bart once, as a
-question about the ask and which surface carries it.
+**The goal is a long horizon, not a per-post target.** Ten responses a month is meant to take
+months. It is a lagging indicator that the audience is anchored on the blog rather than rented from
+LinkedIn. Three parts have produced zero blog comments and one LinkedIn comment, and that is not a
+problem to solve. **Never propose a change to the writing aimed at raising the response rate**
+(Bart, 2026-09-29: "I want to stay authentic rather than write to be responded"). Craft reasons for
+an edit are always welcome; response-rate reasons are not. Details in the plan's "What came back."
 
 **Read first:** `personal-notes/bartbot-dailys-series-plan.md` (rules, template, Part 4's section,
 "What came back", LinkedIn rules, and **Lessons learned, which now has two Part 3 entries**) and

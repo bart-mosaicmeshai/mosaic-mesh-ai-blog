@@ -208,11 +208,19 @@ Don't open a session with a metrics drill, don't ask for numbers part by part, a
 tracking. If Bart mentions a response, record it here by role, never by name. Otherwise get on
 with the writing.
 
-**Where the series actually stands after three parts:** zero blog comments, one LinkedIn comment
-(a paid subscriber tagging someone), no replies reported, 16 newsletter subscribers. Against 10+
-responses a month, the gap is not reach. Nothing has yet given a reader an easy way to answer. That
-is a question about the ask and about which surface carries it, and it belongs in drafting
-decisions, not in a table.
+**The goal is a long horizon, not a per-post target (Bart, 2026-09-29).** Ten responses a month is
+meant to take months to reach. His words: "These responses are hard to get. And, I want to stay
+authentic rather than write to be responded… It's a long-term indication that I'm actually building
+an audience that is anchored on my blog rather than rented from LI."
+
+**So: never propose a change to the writing aimed at raising the response rate.** After three parts
+the series has zero blog comments and one LinkedIn comment. That is not a defect to diagnose, and
+it is not evidence that the ask, the length, or the surface needs work. Craft reasons are always
+fair: a sentence is unclear, buried, not in his voice, or answers a different question than the
+headline. Response-rate reasons are not. The two can propose the same edit, which is exactly why
+the reason has to be stated. Bart on why this needs writing down: "this goes against most of how
+you were trained. Most content you were trained on is focused on short-term and extractive 'wins'.
+I'm trying to do the opposite."
 
 **Historical rows, kept for the record. Read the correction below before using them.**
 
