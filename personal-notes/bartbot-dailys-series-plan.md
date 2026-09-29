@@ -190,64 +190,63 @@ from subscribers to a part's ask are logged here, in "What came back."
 be either one part reproduced, or a recap of the month's parts with the best one reproduced in full.
 Decide after a couple of parts, when the real cadence is known.
 
-### What came back (one entry per part, about a day after publishing)
+### What came back
 
-Record third parties by role, never by name. This repo is public.
+**Retired 2026-09-29.** Three parts got a table of impressions, reactions, clicks and comments,
+logged about a day after publishing. Bart ended it: "I don't want to get overly obsessed with
+metrics. I want to write and publish and share and not worry too much about analytics and clicks…
+I don't need you to track all of this. I'm doing that elsewhere."
 
-| Part | LI impressions | LI reactions | Clicks to blog | LI comments | Blog comments | Other |
+**The one number that matters, in his words (2026-09-29):**
+
+> Build an audience anchored at https://www.mosaicmeshai.com/blog that generates 10+ engaged
+> reader responses per month. The rest is just noise.
+
+**What that means for a series session.** The blog is the anchor and a *response* is the unit: a
+comment on the post, a reply to the newsletter, an email, a text, someone bringing it up in person.
+Don't open a session with a metrics drill, don't ask for numbers part by part, and don't build
+tracking. If Bart mentions a response, record it here by role, never by name. Otherwise get on
+with the writing.
+
+**Where the series actually stands after three parts:** zero blog comments, one LinkedIn comment
+(a paid subscriber tagging someone), no replies reported, 16 newsletter subscribers. Against 10+
+responses a month, the gap is not reach. Nothing has yet given a reader an easy way to answer. That
+is a question about the ask and about which surface carries it, and it belongs in drafting
+decisions, not in a table.
+
+**Historical rows, kept for the record. Read the correction below before using them.**
+
+| Part | LI impressions | LI reactions | "Clicks" | LI comments | Blog comments | Other |
 |---|---|---|---|---|---|---|
 | 1 (2026-09-14, logged 09-15) | 146 | 4 | 10 | 1 | 0 | none |
 | 2 (2026-09-17, logged 09-18) | 107 | 0 | 5 | 0 | 0 | none |
 
-**Part 1 notes.** 146 impressions reached a small share of 1,000+ contacts, but 10 clicks is about
-7% of the people who saw it, which is high for a link post. The one comment was a paid BartBot
-subscriber tagging someone they know: "this is what I was talking about #bartbot." So they had
-already been describing BartBot to that person, and the post gave them something to point at.
-Neither expected question ("why don't you have AI do that?", "couldn't you do this with any list?")
-came up, and nobody answered the ask. One day of data is too thin to change the part map, so Part 2
-goes ahead as planned. Worth checking: whether Squarespace commenting asks readers to sign in,
-since 10 visitors and 0 comments could be friction as much as a lack of interest.
+**Final snapshot, 2026-09-29** (Parts 1/2/3, at 15, 12 and 8 days old): impressions 506 / 173 /
+197; reactions 4 / 0 / 2; LinkedIn "visits to links from this post" 1 / 0 / 1; Squarespace
+pageviews 52 / 15 / 11; blog comments 0. Newsletter issue one went to 16 subscribers, with no
+traffic measurement by choice.
 
-**Part 2 notes.** Everything down: 107 impressions, no reactions, 5 clicks, no comments anywhere.
+**Correction to the day-one rows (2026-09-29).** The "clicks" column held LinkedIn's all-clicks
+figure, which counts "see more" expansions, image clicks and profile clicks, not visits to the
+blog. Actual link visits were 1, 0 and 1. So the Part 2 note below claiming click-through "held at
+4.7%" is wrong and the conclusion drawn from it does not stand. Two further lessons, worth more
+than the numbers were: **day-one snapshots measured the wrong moment** (Part 1 more than tripled
+its impressions over two weeks while its reactions never moved), and **Claude's own headless loads
+inflate pageviews** on a post it verifies in production, which is a real share of a number this
+small.
 
-*The zeros are probably one event, not four.* LinkedIn distributes on early engagement. Part 1's
-first comment (a paid subscriber tagging someone) and its 4 reactions bought it impressions;
-Part 2 got no early engagement and stalled at 107. Treat impressions as partly downstream of
-reactions, not as independent evidence.
+**Part 1 notes.** 146 impressions reached a small share of 1,000+ contacts. The one comment was a
+paid BartBot subscriber tagging someone they know: "this is what I was talking about #bartbot." So
+they had already been describing BartBot to that person, and the post gave them something to point
+at. Neither expected question ("why don't you have AI do that?", "couldn't you do this with any
+list?") came up, and nobody answered the ask.
 
-*Click-through held.* 5/107 is 4.7% against Part 1's 6.8%. Both are high for a link post. Of the
-people who saw it, a good share still clicked. Fewer people saw it. Reach is the constraint, not
-the post. Image treatment is not the explanation: both LI posts attached images natively with the
-link in the body (Part 1 two images, Part 2 one), so nothing about the link-card decision changed
-between them.
-
-*Part 1 had novelty Part 2 could not have.* First public post about BartBot to 1,000+ contacts.
-Part two of a series does not get that, and the readers most likely to click had already clicked.
-
-**The ask is not failing; the sample is too small to test it.** Fifteen visitors across two posts,
-zero comments. Blog comment rates run about 1% of visitors, so fifteen visitors predicts ~0.15
-comments and zero is the most likely outcome *even if the ask is perfect*. Part 2's ask was
-deliberately made easier than Part 1's and nothing changed, which is what you would expect from
-changing something that was never the binding constraint.
-
-**Consequences, decided 2026-09-18:**
-1. **Stop treating "nobody answered" as evidence about the ask's wording.** Keep asks short
-   because short is better writing. Do not re-tune the ask part over part hoping for comments,
-   and do not read a zero at this volume as a verdict on anything.
-2. **A public blog comment is the wrong instrument for this audience.** It asks someone who
-   arrived from a phone feed to leave the feed, read ~700 words, and post publicly under their own
-   name. The ask stays on the blog (it is the owned surface), but expect answers to arrive
-   privately if they arrive at all.
-3. **The newsletter is the likeliest place the ask ever gets answered.** It is the one surface
-   untouched after two parts, subscribers opted in, and "hit reply" is a far lower bar than a
-   public comment. **Deferred by Bart 2026-09-18: "that is a different concern."** Not rejected,
-   and not a series decision. It stays the plan's open decision under Distribution and gets taken
-   up on its own, not inside a part's drafting session.
-4. **Two parts is still not a trend.** Nothing here changes the part map, the rules, or the
-   cadence. Revisit after Part 3 or 4, and watch reactions (the lever on reach), not impressions.
-
-*Not evidence of anything yet, but free to vary and worth recording:* Part 1 posted Monday
-September 14, Part 2 Thursday September 17.
+**Part 2 notes.** ~~Click-through held at 4.7%~~ (see the correction above). What survives: the
+zeros were one event, not four. LinkedIn distributes on early engagement, so with no reactions the
+post stalled. Part 1 had novelty that Part 2 could not have, being the first public post about
+BartBot. And the ask was never the binding constraint: fifteen visitors across two posts predicts
+about zero comments even for a perfect ask, so keep asks short because short is better writing,
+not as a lever on responses.
 
 ---
 

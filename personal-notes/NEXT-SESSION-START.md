@@ -1,6 +1,6 @@
 # Next Session Start: Blog Strategy & Series Planning
 **Created:** January 1, 2026
-**Last Updated:** September 21, 2026
+**Last Updated:** September 29, 2026
 **Status:** Ready for next Claude Code session
 
 ---
@@ -17,20 +17,24 @@ from both review sittings, and Bart's own explanations kept as raw material for 
 published file's LinkedIn section), with `thanksgiving.png` attached natively and the link in the
 body, the same treatment as Parts 1 and 2.
 
-**ASK BART FIRST, before any Part 4 work:** how did Part 3 land? **One number per message** (his
-preference): LI impressions, then reactions, clicks to the blog, LI comments, blog comments, then
-anything by email, text, or in person. Log the row in the plan's "What came back" table. Earlier
-rows: Part 1 146 / 4 / 10 / 1 / 0; Part 2 107 / 0 / 5 / 0 / 0. If less than a day has passed since
-the LI post, log what there is and come back to it. Read the plan's Part 2 notes before
-interpreting: at this volume zero comments is the expected outcome, reactions are the lever on
-reach, and **the newsletter is out of scope in series sessions** (Bart, 09-18).
+**No metrics drill at the start of a session (Bart, 2026-09-29).** The per-part tracking table is
+retired. He tracks what he wants elsewhere: "I don't want to get overly obsessed with metrics. I
+want to write and publish and share and not worry too much about analytics and clicks." The one
+goal is his: **"Build an audience anchored at https://www.mosaicmeshai.com/blog that generates 10+
+engaged reader responses per month. The rest is just noise."** A response is a blog comment, a
+newsletter reply, an email, a text, or someone raising it in person. Don't ask for numbers part by
+part. If he mentions a response, record it in the plan by role, never by name. The plan's "What
+came back" section has the final snapshot and the correction to the day-one click numbers (they
+were LinkedIn's all-clicks figure, not visits to the blog).
 
-**The newsletter is being built elsewhere.** On 2026-09-21 Bart started the BartBot Claude Code
-agent (repo `~/Projects/WebApps/BartBot/bart-bot-newsletters/`) on sending **Part 1 as a BartBot
-newsletter issue**, from a context prompt written in this session. That agent owns the issue, the
-format, and the one-part-or-recap decision; don't work on it here. What belongs here: if Bart
-mentions subscriber replies to a part's ask, they are responses to the series, so log them in
-that part's "Other" column in "What came back" (third parties by role, never by name).
+**Newsletter issue one went out to 16 subscribers**, carrying Part 1, built with the BartBot agent
+in `~/Projects/WebApps/BartBot/bart-bot-newsletters/`. That agent owns the newsletter; don't work
+on it here. There is no traffic measurement on it, by choice.
+
+**The open question the goal raises, for drafting and not for analytics:** three parts have
+produced zero blog comments and one LinkedIn comment. Against a target of ten responses a month,
+the gap is not reach. Nothing has yet made responding easy. Worth putting to Bart once, as a
+question about the ask and which surface carries it.
 
 **Read first:** `personal-notes/bartbot-dailys-series-plan.md` (rules, template, Part 4's section,
 "What came back", LinkedIn rules, and **Lessons learned, which now has two Part 3 entries**) and
@@ -64,14 +68,13 @@ and then the day itself is deleted.
    `tools/bartbot-dailys/hero_stack.py`.
 
 **To do, in order:**
-1. Ask for Part 3's numbers and log them.
-2. Interview Bart on the end-of-day pass; then he duplicates the Part 3 list as "Dailys, Part 4
+1. Interview Bart on the end-of-day pass; then he duplicates the Part 3 list as "Dailys, Part 4
    (…)" and makes the changes Part 4 describes. Redaction searches, then public.
-3. Pull `?item=` IDs from Part 4's list; stills by Playwright (dark mode, fresh context, cropped
+2. Pull `?item=` IDs from Part 4's list; stills by Playwright (dark mode, fresh context, cropped
    to rows); hero from the part's own stills.
-4. Draft against the plan; expect two review sittings a few days apart (the fresh-eyes gap found
+3. Draft against the plan; expect two review sittings a few days apart (the fresh-eyes gap found
    Part 3's biggest problem).
-5. LinkedIn post from the settled body, under 150 words, payoff sentence included.
+4. LinkedIn post from the settled body, under 150 words, payoff sentence included.
 
 **Open items:**
 - Placement of three candidate parts: "Why Don't You Have AI Do That?", "Where Did I Put That?",
