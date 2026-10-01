@@ -669,6 +669,40 @@ delegated — and then the day itself is deleted.
   that state without explaining it. Part 4 is where it gets explained, and can say "that's why the
   earlier days weren't there."
 
+**Interview findings (2026-09-29 to 10-01; verbatim answers in
+`daily-posts/2026-10-01-running-my-day-part-4-draft.md`).** What the interview changed:
+- **The dispositions run all day; the pass catches what's left.** Both of Bart's latest denials
+  happened mid-day (a call that hadn't come by 12:30, a bike ride he cancelled), not in a sweep.
+  The pass is the backstop, done at night or first thing next morning before his morning focus
+  block, preferably at the computer ("much easier... to manipulate a larger number of list items").
+- **"Giving up on the day" is where deferring starts, and it's approved for the post.** "This is
+  not an uncommon event for me. Many days I hit a point where I have to let it go. And, that is
+  when I start deferring things." Mechanism, not mood. Real example: Monday, September 28, a
+  difficult day, let go, bed early, about ten items left. Next morning: one done, nine moved, in
+  no fixed order, "picked off things as I was able to make decisions about them leaving the harder
+  choices to the end." He called ten left over "sloppy"; usually only a few slip.
+- **Denied has four routes:** a scheduled thing changes; something slips until he deletes it
+  rather than moving it again; someone else decides it doesn't need to happen; his plans change.
+- **Delegated keeps the line.** He stays accountable: "Mow lawn" stays and the action becomes a
+  text to his kids asking who can help, then helping them follow through. Rare on Dailys.
+- **The day node goes last, in a set order:** move the next day up out of Future, then delete the
+  now-empty day. A day never survives past the next morning: "I can't start the next day with
+  yesterday still sitting there staring at me."
+- **Completed-and-kept, confirmed, and it rolls:** finishing Tax 2026 is what deletes Tax 2025.
+- **The payoff, his words:** "Dinner isn't really 'done' until the kitchen is clean and the dishes
+  are washed." An undecided day is "a very loud signal that I've left something undecided" that
+  makes it "VERY hard for me to be present."
+- **Attribution, verify before drafting.** Bart believes the dispositions come from *Getting Things
+  Done*. Allen's own processing language is do it, delegate it, defer it (for actionable items),
+  with trash, incubate and reference for the rest; the tidy "four Ds" is a common later summary.
+  Bart's set (done, denied, deferred, delegated) is a variant. Credit the shape, own the variant.
+- **Open drafting question:** the real story is September 28 on his real list; the demo list is
+  frozen on September 8. Likely: tell the September 28 story in prose, and let the stills and Part
+  4's list show `8 Sept Tues` deleted and `9 Sept Wed` moved up. Decide with Bart.
+- **Motion test:** the pass is a decision made item by item and a day disappearing, which does
+  depend on motion. Confirm at drafting, then agree beats.
+- **Vocabulary:** his name for the 6am block is banned series vocabulary. "My morning focus block."
+
 **Excluded:**
 - Deferral as the way the future gets populated → one sentence here at most; it's really Part 5
 - The self-bouncing items by name → Part 5
@@ -822,6 +856,15 @@ I'm watching the product drift toward a shape its most committed user doesn't wa
   reviewing Part 2 and kept out of it, because the reason is Part 1's insight (what's removed) and
   Part 2 only says the fold keeps what isn't today off screen. As a stated product principle it
   fits here, next to the columns that default off, or in Part 10.
+
+- **Candidate, and a correction to "never" (Bart, 2026-09-29, Part 4 interview):** he does use
+  the Complete column, deliberately and briefly. "If I have an hour of focused time where I'm going
+  to be working through a check-list that I've built to guide me through that hour, it can be really
+  satisfying and motivating to see those items getting checked off. But, after the hour, I'll delete
+  those completed items and then turn Completed checkboxes back off to reduce visual clutter."
+  Bart: "Its actually a great small example of how I use that feature." So Part 9 must not claim he
+  never uses the columns. Default off, on for an hour on purpose, off again. Check the part's title
+  against this when drafting.
 
 **Excluded:**
 - The deleted cross-linking feature → Part 5 (that one's about automation removing thinking; this
