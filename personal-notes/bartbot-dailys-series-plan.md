@@ -712,8 +712,7 @@ delegated — and then the day itself is deleted.
   self-bouncing item; name it here at most in passing). **One deferral: `Plan next team practice`**
   (Bart: "We can call plan next softball practice a deferral. that happens to me regularly").
   He had first said it was done; for the post it is the deferral, which he says is the common
-  case. Bart is moving it back onto the list under the day he'd defer it to; re-verify the list
-  and pull its new ID after. No denial or delegation on the list: those come from the interview
+  case. Now under `9 Sept Wed` on Part 4's list, id 8457 (verified 2026-10-01). No denial or delegation on the list: those come from the interview
   examples, told without dates.
 - **Motion test:** the pass is a decision made item by item and a day disappearing, which does
   depend on motion. Confirm at drafting, then agree beats.
