@@ -702,9 +702,14 @@ delegated — and then the day itself is deleted.
   thing at all. Accurate credit: three come from GTD; denied is his name for the fourth. Sources:
   asianefficiency.com/task-management/gtd-intro, grahammann.net/book-notes/getting-things-done-david-allen,
   hubstaff.com/blog/4-ds-of-time-management.
-- **Open drafting question:** the real story is September 28 on his real list; the demo list is
-  frozen on September 8. Likely: tell the September 28 story in prose, and let the stills and Part
-  4's list show `8 Sept Tues` deleted and `9 Sept Wed` moved up. Decide with Bart.
+- **Dates: September 8 and 9, not 28 and 29 (Bart, 2026-10-01).** "These patterns hold up for me
+  across every day. I think talking about Sept 28/29 will just be confusing for readers." So the
+  post narrates the pass on the frozen list. The interview's examples (a call that didn't come, a
+  cancelled ride, mowing the lawn, giving up on a hard day) can be told without dates.
+- **What Part 4's list actually shows:** `8 Sept Tues` gone; nine lines deleted, all done; four
+  moved to the 9th (two weekday habits carried forward, `Workout Plan`, `Rounds`). No denial and no
+  delegation are on it. `Workout Plan` is Part 5's self-bouncing item, so name it here at most in
+  passing (Excluded list). The weekday habits are repetition, not deferral.
 - **Motion test:** the pass is a decision made item by item and a day disappearing, which does
   depend on motion. Confirm at drafting, then agree beats.
 - **Vocabulary:** his name for the 6am block is banned series vocabulary. "My morning focus block."

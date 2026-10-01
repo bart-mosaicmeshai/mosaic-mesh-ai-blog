@@ -32,6 +32,18 @@ an error message. That is just like guessing long and complicated ids." The Dail
 still use made-up IDs, because those were redacted from a private list; this is not a reason to
 re-flag real Gmail links found on lists he publishes himself.
 
+Part 4 URL: https://bartbot.mosaicmeshai.com/lists/shared/fzXQgOpIjgRw8R8Ij300 (public 2026-10-01).
+Duplicated from Part 3's list, then Bart ran a real end-of-day pass on it for September 8. Checked
+against the API the same day: 116 items; top level `9 Sept Wed` / `Future` (Future now 15 days,
+`10 Sept Thurs` to `8 Sept Wed 2027`); all four columns off; no notes. `8 Sept Tues` is gone with
+nine lines, all done (Bart confirmed the two that weren't obvious, `Library Books (next Due on
+Sept 9)` and `Plan next team practice`). Four lines moved to the 9th: `8:20am Pack Lunch` and
+`8:30am Drive to Office` (weekday habits carried forward), `Workout Plan` and `Rounds`. Redaction
+searches find only the kept Tax lines; two links left with their lines (rowing workout, dance
+recaps), none added. Part 1's list still shows `8 Sept Tues` (id 5833), so the side-by-side works.
+Title briefly read "Dailys, Part 4 (…)" because Claude abbreviated it in chat; fixed the same day.
+Capture: `~/Projects/mosaic-mesh-ai-blog-private/dailys-raw/part-4-list-2026-10-01.json`.
+
 **Notes moved out of Dailys, 2026-09-15.** Bart: Notes was only ever in Dailys because the tool
 he used before BartBot capped the number of lists, so it got parked there. It's now its own public
 list, **`Notes (A simplified, public version of the list I use to keep notes)`** at
