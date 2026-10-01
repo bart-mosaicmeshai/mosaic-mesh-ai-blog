@@ -706,8 +706,9 @@ delegated — and then the day itself is deleted.
   across every day. I think talking about Sept 28/29 will just be confusing for readers." So the
   post narrates the pass on the frozen list. The interview's examples (a call that didn't come, a
   cancelled ride, mowing the lawn, giving up on a hard day) can be told without dates.
-- **What Part 4's list shows (settled 2026-10-01):** `8 Sept Tues` gone. Eight lines done and
-  deleted with the day. Three daily habits carried forward to the 9th: `8:20am Pack Lunch`,
+- **What Part 4's list shows (settled 2026-10-01, counts checked against the API):** `8 Sept
+  Tues` had 11 lines. It is gone, with **six done lines deleted** (the gym line took its three
+  nested lines with it), and **five moved to the 9th**. Three daily habits carried forward to the 9th: `8:20am Pack Lunch`,
   `8:30am Drive to Office`, `Rounds` ("Its a daily activity"). `Workout Plan` bounced (Part 5's
   self-bouncing item; name it here at most in passing). **One deferral: `Plan next team practice`**
   (Bart: "We can call plan next softball practice a deferral. that happens to me regularly").

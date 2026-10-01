@@ -35,8 +35,9 @@ re-flag real Gmail links found on lists he publishes himself.
 Part 4 URL: https://bartbot.mosaicmeshai.com/lists/shared/fzXQgOpIjgRw8R8Ij300 (public 2026-10-01).
 Duplicated from Part 3's list, then Bart ran a real end-of-day pass on it for September 8. Checked
 against the API the same day: 116 items; top level `9 Sept Wed` / `Future` (Future now 15 days,
-`10 Sept Thurs` to `8 Sept Wed 2027`); all four columns off; no notes. `8 Sept Tues` is gone with
-nine lines. Four lines moved to the 9th: `8:20am Pack Lunch`, `8:30am Drive to Office` and
+`10 Sept Thurs` to `8 Sept Wed 2027`); all four columns off; no notes. `8 Sept Tues` had 11 lines (counts
+checked against the API; earlier chat counts of 13 and nine were wrong). Six were done and
+deleted with the day. Four moved to the 9th at first: `8:20am Pack Lunch`, `8:30am Drive to Office` and
 `Rounds` (daily habits carried forward) and `Workout Plan`. Then `Plan next team practice` was
 put back under `9 Sept Wed` (id 8457) as the post's deferral (Bart, 2026-10-01). Re-verified:
 117 items, redaction clean. Redaction
