@@ -692,10 +692,16 @@ delegated — and then the day itself is deleted.
 - **The payoff, his words:** "Dinner isn't really 'done' until the kitchen is clean and the dishes
   are washed." An undecided day is "a very loud signal that I've left something undecided" that
   makes it "VERY hard for me to be present."
-- **Attribution, verify before drafting.** Bart believes the dispositions come from *Getting Things
-  Done*. Allen's own processing language is do it, delegate it, defer it (for actionable items),
-  with trash, incubate and reference for the rest; the tidy "four Ds" is a common later summary.
-  Bart's set (done, denied, deferred, delegated) is a variant. Credit the shape, own the variant.
+- **Attribution, checked 2026-10-01.** *Getting Things Done* (David Allen) gives three options for
+  an actionable item: **do it** (the two-minute rule), **delegate it**, **defer it**. Things that
+  aren't actionable go to trash, incubate (someday/maybe) or reference. So GTD has three Ds, not
+  four. The popular "four Ds" (delete, delegate, defer, do) is a separate time-management
+  framework that secondary sources credit to *The Power of Focus* (Canfield, Hansen, Hewitt) and
+  the Eisenhower matrix, not to Allen; those sources are glossary pages, so don't cite that
+  origin as fact. Bart's set is GTD's three plus "denied," his word for deciding not to do the
+  thing at all. Accurate credit: three come from GTD; denied is his name for the fourth. Sources:
+  asianefficiency.com/task-management/gtd-intro, grahammann.net/book-notes/getting-things-done-david-allen,
+  hubstaff.com/blog/4-ds-of-time-management.
 - **Open drafting question:** the real story is September 28 on his real list; the demo list is
   frozen on September 8. Likely: tell the September 28 story in prose, and let the stills and Part
   4's list show `8 Sept Tues` deleted and `9 Sept Wed` moved up. Decide with Bart.
