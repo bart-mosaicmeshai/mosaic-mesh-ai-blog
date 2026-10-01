@@ -36,9 +36,10 @@ Part 4 URL: https://bartbot.mosaicmeshai.com/lists/shared/fzXQgOpIjgRw8R8Ij300 (
 Duplicated from Part 3's list, then Bart ran a real end-of-day pass on it for September 8. Checked
 against the API the same day: 116 items; top level `9 Sept Wed` / `Future` (Future now 15 days,
 `10 Sept Thurs` to `8 Sept Wed 2027`); all four columns off; no notes. `8 Sept Tues` is gone with
-nine lines, all done (Bart confirmed the two that weren't obvious, `Library Books (next Due on
-Sept 9)` and `Plan next team practice`). Four lines moved to the 9th: `8:20am Pack Lunch` and
-`8:30am Drive to Office` (weekday habits carried forward), `Workout Plan` and `Rounds`. Redaction
+nine lines. Four lines moved to the 9th: `8:20am Pack Lunch`, `8:30am Drive to Office` and
+`Rounds` (daily habits carried forward) and `Workout Plan`. **Pending edit:** `Plan next team
+practice` goes back onto the list under a later day, so the post can show it as the deferral
+(Bart, 2026-10-01). Re-verify after. Redaction
 searches find only the kept Tax lines; two links left with their lines (rowing workout, dance
 recaps), none added. Part 1's list still shows `8 Sept Tues` (id 5833), so the side-by-side works.
 Title briefly read "Dailys, Part 4 (…)" because Claude abbreviated it in chat; fixed the same day.

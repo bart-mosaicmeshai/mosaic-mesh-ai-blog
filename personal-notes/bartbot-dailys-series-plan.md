@@ -706,10 +706,15 @@ delegated — and then the day itself is deleted.
   across every day. I think talking about Sept 28/29 will just be confusing for readers." So the
   post narrates the pass on the frozen list. The interview's examples (a call that didn't come, a
   cancelled ride, mowing the lawn, giving up on a hard day) can be told without dates.
-- **What Part 4's list actually shows:** `8 Sept Tues` gone; nine lines deleted, all done; four
-  moved to the 9th (two weekday habits carried forward, `Workout Plan`, `Rounds`). No denial and no
-  delegation are on it. `Workout Plan` is Part 5's self-bouncing item, so name it here at most in
-  passing (Excluded list). The weekday habits are repetition, not deferral.
+- **What Part 4's list shows (settled 2026-10-01):** `8 Sept Tues` gone. Eight lines done and
+  deleted with the day. Three daily habits carried forward to the 9th: `8:20am Pack Lunch`,
+  `8:30am Drive to Office`, `Rounds` ("Its a daily activity"). `Workout Plan` bounced (Part 5's
+  self-bouncing item; name it here at most in passing). **One deferral: `Plan next team practice`**
+  (Bart: "We can call plan next softball practice a deferral. that happens to me regularly").
+  He had first said it was done; for the post it is the deferral, which he says is the common
+  case. Bart is moving it back onto the list under the day he'd defer it to; re-verify the list
+  and pull its new ID after. No denial or delegation on the list: those come from the interview
+  examples, told without dates.
 - **Motion test:** the pass is a decision made item by item and a day disappearing, which does
   depend on motion. Confirm at drafting, then agree beats.
 - **Vocabulary:** his name for the 6am block is banned series vocabulary. "My morning focus block."
