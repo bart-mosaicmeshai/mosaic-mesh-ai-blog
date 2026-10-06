@@ -1,21 +1,32 @@
 # Next Session Start: Blog Strategy & Series Planning
 **Created:** January 1, 2026
-**Last Updated:** September 29, 2026
+**Last Updated:** October 6, 2026
 **Status:** Ready for next Claude Code session
 
 ---
 
-## NEXT UP: Running My Day, Part 4
+## NEXT UP: Running My Day, Part 4 — Bart's line-by-line review of the first draft
 
-**Part 3 shipped 2026-09-21.** "Running My Day, Part 3: Write It So Future-Me Can Act," live at
-https://www.mosaicmeshai.com/blog/running-my-day-part-3-write-it-so-future-me-can-act. Verified in
-prod the same morning: hero as og:image, both stills, all 14 links (9 deep links into the Part 3
-list), every sentence verbatim, comments open, no video. Published file:
-`daily-posts/published/2026-09-17-running-my-day-part-3.md` (its draft notes record every decision
-from both review sittings, and Bart's own explanations kept as raw material for Parts 4 and 5).
-**LinkedIn post went up the same morning, Monday 2026-09-21** (the Thanksgiving version, in the
-published file's LinkedIn section), with `thanksgiving.png` attached natively and the link in the
-body, the same treatment as Parts 1 and 2.
+**Where Part 4 stands (2026-10-06).** Interview done, list public, stills captured, first draft
+written. Bart read the draft on his phone on 10-06 to refresh his memory and will review it at
+his computer. **Start there:** take his comments one line at a time (part-review memory).
+
+- **Draft:** `daily-posts/2026-10-01-running-my-day-part-4-draft.md` (gitignored). About 710
+  prose words. Below the body: draft notes, then the interview, verbatim. Every claim about how he
+  works must trace to the interview; three invented sentences were already cut once.
+- **Two open decisions, marked inline:** (1) the video: it passes the motion test, he asked whether
+  it would show him doing the pass (yes); if recorded, on a throwaway duplicate of Part 3's list,
+  beats in the draft notes; (2) the ask, rewritten to mirror the headline, plan's version noted.
+- **List:** https://bartbot.mosaicmeshai.com/lists/shared/fzXQgOpIjgRw8R8Ij300, "Dailys, Part 4 (A simplified,
+  public version of the list I use to run my day)". Verified 10-01: 117 items, `9 Sept Wed` on top. September 8 had 11 lines: six
+  done and deleted, five moved to the 9th (three daily habits, `Workout Plan`, and the deferral
+  `Plan next team practice`, id 8457). Details in the spec.
+- **Stills:** `assets/bartbot-dailys/part-4/` (before-sept-8, after-sept-9, sept-9-open,
+  tax-2025). **Hero not built yet.**
+- **Decided with Bart:** the post stays on September 8 and 9, not his real September 28 and 29;
+  three Ds come from *Getting Things Done* and "denied" is his name for the fourth.
+- **Newsletter:** a separate Claude Code session in `bart-bot-newsletters` owns it (Issue 01 went
+  out; each part now gets its own issue). Don't work on it here, and don't record its decisions.
 
 **No metrics drill at the start of a session (Bart, 2026-09-29).** The per-part tracking table is
 retired. He tracks what he wants elsewhere: "I don't want to get overly obsessed with metrics. I
@@ -69,14 +80,15 @@ and then the day itself is deleted.
 7. **Squarespace caps alt text at 250 characters.** Heroes from two wide captures use
    `tools/bartbot-dailys/hero_stack.py`.
 
-**To do, in order:**
-1. Interview Bart on the end-of-day pass; then he duplicates the Part 3 list as "Dailys, Part 4
-   (…)" and makes the changes Part 4 describes. Redaction searches, then public.
-2. Pull `?item=` IDs from Part 4's list; stills by Playwright (dark mode, fresh context, cropped
-   to rows); hero from the part's own stills.
-3. Draft against the plan; expect two review sittings a few days apart (the fresh-eyes gap found
-   Part 3's biggest problem).
+**To do, in order (as of 2026-10-06; interview, list, stills and first draft are done):**
+1. Bart's line-by-line review of the draft, then a fresh-eyes reread a few days later (the gap
+   found Part 3's biggest problem).
+2. Settle the video. If yes: agree the beats, Bart records on a throwaway duplicate of Part 3's
+   list, faststart remux before the first upload, check the transcript against the post.
+3. Build the hero from the part's own stills (`hero_composite.py` or `hero_stack.py`); alt text
+   under 250 characters.
 4. LinkedIn post from the settled body, under 150 words, payoff sentence included.
+5. Pre-publish checklist in the draft notes, publish, verify in prod, move to `published/`.
 
 **Open items:**
 - Placement of three candidate parts: "Why Don't You Have AI Do That?", "Where Did I Put That?",
