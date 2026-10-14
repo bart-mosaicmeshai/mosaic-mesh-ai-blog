@@ -728,8 +728,10 @@ delegated — and then the day itself is deleted.
 - The self-bouncing items by name → Part 5
 - Why there's no completed-items archive as a *product* choice → Part 9
 
-**Ask:** When you finish something, does it disappear or does it pile up? What is your done list
-actually for?
+**Ask (rewritten in drafting, kept by Bart 2026-10-13):** When your day ends, what happens to
+what's still on your list? Does it move, sit there, or quietly disappear? *(Replaced "When you
+finish something, does it disappear or does it pile up? What is your done list actually for?",
+which asked only about done, one of the four.)*
 
 ---
 
