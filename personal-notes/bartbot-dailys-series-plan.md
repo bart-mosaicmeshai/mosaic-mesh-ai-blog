@@ -7,6 +7,8 @@ from empty against this plan. Published 2026-09-14:
 `daily-posts/published/2026-09-10-running-my-day-part-1.md`. Part 2 published 2026-09-17:
 `daily-posts/published/2026-09-15-running-my-day-part-2.md`. Part 3 published 2026-09-21:
 `daily-posts/published/2026-09-17-running-my-day-part-3.md`.
+Part 4 published 2026-10-14:
+`daily-posts/published/2026-10-01-running-my-day-part-4.md` (interview kept privately).
 **Cadence:** **Worked on** daily in the 6–8am HHG CGs block. **Published when ready** — not on a
 daily schedule. The HHG commitment is the two hours, not the publish rate.
 **Stakes:** First public post about BartBot on LinkedIn. Part 1 is a first impression for an
@@ -1263,6 +1265,23 @@ first draft should start past:
   pervasive problem in the post. Keep the two-sitting rhythm.
 - **On LinkedIn, an example about LinkedIn is "too on the nose"** (his words) even when it's the
   most recognizable one. It stayed in the blog body.
+
+**2026-10-13 to 14 — Part 4's review and reread.**
+
+- **Interview before drafting worked.** The first draft came from Bart's answers, and the review
+  was about clarity, not about wrong facts. Three invented sentences were still caught before he
+  saw it; check every draft against the interview before sending.
+- **Plan shorthand leaked again: "the pass."** Same failure as "name" in Part 3. Before drafting,
+  list the key nouns and check each against his own words.
+- **Show what the text describes, next to it.** Collapsed before/after stills followed by text
+  about Tuesday's eleven lines made the reader imagine what wasn't shown. Open Tuesday, then the
+  text, then the video, then open Wednesday.
+- **Say where an example lives.** Examples from his real list (the call, "Mow lawn") need a line
+  saying they aren't on the public list or in the video, or readers go looking.
+- **A variant belongs with its parent.** The kept-finished line read as an afterthought in its own
+  section; as "Done, but kept" inside Four decisions it reads as part of the system.
+- **Count lines from the API, never from memory.** Chat counts of 13 and nine were both wrong.
+- **Raw interviews stay private.** The published file points to the private copy.
 
 ---
 

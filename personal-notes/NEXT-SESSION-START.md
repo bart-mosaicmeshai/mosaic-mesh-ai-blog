@@ -1,41 +1,32 @@
 # Next Session Start: Blog Strategy & Series Planning
 **Created:** January 1, 2026
-**Last Updated:** October 13, 2026
+**Last Updated:** October 14, 2026
 **Status:** Ready for next Claude Code session
 
 ---
 
-## NEXT UP: Running My Day, Part 4 — Bart's fresh-eyes reread, then the LinkedIn post and publish
+## NEXT UP: Running My Day, Part 5
 
-**Reread in progress (2026-10-14):** the collapsed before/after stills were replaced by Tuesday
-open and Wednesday open, each beside its text (details in the draft notes).
+**Part 4 shipped 2026-10-14.** "Running My Day, Part 4: What Happens to Today at the End of
+Today," live at
+https://www.mosaicmeshai.com/blog/running-my-day-part-4-what-happens-to-today-at-the-end-of-today.
+Verified in prod (hero as og:image, four images, the 2:16 video, six links, every sentence,
+comments open). Published file: `daily-posts/published/2026-10-01-running-my-day-part-4.md`. The
+interview is private: `~/Projects/mosaic-mesh-ai-blog-private/dailys-raw/part-4-interview-2026-09-29.md`.
+**The LinkedIn post was drafted but not yet posted when this was written** (in the published
+file's LinkedIn section; attach `hero.png`). Ask whether it went out.
 
-**Where Part 4 stands (end of 2026-10-13).** First line-by-line review done, top to bottom, in one
-sitting. Video recorded, captions corrected, uploaded and verified. Hero built and approved. No
-open decision comments in the draft. **Start here:** ask whether Bart has done his fresh-eyes
-reread (a few days after the first review; on Part 3 it found the biggest problem). Take his
-comments one line at a time.
+**Part 5: "The Copying Is the Planning."** Question, already promised by Part 4's published Next
+line: How do I keep a long plan alive in a daily list without automating it? Read the plan's Part
+5 section, including its Excluded list. Start the same way Part 4 did: **interview Bart first**,
+then the list, stills, draft, review, reread. Two candidate parts touch Part 5: "Why Don't You Have
+AI Do That?" (right after Part 5 or its second half) and "The List I Delete to Finish" (not before
+Part 5). Decide their placement while drafting Part 5.
 
-- **Draft:** `daily-posts/2026-10-01-running-my-day-part-4-draft.md` (gitignored). About 720
-  prose words. Below the body: draft notes, then the interview verbatim. Every claim about how he
-  works must trace to the interview.
-- **What the first review changed (2026-10-13):** "the day itself goes" became "I delete the day
-  itself"; "the pass" removed (Claude's plan shorthand, never his word) and replaced by a
-  description; section reordered so mid-day decisions come first; headings "When I decide" and
-  "The finished lines I decide to keep"; ambiguous "It" named; the ask that mirrors the headline
-  kept; Part 5 stays next, so the Next line holds.
-- **Video:** `https://bartbot-assets.mosaicmeshai.com/videos/lists-dailys-part-4.mp4`, 2:16,
-  burned-in captions with "drive" corrected to "drag" twice ("815" and "8.30" left as is). Live
-  file's checksum matches the local corrected export. Already faststart. Throwaway list deleted.
-- **Hero:** `assets/bartbot-dailys/part-4/hero.png` (930x484), Tuesday behind, Wednesday in front.
-  Alt text 193 characters. Its caption and the video's are Claude's; Bart approved the video's.
-- **List:** https://bartbot.mosaicmeshai.com/lists/shared/fzXQgOpIjgRw8R8Ij300, titled "Dailys,
-  Part 4 (A simplified, public version of the list I use to run my day)". Deep links in the body:
-  `?item=8457` (Plan next team practice) and `?item=8405` (Tax 2025). Part 3's list root is linked
-  for the before view.
-- **Decided with Bart:** September 8 and 9, not his real 28 and 29; three Ds from *Getting Things
-  Done*, "denied" his name for the fourth.
-- **Newsletter:** a separate Claude Code session in `bart-bot-newsletters` owns it. Not here.
+**Carried into Part 5:** `Workout Plan` and `Week plan` are the self-bouncing items, kept out of
+Part 4 on purpose. Part 4 said four lines "carry forward from one day to the next" without saying
+how; Part 5 can explain. Check every key noun against Bart's words ("line", not "item"; no "the
+pass"). Count anything stated from the API.
 
 **No metrics drill at the start of a session (Bart, 2026-09-29).** The per-part tracking table is
 retired. He tracks what he wants elsewhere: "I don't want to get overly obsessed with metrics. I
@@ -89,17 +80,9 @@ and then the day itself is deleted.
 7. **Squarespace caps alt text at 250 characters.** Heroes from two wide captures use
    `tools/bartbot-dailys/hero_stack.py`.
 
-**To do, in order (as of 2026-10-13):**
-1. Bart's fresh-eyes reread; apply his edits line by line. Include the two captions.
-2. LinkedIn post from the settled body, under 150 words, payoff sentence included.
-3. **Squarespace (Bart does this himself):** upload the four images from
-   `assets/bartbot-dailys/part-4/` into the post (hero.png also as the featured image;
-   then tuesday-open.png, sept-9-open.png, tax-2025.png), paste each
-   caption as plain text and each alt text (all under 250 characters), put the video tag in a
-   Code Block, slug `running-my-day-part-4-what-happens-to-today-at-the-end-of-today`, comments
-   on. Images are hosted by Squarespace, not served from the repo.
-4. Pre-publish checklist in the draft notes; publish; verify in prod (og:image, stills, video
-   plays, the three deep links, the Part 3 link, comments open); move to `published/`; commit.
+**To do, in order (as of 2026-10-14):**
+1. Confirm the Part 4 LinkedIn post went up.
+2. Part 5: interview Bart on how the self-bouncing items work, before drafting anything.
 
 **Open items:**
 - Placement of three candidate parts: "Why Don't You Have AI Do That?", "Where Did I Put That?",
