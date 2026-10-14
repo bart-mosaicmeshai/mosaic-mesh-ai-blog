@@ -8,7 +8,8 @@ from empty against this plan. Published 2026-09-14:
 `daily-posts/published/2026-09-17-running-my-day-part-2.md`. Part 3 published 2026-09-21:
 `daily-posts/published/2026-09-21-running-my-day-part-3.md`.
 Part 4 published 2026-10-14:
-`daily-posts/published/2026-10-14-running-my-day-part-4.md` (interview kept privately).
+`daily-posts/published/2026-10-14-running-my-day-part-4.md` (interview kept privately). **Next: Part 5,
+from an interview with Bart** (see the handoff).
 **Cadence:** **Worked on** daily in the 6–8am HHG CGs block. **Published when ready** — not on a
 daily schedule. The HHG commitment is the two hours, not the publish rate.
 **Stakes:** First public post about BartBot on LinkedIn. Part 1 is a first impression for an

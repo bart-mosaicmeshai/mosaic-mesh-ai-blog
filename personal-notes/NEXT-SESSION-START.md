@@ -5,84 +5,73 @@
 
 ---
 
-## NEXT UP: Running My Day, Part 5
+## NEXT UP: Running My Day, Part 5 — "The Copying Is the Planning"
 
-**Part 4 shipped 2026-10-14.** "Running My Day, Part 4: What Happens to Today at the End of
-Today," live at
-https://www.mosaicmeshai.com/blog/running-my-day-part-4-what-happens-to-today-at-the-end-of-today.
-Verified in prod (hero as og:image, four images, the 2:16 video, six links, every sentence,
-comments open). Published file: `daily-posts/published/2026-10-14-running-my-day-part-4.md`. The
-interview is private: `~/Projects/mosaic-mesh-ai-blog-private/dailys-raw/part-4-interview-2026-09-29.md`.
-**LinkedIn post went up the same day, 2026-10-14**, with `hero.png` attached (112 words; the
-kitchen line was cut as needing its blog setup). Bart also set Squarespace focal points on the
-Parts 2 to 4 featured images so their blog-page thumbnails differ.
+**Where the series stands (end of 2026-10-14).** Four parts published, each with its LinkedIn post:
 
-**Part 5: "The Copying Is the Planning."** Question, already promised by Part 4's published Next
-line: How do I keep a long plan alive in a daily list without automating it? Read the plan's Part
-5 section, including its Excluded list. Start the same way Part 4 did: **interview Bart first**,
-then the list, stills, draft, review, reread. Two candidate parts touch Part 5: "Why Don't You Have
-AI Do That?" (right after Part 5 or its second half) and "The List I Delete to Finish" (not before
-Part 5). Decide their placement while drafting Part 5.
+| Part | Published | File in `daily-posts/published/` |
+|---|---|---|
+| 1. Two Views of the Same Sunday | 09-14 | `2026-09-14-running-my-day-part-1.md` |
+| 2. A Wednesday in 2027, Already on My List | 09-17 | `2026-09-17-running-my-day-part-2.md` |
+| 3. Write It So Future-Me Can Act | 09-21 | `2026-09-21-running-my-day-part-3.md` |
+| 4. What Happens to Today at the End of Today | 10-14 | `2026-10-14-running-my-day-part-4.md` |
 
-**Carried into Part 5:** `Workout Plan` and `Week plan` are the self-bouncing items, kept out of
-Part 4 on purpose. Part 4 said four lines "carry forward from one day to the next" without saying
-how; Part 5 can explain. Check every key noun against Bart's words ("line", not "item"; no "the
-pass"). Count anything stated from the API.
+Part 4 is fully closed: verified in prod, LinkedIn posted the same day (112 words, `hero.png`
+attached), Squarespace focal points set on the Parts 2 to 4 featured images. Nothing is pending
+on it. **There is no question to ask Bart first.** Start Part 5.
 
-**No metrics drill at the start of a session (Bart, 2026-09-29).** The per-part tracking table is
-retired. He tracks what he wants elsewhere: "I don't want to get overly obsessed with metrics. I
-want to write and publish and share and not worry too much about analytics and clicks." The one
-goal is his: **"Build an audience anchored at https://www.mosaicmeshai.com/blog that generates 10+
-engaged reader responses per month. The rest is just noise."** A response is a blog comment, a
-newsletter reply, an email, a text, or someone raising it in person. Don't ask for numbers part by
-part. If he mentions a response, record it in the plan by role, never by name. The plan's "What
-came back" section has the final snapshot and the correction to the day-one click numbers (they
-were LinkedIn's all-clicks figure, not visits to the blog).
+**Part 5.** Question, already promised by Part 4's published Next line: **How do I keep a long plan
+alive in a daily list without automating it?** Read the plan's Part 5 section (answer, evidence,
+Excluded list, ask) before anything else. The evidence is the two self-bouncing lines: `Week plan`
+(every Sunday, reads the shared family calendar, writes the week's drives and prep under each day,
+moves itself to next Sunday) and `Workout Plan` (reads the year's workout sheet, writes tomorrow's
+sets under tomorrow's gym drive, moves itself to the next day).
 
-**Newsletter issue one went out to 16 subscribers**, carrying Part 1, built with the BartBot agent
-in `~/Projects/WebApps/BartBot/bart-bot-newsletters/`. That agent owns the newsletter; don't work
-on it here. There is no traffic measurement on it, by choice.
+**How Part 4 was made, which is the process to repeat:**
+1. **Interview Bart first, one question at a time, before drafting a word.** Save his answers
+   verbatim in the draft file while working; at publish, move them to
+   `~/Projects/mosaic-mesh-ai-blog-private/dailys-raw/` and leave a pointer (raw material stays out
+   of the public repo). Part 4's interview is the model: `part-4-interview-2026-09-29.md` there.
+2. Bart duplicates the previous part's public list (Part 4's: `fzXQgOpIjgRw8R8Ij300`, frozen on
+   Wednesday, September 9) as "Dailys, Part 5 (A simplified, public version of the list I use to
+   run my day)", **full title, never abbreviated**, makes the changes the part describes, makes it
+   public. Verify against the API, run the redaction searches, pull `?item=` IDs, save a private
+   capture.
+3. Stills by Playwright (dark, fresh context, 800px, cropped to rows). Count anything the post
+   states from the API, never from memory.
+4. First draft against the plan and the interview. Before sending, check every sentence about how
+   Bart works against the interview; Part 4's first draft had three invented ones.
+5. Review sitting one, line by line. Fresh-eyes reread a day or more later; on Parts 3 and 4 the
+   reread found the biggest structural problem.
+6. Video if the motion test passes (record on a throwaway duplicate, check the frame for anything
+   private, captions burned in so check them, verify the upload by checksum). Hero last.
+7. LinkedIn post from the settled body, short. Publish, verify in prod, **rename the file and its
+   `date:` to the publish date**, commit, push.
 
-**The goal is a long horizon, not a per-post target.** Ten responses a month is meant to take
-months. It is a lagging indicator that the audience is anchored on the blog rather than rented from
-LinkedIn. Three parts have produced zero blog comments and one LinkedIn comment, and that is not a
-problem to solve. **Never propose a change to the writing aimed at raising the response rate**
-(Bart, 2026-09-29: "I want to stay authentic rather than write to be responded"). Craft reasons for
-an edit are always welcome; response-rate reasons are not. Details in the plan's "What came back."
+**Things specific to Part 5:**
+- **The evidence lives outside the list.** `Week plan` reads the family calendar and `Workout Plan`
+  reads a Google Sheet. Both real sources are private (the redaction rules delete every Sheets URL;
+  the real calendar has names, venues, a church). Part 1 solved the same problem with a throwaway
+  stand-in calendar. Expect stand-ins, and ask Bart before building anything.
+- **Hero variety** (plan, production notes, 2026-10-14): design for the blog page's square middle
+  crop as well as the wide one, make the distinctive thing big, don't repeat a day an earlier hero
+  used. Part 5's stand-in sheet or calendar is a natural distinct hero.
+- **Part 4 deliberately left out how lines carry forward** ("Four of those are lines I carry
+  forward from one day to the next"). Part 5 is where that gets explained.
+- **Two candidate parts touch Part 5:** "Why Don't You Have AI Do That?" (placed right after Part 5
+  or as its second half) and "The List I Delete to Finish" (not before Part 5). Settle both while
+  drafting, because Part 5's Next line depends on it.
+- **Vocabulary:** "line", never "item" or "name"; no plan shorthand ("the pass") in prose. Check
+  each key noun against Bart's own words in the interview.
 
-**Read first:** `personal-notes/bartbot-dailys-series-plan.md` (rules, template, Part 4's section,
-"What came back", LinkedIn rules, and **Lessons learned, which now has two Part 3 entries**) and
-`personal-notes/bartbot-dailys-demo-list-spec.md`. The three published posts are the models.
+**Standing rules (all in memory too):** no metrics drill and no response-rate reasons for edits
+(the goal is 10+ engaged reader responses a month, a long horizon); the newsletter belongs to a
+separate session in `bart-bot-newsletters`; no HHG vocabulary or the 6am block's name; family as
+logistics only; push with the bart-mosaicmeshai token.
 
-**Part 4: "What Happens to Today at the End of Today."** Question, already promised by Part 3's
-published Next line: What do I do with everything on today's list when today is over? Answer in
-one sentence (plan): every item gets one of four dispositions (done, denied, deferred, delegated)
-and then the day itself is deleted.
-
-**What Part 3's review hands to Part 4:**
-1. **A ready-made "deferred" example, in Bart's words** (saved in Part 3's draft notes): on
-   November 7 he might work the Thanksgiving questions or "just as likely … defer this item to Nov
-   8, 9 or 10 depending on what else is actually happening that day." Part 3 already told readers
-   "the line moves forward with me until Thanksgiving morning," so Part 4 can pay that off.
-2. **Re-run the motion test before accepting "Video."** Part 3's video was cut because its only
-   motion was a link opening. Part 4's (an item-by-item end-of-day pass) probably does depend on
-   motion, but decide at drafting time. If it stays: agree beats first, record on a throwaway
-   duplicate (this one edits the list), faststart remux before the first upload.
-3. **Part 4's list is the first one that changes.** `8 Sept Tues` is deleted and the next day
-   comes to the top; the post links its own list and Part 1's for the side-by-side. Duplicate
-   Part 3's list, never edit a published part's list, run the redaction searches on the copy.
-4. **Don't invent details of Bart's life** (memory, and the plan's lessons). Part 4 is all
-   practice: ask him how the end-of-day pass actually goes before drafting it. The Interview
-   Method fits this part.
-5. **Vocabulary:** the series says "line," not "name," "item," or "label." Check a part's key
-   noun against the published parts before drafting.
-6. **The delete-to-finish candidate part** (groceries, some workouts) shares the verb "delete"
-   with Part 4. Keep Part 4 to the end-of-day rule; one sentence at most about deleting as you go.
-7. **Squarespace caps alt text at 250 characters.** Heroes from two wide captures use
-   `tools/bartbot-dailys/hero_stack.py`.
-
-**To do, in order (as of 2026-10-14):**
-1. Part 5: interview Bart on how the self-bouncing items work, before drafting anything.
+**Read first:** `personal-notes/bartbot-dailys-series-plan.md` (rules, template, Part 5's section,
+production notes, Lessons learned through Part 4) and `personal-notes/bartbot-dailys-demo-list-spec.md`.
+The four published posts are the models for voice and structure.
 
 **Open items:**
 - Placement of three candidate parts: "Why Don't You Have AI Do That?", "Where Did I Put That?",
@@ -90,8 +79,6 @@ and then the day itself is deleted.
 - For the delete-to-finish part: confirm the Grocery List's store-walk ordering with Bart, and ask
   whether he uses the pattern for packing.
 - BartBot has no `og:image`, so any BartBot URL previews as a bare card. Roadmap item, not urgent.
-- Post dates: settled 2026-10-14. Published files are named and dated by the live publish date;
-  rename on publish day (plan, production notes).
 
 **Do not commit anything from `~/Projects/mosaic-mesh-ai-blog-private/`.** This repo is public.
 
