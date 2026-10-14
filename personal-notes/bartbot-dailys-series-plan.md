@@ -1104,6 +1104,24 @@ So no node carries two posts' arguments, and so a drafter can check quickly.
   (its smallness is part of the argument) and overlapping the calendar, on a muted plum ground
   (`#4a4166`), ratio about 1.9:1 to survive Squarespace's featured-image crop. Later parts follow
   the same idea with their own evidence; the ground color can stay plum for series consistency.
+- **Hero variety, from Part 5 on (Bart, 2026-10-14):** on the blog page
+  (mosaicmeshai.com/blog), the heroes for Parts 2 to 4 are hard to tell apart. Bart: "if we can
+  inject some variety into the hero images going forward, that would be good." Causes found:
+  the blog page crops each hero to a **square from the middle** (heroes are built about 1.9:1 for
+  LinkedIn and og:image); Parts 3 and 4 both put `8 Sept Tues` and its first rows in that square;
+  and native-size rows on plum read as texture at thumbnail size. Going forward:
+  1. **Design for both crops.** The wide crop is for LinkedIn; the centre square is for the blog
+     page. Put the part's single most distinctive thing in the centre.
+  2. **Make that thing big enough to read as a thumbnail.** Scale a few rows up rather than
+     showing many rows at native size.
+  3. **Don't repeat a day already used in an earlier hero.**
+  4. **Use evidence beyond the list when the part has it.** Part 1's calendar hero is the most
+     distinct of the four. Part 5 has the workout sheet and the family calendar that the
+     self-bouncing lines read from.
+  5. **The ground colour can vary by part**, within the plum family, if the rest isn't enough.
+  Still built from the part's own real images; never generated.
+  Past heroes stay as they are. Optional, Bart's call: Squarespace lets a featured image's focal
+  point be set, and moving Part 4's to its Wednesday card would separate it from Part 3's.
 - **Squarespace caps image alt text at 250 characters** (found on Part 3, 2026-09-21: the hero's
   267-character alt was cut off mid-word). Count before publishing.
 - **Squarespace constraints (learned on Part 1, 2026-09-14):** image captions are plain text only,
