@@ -4,11 +4,11 @@
 **Rewritten:** September 10, 2026 — after the first Part 1 draft rambled. See "Lessons learned."
 **Status:** Plan v2. The plan-v1 Part 1 draft was deleted 2026-09-10 and Part 1 was redrafted
 from empty against this plan. Published 2026-09-14:
-`daily-posts/published/2026-09-10-running-my-day-part-1.md`. Part 2 published 2026-09-17:
-`daily-posts/published/2026-09-15-running-my-day-part-2.md`. Part 3 published 2026-09-21:
-`daily-posts/published/2026-09-17-running-my-day-part-3.md`.
+`daily-posts/published/2026-09-14-running-my-day-part-1.md`. Part 2 published 2026-09-17:
+`daily-posts/published/2026-09-17-running-my-day-part-2.md`. Part 3 published 2026-09-21:
+`daily-posts/published/2026-09-21-running-my-day-part-3.md`.
 Part 4 published 2026-10-14:
-`daily-posts/published/2026-10-01-running-my-day-part-4.md` (interview kept privately).
+`daily-posts/published/2026-10-14-running-my-day-part-4.md` (interview kept privately).
 **Cadence:** **Worked on** daily in the 6–8am HHG CGs block. **Published when ready** — not on a
 daily schedule. The HHG commitment is the two hours, not the publish rate.
 **Stakes:** First public post about BartBot on LinkedIn. Part 1 is a first impression for an
@@ -672,7 +672,7 @@ delegated — and then the day itself is deleted.
   earlier days weren't there."
 
 **Interview findings (2026-09-29 to 10-01; verbatim answers in
-`daily-posts/2026-10-01-running-my-day-part-4-draft.md`).** What the interview changed:
+`daily-posts/2026-10-14-running-my-day-part-4-draft.md`).** What the interview changed:
 - **The dispositions run all day; the pass catches what's left.** Both of Bart's latest denials
   happened mid-day (a call that hadn't come by 12:30, a bike ride he cancelled), not in a sweep.
   The pass is the backstop, done at night or first thing next morning before his morning focus
@@ -1152,6 +1152,10 @@ So no node carries two posts' arguments, and so a drafter can check quickly.
   first draft mixed the two because the prose was echoing the node names (fixed 2026-09-16). When
   several dates with years sit in one sentence, break the sentence rather than stacking commas
   ("Then March 6, August 1, and September 8 of 2027").
+- **Published file name and `date:` use the live publish date** (decided 2026-10-14; Parts 1 to 4
+  renamed that day). Drafts start dated the day drafting begins; on publish day, rename the file
+  to the Squarespace publish date and set `date:` to match. This is the blog's older convention
+  (e.g. `2026-01-28-claude-code-part-1.md`); the series had drifted to drafting dates.
 - **Category:** `Building` with `project: bartbot` for now. This post type doesn't fit the five
   categories cleanly; if the series holds up, a sixth may be worth adding to the CLI.
 

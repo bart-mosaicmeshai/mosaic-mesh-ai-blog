@@ -1,5 +1,5 @@
 ---
-date: 2026-09-10
+date: 2026-09-14
 category: Building
 project: bartbot
 title: "Running My Day, Part 1: Two Views of the Same Sunday"

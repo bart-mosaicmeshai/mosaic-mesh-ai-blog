@@ -1,5 +1,5 @@
 ---
-date: 2026-09-17
+date: 2026-09-21
 category: Building
 project: bartbot
 title: "Running My Day, Part 3: Write It So Future-Me Can Act"

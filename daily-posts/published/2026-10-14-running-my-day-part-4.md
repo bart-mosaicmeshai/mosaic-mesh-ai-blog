@@ -1,5 +1,5 @@
 ---
-date: 2026-10-01
+date: 2026-10-14
 category: Building
 project: bartbot
 title: "Running My Day, Part 4: What Happens to Today at the End of Today"

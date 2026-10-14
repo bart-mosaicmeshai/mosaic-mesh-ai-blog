@@ -11,7 +11,7 @@
 Today," live at
 https://www.mosaicmeshai.com/blog/running-my-day-part-4-what-happens-to-today-at-the-end-of-today.
 Verified in prod (hero as og:image, four images, the 2:16 video, six links, every sentence,
-comments open). Published file: `daily-posts/published/2026-10-01-running-my-day-part-4.md`. The
+comments open). Published file: `daily-posts/published/2026-10-14-running-my-day-part-4.md`. The
 interview is private: `~/Projects/mosaic-mesh-ai-blog-private/dailys-raw/part-4-interview-2026-09-29.md`.
 **The LinkedIn post was drafted but not yet posted when this was written** (in the published
 file's LinkedIn section; attach `hero.png`). Ask whether it went out.
@@ -90,8 +90,8 @@ and then the day itself is deleted.
 - For the delete-to-finish part: confirm the Grocery List's store-walk ordering with Bart, and ask
   whether he uses the pattern for packing.
 - BartBot has no `og:image`, so any BartBot URL previews as a bare card. Roadmap item, not urgent.
-- Post dates: Squarespace shows the publish date; front matter keeps the drafting date (Part 1:
-  09-10, Part 2: 09-15, Part 3: 09-17).
+- Post dates: settled 2026-10-14. Published files are named and dated by the live publish date;
+  rename on publish day (plan, production notes).
 
 **Do not commit anything from `~/Projects/mosaic-mesh-ai-blog-private/`.** This repo is public.
 

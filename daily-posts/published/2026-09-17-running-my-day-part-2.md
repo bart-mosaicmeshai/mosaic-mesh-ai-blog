@@ -1,5 +1,5 @@
 ---
-date: 2026-09-15
+date: 2026-09-17
 category: Building
 project: bartbot
 title: "Running My Day, Part 2: A Wednesday in 2027, Already on My List"
