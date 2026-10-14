@@ -1043,7 +1043,8 @@ is on every Dailys list with nothing nested under it, so this part's frozen list
 copied-and-pruned Grocery List under a day. Motion test: copying, pruning, and deleting down to
 empty all depend on motion, so this is a real video candidate.
 
-**Placement, undecided.** It shares verbs with two planned parts: deleting as finishing (Part 4)
+**Placement: not before Part 5** (Bart, 2026-10-13, so Part 4's published Next line, Part 5's
+question, stays true). Otherwise undecided. It shares verbs with two planned parts: deleting as finishing (Part 4)
 and copying by hand as where the thinking happens (Part 5; the pantry check is exactly that). It
 could be evidence inside Part 5 or its own part right after it. Decide when Part 5 is drafted.
 **It is a pattern, not a grocery trick (Bart, 2026-09-18, same review):** "For some workouts I use
