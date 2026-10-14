@@ -13,8 +13,9 @@ https://www.mosaicmeshai.com/blog/running-my-day-part-4-what-happens-to-today-at
 Verified in prod (hero as og:image, four images, the 2:16 video, six links, every sentence,
 comments open). Published file: `daily-posts/published/2026-10-14-running-my-day-part-4.md`. The
 interview is private: `~/Projects/mosaic-mesh-ai-blog-private/dailys-raw/part-4-interview-2026-09-29.md`.
-**The LinkedIn post was drafted but not yet posted when this was written** (in the published
-file's LinkedIn section; attach `hero.png`). Ask whether it went out.
+**LinkedIn post went up the same day, 2026-10-14**, with `hero.png` attached (112 words; the
+kitchen line was cut as needing its blog setup). Bart also set Squarespace focal points on the
+Parts 2 to 4 featured images so their blog-page thumbnails differ.
 
 **Part 5: "The Copying Is the Planning."** Question, already promised by Part 4's published Next
 line: How do I keep a long plan alive in a daily list without automating it? Read the plan's Part
@@ -81,8 +82,7 @@ and then the day itself is deleted.
    `tools/bartbot-dailys/hero_stack.py`.
 
 **To do, in order (as of 2026-10-14):**
-1. Confirm the Part 4 LinkedIn post went up.
-2. Part 5: interview Bart on how the self-bouncing items work, before drafting anything.
+1. Part 5: interview Bart on how the self-bouncing items work, before drafting anything.
 
 **Open items:**
 - Placement of three candidate parts: "Why Don't You Have AI Do That?", "Where Did I Put That?",

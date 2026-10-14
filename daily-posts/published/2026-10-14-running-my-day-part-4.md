@@ -82,7 +82,7 @@ What do I do with everything on today's list when today is over?
 
 I answer that fully in my fourth blog post about BartBot.
 
-Super short version: every line on the day gets a decision, and then I delete the day itself. Tuesday had eleven lines on it. Six were done, so I deleted them. Five moved to Wednesday. Once Tuesday was empty, I moved Wednesday up out of Future and deleted Tuesday. That way I can be present and focused on the day I'm in. Dinner isn't really done until the kitchen is clean and the dishes are washed.
+Super short version: every line on the day gets a decision, and then I delete the day itself. Tuesday had eleven lines on it. Six were done, so I deleted them. Five moved to Wednesday. Once Tuesday was empty, I moved Wednesday up out of Future and deleted Tuesday. That way I can be present and focused on the day I'm in.
 
 Think about what's still on your list at the end of today. Then go read the full answer and see how my way compares to yours.
 
@@ -91,13 +91,15 @@ https://www.mosaicmeshai.com/blog/running-my-day-part-4-what-happens-to-today-at
 
 **LinkedIn notes:**
 - First draft 2026-10-14, written while Bart built the post in Squarespace, after his fresh-eyes
-  reread. 126 words without the URL. Built from the body's sentences in the Parts 1 to 3 structure.
-- Evidence: Tuesday's eleven lines (six deleted, five moved, Tuesday deleted). The kitchen line is
-  the payoff, from "What that buys me"; "That way I can be present…" is the answer paragraph's
-  ending.
+  reread. 112 words without the URL. Built from the body's sentences in the Parts 1 to 3 structure.
+- Evidence: Tuesday's eleven lines (six deleted, five moved, Tuesday deleted). The payoff is the
+  answer paragraph's ending, "That way I can be present and focused on the day I'm in." The
+  kitchen line was cut 2026-10-14 (Bart: it "feels disconnected"); without its setup sentence
+  it reads as a non sequitur.
 - Image: attach `hero.png` natively (both days, so it carries the before and after). Remove the
   link card with its X before attaching, or attach first and then paste (composer gotcha).
 - No hashtags. No comment ask. Nothing that isn't in the post.
+- **Posted 2026-10-14**, the same day as the blog post, with `hero.png` attached.
 
 ---
 
