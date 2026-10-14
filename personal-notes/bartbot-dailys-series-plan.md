@@ -719,6 +719,9 @@ delegated — and then the day itself is deleted.
   disappearing, which depends on motion. Recorded on a throwaway duplicate of Part 3's list, ending
   in the state Part 4's list shows. Beats in the Part 4 draft notes.
 - **Vocabulary:** his name for the 6am block is banned series vocabulary. "My morning focus block."
+- **"The pass" is plan shorthand, not Bart's word** (caught in review 2026-10-13). He never used it in
+  the interview; the draft used it once, undefined. Same failure as "name" in Part 3. In prose,
+  describe what he does ("I go through every line still under the day") instead of naming it.
 
 **Excluded:**
 - Deferral as the way the future gets populated → one sentence here at most; it's really Part 5
