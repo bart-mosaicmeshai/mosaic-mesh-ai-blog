@@ -90,7 +90,12 @@ and then the day itself is deleted.
 **To do, in order (as of 2026-10-13):**
 1. Bart's fresh-eyes reread; apply his edits line by line. Include the two captions.
 2. LinkedIn post from the settled body, under 150 words, payoff sentence included.
-3. Pre-publish checklist in the draft notes; publish; verify in prod (og:image, stills, video
+3. **Squarespace (Bart does this himself):** upload the five images from
+   `assets/bartbot-dailys/part-4/` into the post (hero.png also as the featured image), paste each
+   caption as plain text and each alt text (all under 250 characters), put the video tag in a
+   Code Block, slug `running-my-day-part-4-what-happens-to-today-at-the-end-of-today`, comments
+   on. Images are hosted by Squarespace, not served from the repo.
+4. Pre-publish checklist in the draft notes; publish; verify in prod (og:image, stills, video
    plays, the three deep links, the Part 3 link, comments open); move to `published/`; commit.
 
 **Open items:**
