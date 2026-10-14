@@ -715,8 +715,9 @@ delegated — and then the day itself is deleted.
   He had first said it was done; for the post it is the deferral, which he says is the common
   case. Now under `9 Sept Wed` on Part 4's list, id 8457 (verified 2026-10-01). No denial or delegation on the list: those come from the interview
   examples, told without dates.
-- **Motion test:** the pass is a decision made item by item and a day disappearing, which does
-  depend on motion. Confirm at drafting, then agree beats.
+- **Video: yes (Bart, 2026-10-13).** The pass is a decision made line by line and a day
+  disappearing, which depends on motion. Recorded on a throwaway duplicate of Part 3's list, ending
+  in the state Part 4's list shows. Beats in the Part 4 draft notes.
 - **Vocabulary:** his name for the 6am block is banned series vocabulary. "My morning focus block."
 
 **Excluded:**
