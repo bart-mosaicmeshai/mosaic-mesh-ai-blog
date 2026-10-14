@@ -7,6 +7,9 @@
 
 ## NEXT UP: Running My Day, Part 4 — Bart's fresh-eyes reread, then the LinkedIn post and publish
 
+**Reread in progress (2026-10-14):** the collapsed before/after stills were replaced by Tuesday
+open and Wednesday open, each beside its text (details in the draft notes).
+
 **Where Part 4 stands (end of 2026-10-13).** First line-by-line review done, top to bottom, in one
 sitting. Video recorded, captions corrected, uploaded and verified. Hero built and approved. No
 open decision comments in the draft. **Start here:** ask whether Bart has done his fresh-eyes
@@ -24,7 +27,6 @@ comments one line at a time.
 - **Video:** `https://bartbot-assets.mosaicmeshai.com/videos/lists-dailys-part-4.mp4`, 2:16,
   burned-in captions with "drive" corrected to "drag" twice ("815" and "8.30" left as is). Live
   file's checksum matches the local corrected export. Already faststart. Throwaway list deleted.
-  The two collapsed stills stay alongside it (readers who don't press play; the newsletter).
 - **Hero:** `assets/bartbot-dailys/part-4/hero.png` (930x484), Tuesday behind, Wednesday in front.
   Alt text 193 characters. Its caption and the video's are Claude's; Bart approved the video's.
 - **List:** https://bartbot.mosaicmeshai.com/lists/shared/fzXQgOpIjgRw8R8Ij300, titled "Dailys,
@@ -90,8 +92,9 @@ and then the day itself is deleted.
 **To do, in order (as of 2026-10-13):**
 1. Bart's fresh-eyes reread; apply his edits line by line. Include the two captions.
 2. LinkedIn post from the settled body, under 150 words, payoff sentence included.
-3. **Squarespace (Bart does this himself):** upload the five images from
-   `assets/bartbot-dailys/part-4/` into the post (hero.png also as the featured image), paste each
+3. **Squarespace (Bart does this himself):** upload the four images from
+   `assets/bartbot-dailys/part-4/` into the post (hero.png also as the featured image;
+   then tuesday-open.png, sept-9-open.png, tax-2025.png), paste each
    caption as plain text and each alt text (all under 250 characters), put the video tag in a
    Code Block, slug `running-my-day-part-4-what-happens-to-today-at-the-end-of-today`, comments
    on. Images are hosted by Squarespace, not served from the repo.
